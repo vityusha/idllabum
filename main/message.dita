@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="message" xml:lang="en-US">
+    <title><wintitle>Message to all</wintitle></title>
+    <conbody>
+        <p>В данном режиме у выбранных учащихся отключется самопрослушка и они будут слышать голос преподавателя (<xref keyref="message/icon_message_png" type="fig"/>&#160;).</p>
+        <fig id="icon_message_png">
+            <title>Изображение учащегося в режиме <wintitle>Message to all</wintitle></title>
+            <image href="img/icon_message.png" placement="break">
+                <alt>Изображение учащегося в режиме <wintitle>Message to all</wintitle></alt>
+            </image>
+        </fig>
+        <p>Подключение микрофона преподавателя к гарнитурам учащихся будет отображаться соответствующим значком в верхнем правом углу окна программы (<xref keyref="message/message_all_png" type="fig"/>&#160;).</p>                         
+        <fig id="message_all_png">
+            <title>Иконка <wintitle>Микрофон преподавателя включен</wintitle></title>
+            <image href="img/message_all.png" placement="break">
+                <alt>Иконка <wintitle>Микрофон преподавателя включен</wintitle></alt>
+            </image>
+        </fig>
+    </conbody>
+</concept>

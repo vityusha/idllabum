@@ -1,0 +1,11 @@
+Русификация DITA-OT
+
+(A) Idiom Plug-in for PDF
+1. Заменить %DITA_DIR%\demo\fo\fop\conf\fop.xconf на conf\fo.conf
+2. Загрузить с http://sourceforge.net/projects/offo/ и установить в
+   каталог %DITA_DIR%\demo\fo\fop\lib программу переносов fop-hyph.jar
+   
+(B) HTMLHelp - создание титульной страницы
+1. Заменить %DITA_DIR%\build_dita2htmlhelp.xml на conf\build_dita2htmlhelp.xml
+2. Заменить %DITA_DIR%\xsl\map2htmlhelp\map2hhpImpl.xsl на
+   conf\map2hhpImpl.xsl

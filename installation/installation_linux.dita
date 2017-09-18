@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="installation_linux" xml:lang="en-US">
+    <title>Установка программы в ОС <wintitle>Linux</wintitle></title>
+
+    <conbody>  
+        <note type="important">Бинарные пакеты ПО <wintitle>IdlLAB</wintitle> для ОС <wintitle>Linux</wintitle> скомпилированы для архитектуры i386 и находятся на установочном диске в каталоге <b>Linux</b>.</note>
+        <p>Для установки программы в <wintitle>Linux</wintitle> дистрибутивах, основанных на <wintitle>Debian</wintitle> (Debian, Ubuntu, Linux Mint, Knoppix), необходимо в окне терминала выполнить команду:</p> 
+        <p><userinput>dpkg -i idllab-версия_пакета.deb</userinput></p>        
+        <note type="tip">Полный список дистрибутивов, основанных на <wintitle>Debian</wintitle> можно посмотреть на сайте <xref href="http://www.debian.org" scope="external">http://www.debian.org/</xref>.</note>
+        <p>Для установки программы в <wintitle>Linux</wintitle> дистрибутивах, основанных на <wintitle>RPM</wintitle> (RedHat, ALTLinux, Fedora, CentOS, OpenSUSE), необходимо в окне терминала выполнить команду:</p> 
+        <p><userinput>rpm -i idllab-версия_пакета.rpm</userinput></p>        
+        <note type="tip">Полный список дистрибутивов, основанных на <wintitle>RPM</wintitle> можно посмотреть на сайте <xref href="http://www.rpm.org" scope="external">http://www.rpm.org/</xref>.</note>
+        <p>Для получения исходных текстов программы следует обратиться к разработчикам программного обеспечения <wintitle>IdlLAB</wintitle>: <xref href="mailto:support@lainlab.com" scope="external">support@lainlab.com</xref>.</p>
+    </conbody>
+</concept>

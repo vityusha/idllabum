@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="union_in_group" xml:lang="en-US">
+    <title>Объединение учащихся в группы</title>
+    <conbody>  
+        <note type="important">Для того, чтобы подключенные учащиеся могли выполнять различные задания, они  должны быть объединены в группы.</note>
+        <note type="tip">Одновременно можно работать с четырьмя группами.</note>
+		<p>Учащегося можно подключить к группе несколькими способами:
+			<ul>
+				<li>включить всех учащихся в одну группу можно, используя кнопку <uicontrol>Group</uicontrol> в закладке всего класса (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;);</li>
+                <li>щелкнуть правой кнопкой мышки на выбранном учащимся, в появившемся меню выбрать нужную группу;</li>
+				<li>выделить одного или нескольких учащихся, щелкнуть правой кнопкой мышки и в появившемся меню выбрать нужную группу;</li>
+				<li>выделить одного или нескольких учащихся и, выбрав закладку основного меню <uicontrol>Group</uicontrol>, щелкнуть мышкой на значке соответствующей группы.
+                <fig id="menu_group_up_png">
+                    <title><uicontrol>Group</uicontrol> menu</title>
+                    <image href="img/menu_group_up.png" placement="break">
+                        <alt><uicontrol>Group</uicontrol> menu</alt>
+                    </image>
+                </fig></li>
+				
+			</ul>
+		</p>
+		<p>Изображение учащегося, подключенного к группе, окрашивается цветом группы.</p>
+        <fig id="icon_group_png">
+            <title>Изображение учащегося в группе</title>
+            <image href="img/icon_group.png" placement="break">
+                <alt>Изображение учащегося в группе</alt>
+            </image>
+        </fig>
+	</conbody>
+</concept>

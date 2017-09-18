@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="options" xml:lang="en-US">
+    <title>Program options</title>
+    <conbody>
+        <p>Пользователь имеет возможность установить язык интерфейса программы, изменить названия и соответствующие иконки внешних входов и выходов блока коммутации. Для этого он должен выбрать пункт <menucascade><uicontrol>Edit</uicontrol><uicontrol>Options</uicontrol></menucascade> основного меню. На экране монитора появится окно (<xref keyref="options/options_png" type="fig"/>&#160;), в котором  можно внести соответствующие изменения.</p>
+        <p>Также в этом окне можно установить время прослушивания одного учащегося в режиме <uicontrol>Autoscan</uicontrol> и выбрать упрощенный или расширенный режим работы программы.</p><note type="tip">Все настройки программы хранятся в XML файле: <filepath>%APPDATA%\LAIN\idllab\settings.xml</filepath>. Данный файл может быть отредактирован вручную в любом текстовом редакторе, поддерживающим Unicode (например, Notepad++). Однако, следует иметь ввиду, что данная процедура должна выполняться только опытными пользователями.</note>        
+        <fig id="options_png">
+            <title>Окно настройки программы</title>
+            <image href="img/options.png" placement="break">
+                <alt>Окно настройки программы</alt>
+            </image>
+        </fig>
+        
+    </conbody>
+</concept>

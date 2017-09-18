@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="menu_class" xml:lang="en-US">
+    <title>Whole class menu</title>
+    <conbody>  
+        <p>Меню всего класса позволяет работать со всеми подключенными учащимися одновременно, независимо от того в какую группу входят подключенные учащиеся.</p>
+		<p>Чтобы открыть это меню, преподаватель должен выбрать закладку <wintitle>Whole class</wintitle>, раскрыв тем самым меню класса (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;).</p>
+		<p>Меню класса содержит кнопки:
+			<ul>
+				<li><uicontrol>Group</uicontrol> (п. <xref keyref="union_in_group"/>&#160;)</li>
+				<li><uicontrol>Clear all calls</uicontrol> (п. <xref keyref="call"/>&#160;)</li>
+				<li><uicontrol>Self listening OFF</uicontrol></li>
+                <li><uicontrol>Message to all</uicontrol></li>
+				<li><uicontrol>Voting</uicontrol></li>
+                <li><uicontrol>Autoscan</uicontrol></li>
+			</ul>
+		</p>
+		<p>При нажатии на кнопку <uicontrol>Self listening OFF</uicontrol> у всех учащихся будет отключена самопрослушка (п. <xref keyref="no_self"/>&#160;).</p>        
+        <p>Чтобы включить самопрослушку, нужно повторно нажать на кнопку <uicontrol>Self listening OFF</uicontrol>.</p>
+        <p>При нажатии на кнопку <uicontrol>Message to all</uicontrol> все учащиеся войдут в режим прослушивания сообщения от преподавателя (п. <xref keyref="message"/>&#160;).</p>         
+        <p>Чтобы выйти из этого режима, нужно повторно нажать на кнопку <uicontrol>Message to all</uicontrol>.</p>
+		<p>При нажатии на кнопку <uicontrol>Voting</uicontrol> все учащиеся войдут в режим голосования (п. <xref keyref="vote"/>&#160;).</p>         
+        <p>Чтобы выйти из этого режима, нужно повторно нажать на кнопку <uicontrol>Voting</uicontrol>.</p>
+        <p>При нажатии на кнопку <uicontrol>Autoscan</uicontrol> преподаватель будет по очереди скрытно прослушивать всех учащихся в классе. Время скрытного прослушивания одного учащегося задается в настройках программы (п. <xref keyref="options"/>&#160;).</p>         
+        <p>Чтобы выйти из этого режима, нужно повторно нажать на кнопку <uicontrol>Autoscan</uicontrol>.</p>
+		<fig id="menu_class_png">
+            <title><wintitle>Whole class</wintitle> menu</title>
+            <image href="img/menu_class.png" placement="break">
+                <alt><wintitle>Whole class</wintitle> menu</alt>
+            </image>
+        </fig>		
+    </conbody>
+</concept>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN"
+"task.dtd">
+
+<task id="installation_windows" xml:lang="en-US">
+    <title>Установка программы в ОС <wintitle>Windows</wintitle></title>
+
+    <taskbody>
+        <steps>    
+            <step>
+                <cmd>Вставьте установочный диск в дисковод CD-ROM или DVD-ROM компьютера.</cmd>
+            </step>
+            <step>
+                <cmd>Если на экране монитора не появилось окно автозапуска, то необходимо запустить файл <filepath>setup-idllab.exe</filepath>, находящийся на установочном диске.</cmd>
+            </step>
+            <step>
+                <cmd>На экране монитора появится окно выбора языка установки (<xref keyref="installation_windows/install_1_png" type="fig"/>&#160;), в котором нужно нажать на кнопку <uicontrol>OK</uicontrol>.</cmd>
+                <info>
+                    <fig id="install_1_png">
+                        <title>Окно выбора языка установки</title>
+                        <image href="img/install_1.png" placement="break">
+                            <alt>Окно выбора языка установки</alt>
+                        </image>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Далее на экране монитора появится окно приветствия мастера установки (<xref keyref="installation_windows/install_2_png" type="fig"/>&#160;), в котором нужно нажать на кнопку <uicontrol>Next</uicontrol>.</cmd>
+                <info>
+                    <fig id="install_2_png">
+                        <title>Окно приветствия мастера установки</title>
+                        <image href="img/install_2.png" placement="break">
+                            <alt>Окно приветствия мастера установки </alt>
+                        </image>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Затем в появившемся окне лицензионного соглашения (<xref keyref="installation_windows/install_3_png" type="fig"/>&#160;) в случае согласия с условиями лицензионного соглашения нужно нажать на кнопку <uicontrol>I Agree</uicontrol>.</cmd>
+                <info>
+                    <fig id="install_3_png">
+                        <title>Окно лицензионного соглашения</title>
+                        <image href="img/install_3.png" placement="break">
+                            <alt>Окно лицензионного соглашения</alt>
+                        </image>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Следующим на экране монитора появится окно выбора пути установки программы (<xref keyref="installation_windows/install_4_png" type="fig"/>&#160;).  
+                </cmd>
+                <info>
+                    <fig id="install_4_png">
+                        <title>Окно выбора папки установки программы</title>
+                        <image href="img/install_4.png" placement="break">
+                            <alt>Окно выбора папки установки программы</alt>
+                        </image>
+                    </fig>
+					<note type="tip">По умолчанию программа устанавливается в каталог <filepath>C:\Program Files\LAIN\IdlLAB</filepath>.</note>                   
+                    <p>В этом окне пользователь может выбрать другой каталог, нажав на кнопку <uicontrol>Browse</uicontrol>. Затем нужно нажать на кнопку <uicontrol>Next</uicontrol>.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>Затем на экране монитора появится окно (<xref keyref="installation_windows/install_5_png" type="fig"/>&#160;) выбора папки в меню <wintitle>Пуск</wintitle>, куда будут помещены ярлыки программы.</cmd>
+                <info>
+                    <fig id="install_5_png">
+                        <title>Окно выбора папки в меню <wintitle>Пуск</wintitle></title>
+                        <image href="img/install_5.png" placement="break">
+                            <alt>Окно выбора папки в меню <wintitle>Пуск</wintitle></alt>
+                        </image>
+                    </fig>
+                    <p>При необходимости изменения параметров установки пользователь может нажать на кнопку <uicontrol>Back</uicontrol>.</p>
+                    <p>Чтобы прекратить процесс установки, пользователь может нажать на кнопку <uicontrol>Cancel</uicontrol>.</p>
+                    <p>Для запуска процесса установки программного обеспечения необходимо нажать на кнопку <uicontrol>Install</uicontrol>.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>В этом случае на экране монитора появится окно (<xref keyref="installation_windows/install_6_png" type="fig"/>&#160;), отображающее процесс установки программного обеспечения.</cmd>
+                <info>
+                    <fig id="install_6_png">
+                        <title>Окно процесса установки программного обеспечения</title>
+                        <image href="img/install_6.png" placement="break">
+                            <alt>Окно процесса установки программного обеспечения</alt>
+                        </image>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>После окончания установки программы на экране монитора появится окно (<xref keyref="installation_windows/install_7_png" type="fig"/>&#160;), сообщающее об успешном завершении работы мастера установки. Для его закрытия пользователь должен нажать на кнопку <uicontrol>Finish</uicontrol>.</cmd>
+                <info>
+                    <fig id="install_7_png">
+                        <title>Окно завершения работы мастера установки программы</title>
+                        <image href="img/install_7.png" placement="break">
+                            <alt>Окно завершения работы мастера установки программы</alt>
+                        </image>
+                    </fig>            
+                    <p>После завершения установки в меню <menucascade><uicontrol>Пуск</uicontrol><uicontrol>Все программы</uicontrol></menucascade> появится пункт <uicontrol>IdlLAB</uicontrol>, в котором будут иконки запуска программы, удаления ее и открытия файла помощи в формате <b>PDF</b>.</p>
+                    <note type="tip">Файл помощи в формате <b>PDF</b> можно открыть, используя программу <wintitle>Adobe Acrobat Reader</wintitle>. Инсталляционный файл <wintitle>Adobe Acrobat Reader</wintitle> также находится на установочном компакт диске.</note>
+                    <p>На рабочем столе появится значок запуска программы.</p>
+                    <fig id="idllab_icon_png">
+                        <title>Значок запуска программы</title>
+                        <image href="img/idllab.png" placement="break">
+                            <alt>Значок запуска программы</alt>
+                        </image>
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

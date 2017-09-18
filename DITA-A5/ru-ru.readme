@@ -1,0 +1,26 @@
+Русификация DITA-OT
+
+(A) Idiom Plug-in for PDF
+1. Заменить %DITA_DIR%\demo\fo\fop\conf\fop.xconf на conf\fo.conf
+2. Загрузить с http://sourceforge.net/projects/offo/ и установить в
+   каталог %DITA_DIR%\demo\fo\fop\lib программу переносов fop-hyph.jar
+   
+(B) HTMLHelp - создание титульной страницы
+1. Заменить %DITA_DIR%\build_dita2htmlhelp.xml на conf\build_dita2htmlhelp.xml
+2. Заменить %DITA_DIR%\xsl\map2htmlhelp\map2hhpImpl.xsl на
+   conf\map2hhpImpl.xsl
+   
+Установка RenderX XEP XSL-FO
+1. Установить XEP в каталог %DITA_DIR%\demo\fo\lib или установить каталог установки
+   XEP в файле %DITA_DIR%\demo\fo\build_xep.xml
+2. Выполнить интеграцию XEP командой ant -f %DITA_DIR%\integrator.xml
+3. Использовать в запуске ant опцию -d pdf.formatter=xep
+
+Русификация XEP
+1. Скопируйте файлы arial*.ttf, cour*.ttf, times*.ttf, tahoma*.ttf, verdana*.ttf, pala*.ttf
+   из ОС Windows 98/200x/XP, установленной на персональном компьютере 
+   каталог C:\WINDOWS\FONTS) в каталог /usr/local/RenderX/XEP/fonts сервера.
+2. Отредактируйте конфигурационный файл /usr/local/RenderX/XEP/xep.xml:
+   Найдите строку комментария Sample configuration for Windows TrueType fonts.
+   Раскомментарьте следующие за ней текст между тэгами <font-group> и </font-group>.
+   Удалите атрибут xml:base из тэга <font-group>. 

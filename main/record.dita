@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="record" xml:lang="en-US">
+    <title><wintitle>Режим записи</wintitle></title>
+    <conbody>
+        <p>Блок коммутации имеет 4 внешних выхода, к которым можно подключить различные записывающие устройства, в том числе и линейный вход звуковой карты персонального компьютера преподавателя.</p>
+        <note type="tip">К внешнему выходу можно также подключить линейный вход усилителя для озвучки класса.</note>
+        <note type="important">На все внешние выходу блока коммутации подается сигнал аудио источника (учащиеся, внешние источники), который прослушивает преподаватель, а так же сигнал с микрофона гарнитуры преподавателя. Для того, чтобы иметь возможность записи источника на персональный компьютер преподавателя, любой из четырех выходов должен быть заранее подключен к линейному входу звуковой карты. Включение записи в файл на компьютере преподавателя осуществляется в закладке <wintitle>Audio</wintitle> (п. <xref keyref="menu_audio"/>&#160;) при помощи кнопки <uicontrol>Record</uicontrol>.</note>
+        <p>При включении записи в меню  <uicontrol>Audio</uicontrol> начинает мигать индикатор записи (<xref keyref="record/recordon_png" type="fig"/>&#160;), находящийся в меню <uicontrol>Audio</uicontrol>.        
+        <fig id="recordon_png">
+            <title>Индикатор записи</title>
+            <image href="img/menu/recordon.png" placement="inline">
+                <alt>Индикатор записи</alt>
+            </image>
+        </fig></p>
+        <note type="important">Остановить запись в файл преподаватель может при помощи кнопки <uicontrol>Stop record</uicontrol>.</note>
+    </conbody>
+</concept>

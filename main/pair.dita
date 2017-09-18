@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="pair" xml:lang="en-US">
+    <title><wintitle>Pairs</wintitle></title>
+    <conbody>
+        <p>В данном режиме учащиеся, входящие в одну группу, могут общаться между собой в режиме пары. На изображениях учащихся, работающих в режиме пары, будет отображаться соответствующая иконка (<xref keyref="pair/icon_pair_png" type="fig"/>&#160;).</p>
+        <fig id="icon_pair_png">
+            <title>Изображение учащихся в режиме <wintitle>Pairs</wintitle></title>
+            <image href="img/icon_pair.png" placement="break">
+                <alt>Изображение учащихся в режиме <wintitle>Pairs</wintitle></alt>
+            </image>
+        </fig>
+        <p>Для включения режима работы в парах нужно в закладке требуемой группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Pairs</uicontrol>. В этом случае на экране монитора преподавателя появятся дополнительные кнопки формирования пар (<xref keyref="pair/menu_pair_png" type="fig"/>&#160;):
+            <ul> 
+                <li><uicontrol>Order</uicontrol> - пары формируются из соседних учащихся.</li>
+                <li><uicontrol>Random</uicontrol> - пары формируются случайным образом.</li> 
+                <li><uicontrol>Manual</uicontrol> - пары формируются при помощи мышки.</li>
+                <li><uicontrol>Break pairs</uicontrol> - отмена формирования пар.</li>
+            </ul>
+        </p>
+        <fig id="menu_pair_png">
+            <title>Кнопки формирования пар</title>
+            <image href="img/menu_pair.png" placement="break">
+                <alt>Кнопки формирования пар</alt>
+            </image>
+        </fig>
+    </conbody>
+</concept>

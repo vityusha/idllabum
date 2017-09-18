@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="different" xml:lang="en-US">
+    <title>Advanced mode</title>
+    <conbody>  
+        <p>Отличия интерфейса программы при работе в расширенном режиме:</p>
+            <ul>
+                <li>работа с учетными записями преподавателей (п. <xref keyref="choice_tutor"/>&#160;);</li>
+                <li>ведение журнала посещения и успеваемости (п. <xref keyref="current_lesson"/>&#160;);</li>
+                <li>просмотр статистики уроков (п. <xref keyref="statistics"/>&#160;);</li>
+                <li>использование заданий во время урока (п. <xref keyref="tasks"/>&#160;).</li>
+            </ul>
+        <p>Для включения расширенного режима необходимо выбрать соответствующий пункт в окне настроек программы (п. <xref keyref="options"/>&#160;).</p>            
+    </conbody>
+</concept>

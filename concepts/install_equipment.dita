@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="install_equipment" xml:lang="en-US">
+  <title>Монтаж лингафонного кабинета IDL</title>
+
+  <conbody>
+    
+    <fig id="install_hw_png">
+        <title>Схема подключения</title>
+        <image href="img/install_hw.png" placement="break">
+            <alt>Схема подключения</alt>
+        </image>
+    </fig>
+    <p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Блок коммутации</entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>ПК преподавателя</entry>
+                    </row>
+					<row>
+                        <entry>3</entry>
+                        <entry>Блок учащегося</entry>
+                    </row>
+					<row>
+                        <entry>4</entry>
+                        <entry>Гарнитура преподавателя</entry>
+                    </row>
+					<row>
+                        <entry>5</entry>
+                        <entry>Гарнитура учащегося</entry>
+                    </row>
+					<row>
+                        <entry>6</entry>
+                        <entry>Кабель соединения блока коммутации с блоком учащегося</entry>
+                    </row>
+					<row>
+                        <entry>7</entry>
+                        <entry>Кабель <wintitle>RS232</wintitle> для подключения ПК преподавателя к блоку коммутации</entry>
+                    </row>
+					<row>
+                        <entry>8</entry>
+                        <entry>Аудиокабели для подключения звуковой карты ПК преподавателя к блоку коммутации</entry>
+                    </row>
+					<row>
+                        <entry>9</entry>
+                        <entry>ПК учащегося (опционально)</entry>
+                    </row>
+					<row>
+                        <entry>10</entry>
+                        <entry>Аудиокабели для подключения звуковой карты ПК учащегося к блоку учащегося (опционально)</entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+    <p>Блоки учащихся подключаются к блоку коммутации 8-ми жильным плоским кабелем (6) (<xref keyref="install_equipment/cabels_png" type="fig"/>&#160;).</p>
+    <p>Соединительный 8-ми жильный плоский кабель прокладывается от блока коммутации до каждого блока учащегося. На концы соединительных кабелей устанавливаются разъемы, при помощи специального обжимного инструмента.</p>
+    <note type="important">На обоих концах кабеля (у блока коммутации и блока учащегося) разъемы устанавливаются ОДИНАКОВЫМ ОБРАЗОМ! (Порядок следования цветных жил в обоих разъемах должен совпадать).</note>
+    <fig id="cabels_png">
+        <title>Соединительный кабель</title>
+        <image href="img/cabels.png" placement="break">
+            <alt>Соединительный кабель</alt>
+        </image>
+    </fig>
+    <p>После подключения кабеля к блоку учащегося блок можно зафиксировать на столе, используя саморезы.</p>
+  </conbody>
+</concept>

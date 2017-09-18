@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="tasks" xml:lang="en-US">
+    <title><wintitle>Activity</wintitle></title>
+    <conbody>
+        <p>Программа в расширенном режиме позволяет формировать различные задания для учащихся.</p>
+		       
+        <table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="120*"/>
+                <colspec colname="COLSPEC1" colwidth="20*"/>
+                <thead>
+                    <row>
+                        <entry colname="COLSPEC0" align="center" valign="top">Activity</entry>
+                        <entry colname="COLSPEC1" align="center" valign="top">Icon</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><b>Self access</b></entry>
+                        <entry><image href="img/menu/selfaccess.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry><b>Discussion</b></entry>
+                        <entry><image href="img/menu/discuss.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry><b>Pairs</b></entry>
+                        <entry><image href="img/menu/pairs.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry><b>Listing</b></entry>
+                        <entry><image href="img/menu/listening.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry><b>Reading</b></entry>
+                        <entry><image href="img/menu/reading.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry><b>Model imitation</b></entry>
+                        <entry><image href="img/menu/imitation.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry><b>Simultaneous translation</b></entry>
+                        <entry><image href="img/menu/translate.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry><b>Consecutive translation</b></entry>
+                        <entry><image href="img/menu/translate.png" placement="break" width="16" align="center"/></entry>
+                    </row>	                    
+                </tbody> 
+            </tgroup>
+        </table>
+        <note type="tip">Обратите внимание, что задания выдаются только для групп учащихся.</note>
+        <p>Задания <wintitle>Pairs</wintitle> и  <wintitle>Discussion</wintitle> дают возможность учащимся общаться между собой в парах или всей группой в режиме дискуссии и описаны ранее (п. <xref keyref="pair"/>&#160;) и (п. <xref keyref="discussion"/>&#160;).</p>
+		<p>Задания <wintitle>Listing</wintitle>, <wintitle>Model imitation</wintitle>, <wintitle>Simultaneous translation</wintitle>,  
+		и <wintitle>Consecutive translation</wintitle> аналогичны режиму <wintitle>Прослушивание источника</wintitle> в упрощенном режиме
+		(п. <xref keyref="sources"/>&#160;). Они отличаются содержимым используемых аудио данных.</p>
+		<p>Задания <wintitle>Самостоятельная работа</wintitle> и <wintitle>Чтение</wintitle> дают возможность учащимся работать индивидуально.</p>
+        <p>В задании <wintitle>Self access</wintitle> доступно меню <wintitle>Прослушивание источника</wintitle> аналогично упрощенному режиму (п. <xref keyref="sources"/>&#160;).</p>
+        <p>Задание <wintitle>Reading</wintitle> предполагает отсутствие любых источников источников звука, поступающих от коммутатора, при этом существует возможность записать голос учащегося (п. <xref keyref="record"/>&#160;).</p>
+    </conbody>
+</concept>

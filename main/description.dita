@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="description" xml:lang="en-US">
+    <title>Описание программы</title>
+    <conbody>  
+        <p><indexterm>IdlLAB</indexterm><wintitle>IdlLAB</wintitle> (<xref keyref="description/main_png" type="fig"/>&#160;) представляет собой программу управления лингафонным кабинетом <wintitle>IDL</wintitle>.</p>
+		<fig id="main_png">
+            <title>Окно программы при запуске</title>
+            <image href="img/main.png" placement="break">
+                <alt>Окно программы при запуске</alt>
+            </image>
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Закладки основного меню</entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>Меню работы со всем классом</entry>
+                    </row>
+					<row>
+                        <entry>3</entry>
+                        <entry>Меню работы с группами</entry>
+                    </row>
+					<row>
+                        <entry>4</entry>
+                        <entry>Меню работы с аудио</entry>
+                    </row>
+					<row>
+                        <entry>5</entry>
+                        <entry>Рабочее окно класса</entry>
+                    </row>
+					<row>
+                        <entry>6</entry>
+                        <entry>Текущий преподаватель (только для расширенного режима) и наименование класса</entry>
+                    </row>
+					<row>
+                        <entry>7</entry>
+                        <entry>Значок связи с оборудованием</entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+		<p>При запуске программы <wintitle>IdlLAB</wintitle> происходит автоматический поиск подключенного аудио коммутатора. В случае успешного соединения программы с аудио коммутатором значок режима связи (7) начнет мигать зеленым цветом.
+        <fig id="lighton_png">
+            <title>Индикатор связи</title>
+            <image href="img/menu/lighton.png" placement="inline">
+                <alt>Индикатор связи</alt>
+            </image>
+        </fig></p>
+        <p>Если соединение установить не удалось, то на экране дисплея появится окно с соответствующим предупреждением (<xref keyref="description/error_png" type="fig"/>&#160;).</p>
+        <fig id="error_png">
+            <title>Окно ошибки подключения устройства</title>
+            <image href="img/error.png" placement="break">
+                <alt>Окно ошибки подключения устройства</alt>
+            </image>
+        </fig>
+		<p>Чтобы начать работу с программой, нужно открыть сохраненный ранее класс или создать новый (п. <xref keyref="student_class"/>&#160;).</p>        
+        <p>Затем преподаватель может произвести регистрацию (перекличку) присутствующих в классе учащихся (п. <xref keyref="registration"/>&#160;).</p>
+        <p>Для практической работы с учащимся, его необходимо включить в любую группу (п. <xref keyref="union_in_group"/>&#160;).</p>
+        <p>При нажатии правой кнопкой мышки на изображении учащегося, не подключенного к какой-нибудь группе, на экране дисплея появится выпадающее меню, в котором можно только установить требуемую группу и задать имя учащегося.</p>
+         <p>При нажатии правой кнопкой мышки на изображении учащегося, подключенного к какой-нибудь группе, на экране дисплея появится другое выпадающее меню (п. <xref keyref="menu_single"/>&#160;), в котором можно выбрать требуемые действия с отдельным учащимся.</p>
+        <p>Для работы со всем классом преподаватель должен выбрать закладку (2) <wintitle>Whole class</wintitle> (п. <xref keyref="menu_class"/>&#160;).</p>
+        <p>Для работы с определенной группой преподаватель должен выбрать закладку (3) нужной группы (п. <xref keyref="menu_group"/>&#160;).</p>
+        <p>Для того, чтобы использовать свой персональный компьютер в качестве аудио источника или для записи аудио информации с линейного входа звуковой карты, преподаватель должен выбрать закладку (4) <wintitle>Аудио</wintitle> (п. <xref keyref="menu_audio"/>&#160;).</p>		
+    </conbody>
+</concept>

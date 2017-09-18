@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="commutator" xml:lang="en-US">
+    <title>Описание блока коммутации</title>
+    <conbody>  
+        <p><indexterm>блок коммутации</indexterm>Блок коммутации служит для передачи звуковых сигналов. Управление блоком осуществляется, используя интерфейс <uicontrol>RS232</uicontrol>, при помощи программы <wintitle>IdlLAB</wintitle>.</p>
+        <p>На задней панели блока коммутации (<xref keyref="commutator/back_png" type="fig"/>&#160;) расположены разъемы подключения 
+        кабелей от блоков учащихся и 2 разъема подключения кабеля интерфейса <uicontrol>RS232</uicontrol>.</p>
+		<fig id="back_png">
+            <title>Блок коммутации. Вид сзади</title>
+            <image href="img/hub_back_arr.png" placement="break">
+                <alt>Блок коммутации. Вид сзади</alt>
+            </image> 
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Разъем (1) подключения шнура кабеля интерфейса <uicontrol>RS232</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>Разъем (2) подключения шнура кабеля интерфейса <uicontrol>RS232</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>3</entry>
+                        <entry>Разъем подключения блока учащегося №1 (RJ-45)</entry>
+                    </row>
+					<row>
+                        <entry>4</entry>
+                        <entry>Разъем подключения блока учащегося №2 (RJ-45)</entry>
+                    </row>
+					<row>
+                        <entry>5</entry>
+                        <entry>Разъем подключения блока учащегося №27 (RJ-45)</entry>
+                    </row>
+					<row>
+                        <entry>6</entry>
+                        <entry>Разъем подключения блока учащегося №28 (RJ-45)</entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+        <p>Слева блока коммутации (<xref keyref="commutator/left_png" type="fig"/>&#160;) расположены разъемы входов и выходов внешних источников, гарнитуры преподавателя.</p>
+		<fig id="left_png">
+            <title>Блок коммутации. Вид слева</title>
+            <image href="img/hub_left_arr.png" placement="break">
+                <alt>Блок коммутации. Вид слева</alt>
+            </image> 
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Вход от звуковой карты компьютера (jack 3,5 mm)</entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>Вход правого канала источника HiFi (RCA)</entry>
+                    </row>
+					<row>
+                        <entry>3</entry>
+                        <entry>Вход левого канала источника HiFi (RCA)</entry>
+                    </row>
+					<row>
+                        <entry>4</entry>
+                        <entry>Вход источника VCR (RCA)</entry>
+                    </row>
+                    <row>
+                        <entry>5</entry>
+                        <entry>Вход источника AUX (RCA)</entry>
+                    </row>
+					<row>
+                        <entry>6</entry>
+                        <entry>Выход левого канала HiFi (RCA)</entry>
+                    </row>
+                    <row>
+                        <entry>7</entry>
+                        <entry>Выход правого канала HiFi (RCA)</entry>
+                    </row>
+					<row>
+                        <entry>8</entry>
+                        <entry>Выход AUX (jack 3,5 mm)</entry>
+                    </row>
+                    <row>
+                        <entry>9</entry>
+                        <entry>Выход на звуковую карту компьютера (jack 3,5 mm)</entry>
+                    </row>
+                    <row>
+                        <entry>10</entry>
+                        <entry>Выход на активный динамик (jack 3,5 mm)</entry>
+                    </row>
+                    <row>
+                        <entry>11</entry>
+                        <entry>Разъем подключения гарнитуры преподавателя</entry>
+                    </row>
+                    <row>
+                        <entry>12</entry>
+                        <entry>Разъем подключения гарнитуры преподавателя</entry>
+                    </row>                                                               
+                </tbody> 
+            </tgroup>
+        </table>
+		<p>Справа блока коммутации (<xref keyref="commutator/right_png" type="fig"/>&#160;) расположены разъем подключения шнура питания напряжением 220В (Евростандарт) и кнопка включения блока.</p>
+		<fig id="right_png">
+            <title>Блок коммутации. Вид справа</title>
+            <image href="img/hub_right_arr.png" placement="break">
+                <alt>Блок коммутации. Вид справа</alt>
+            </image> 
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Разъем (подключения шнура питания напряжением 220В (Евростандарт)</entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>Кнопка включения питания</entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

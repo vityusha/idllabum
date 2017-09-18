@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="call" xml:lang="en-US">
+    <title>Вызов преподавателя учащимся</title>
+    <conbody>
+        <p>Для того, чтобы вызвать преподавателя, учащийся должен нажать на кнопку <uicontrol>Call</uicontrol> на своем блоке.</p>
+        <p>На изображении этого учащегося появится соответствующий значок (<xref keyref="call/icon_call_png" type="fig"/>&#160;) с указанием времени, прошедшего с момента вызова.</p>
+        <fig id="icon_call_png">
+            <title>Изображение учащегося, вызвавшего преподавателя</title>
+            <image href="img/icon_call.png" placement="break">
+                <alt>Изображение учащегося с отключенным микрофоном</alt>
+            </image>
+        </fig>
+        <p>Снять вызов можно следующими способами:
+            <ul>
+                <li>используя пункт <uicontrol>Clear call</uicontrol> в <xref keyref="menu_single">меню учащегося</xref>;</li>
+                <li>войдя в диалог с этим учащимся (п. <xref keyref="menu_single"/>&#160;);</li>
+                <li>используя кнопку <uicontrol>Clear all calls</uicontrol> в <xref keyref="menu_group">закладке группы</xref>, если учащийся входит в данную группу;</li>
+                <li>используя кнопку <uicontrol>Clear all calls</uicontrol> в <xref keyref="menu_class">закладке всего класса</xref>.</li>
+            </ul>
+        </p>
+        
+    </conbody>
+</concept>

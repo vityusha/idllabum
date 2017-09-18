@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="discussion" xml:lang="en-US">
+    <title><wintitle>Discussion</wintitle></title>
+    <conbody>
+        <p>В данном режиме учащиеся, входящие в одну группу, могут общаться между собой. Режим дискуссии будет отображаться на изображениях учащихся при помощи соответствующей иконки (<xref keyref="discussion/icon_discussion_png" type="fig"/>&#160;).</p>
+        <fig id="icon_discussion_png">
+            <title>Изображение учащихся в режиме <wintitle>Discussion</wintitle></title>
+            <image href="img/icon_discussion.png" placement="break">
+                <alt>Изображение учащихся в режиме <wintitle>Discussion</wintitle></alt>
+            </image>
+        </fig>
+        <p>Для того, чтобы включить группу в режим дискуссии, нужно в закладке требуемой группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Discussion</uicontrol>. Для отключения этого режима нужно повторно нажать на кнопку <uicontrol>Discussion</uicontrol>.</p> 
+        <note type="important">В связи с тем, что в данном режиме подключены микрофоны всех учащихся, рекомендуется включать в режим дискуссии не более 15 учащихся в одной группе.</note>
+    </conbody>
+</concept>

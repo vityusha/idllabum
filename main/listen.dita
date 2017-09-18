@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="listen" xml:lang="en-US">
+    <title><wintitle>Прослушивание учащихся</wintitle></title>
+    <conbody>
+        <p>Преподаватель может скрытно прослушать выбранного учащегося, пару или группу в режиме дискуссии. Для этого он должен в меню требуемого учащегося (п. <xref keyref="menu_single"/>&#160;) выбрать пункт <uicontrol>Listen</uicontrol>.</p>       
+        <p>На изображениях учащихся, прослушиваемых преподавателем, будет отображаться специальная иконка (<xref keyref="listen/icon_listen_png" type="fig"/>&#160;).</p>
+        <fig id="icon_listen_png">
+            <title>Изображение учащегося, прослушиваемого преподавателем</title>
+            <image href="img/icon_listen.png" placement="break">
+                <alt>Изображение учащегося, прослушиваемого преподавателем</alt>
+            </image>
+        </fig>
+        <p>Для отключения скрытного прослушивания преподаватель должен повторно выбрать пункт <uicontrol>Listen</uicontrol>  у контролируемого учащегося.</p>
+		<note type="tip">Если данный учащийся работает в режимах <uicontrol>Pairs</uicontrol> или  <uicontrol>Discussion</uicontrol>, то преподаватель прослушивает также всех остальных учащихся, входящих в эту пару или группу.</note>
+        <note type="tip">Скрытное прослушивание у контролируемого учащегося также будет отключено при включении режима <uicontrol>Listen</uicontrol> или <uicontrol>Conversation</uicontrol> с другим учащимся.</note>
+        <note type="tip">Возможно организовать скрытное прослушивание всех учащихся группы или класса при помощи кнопки <uicontrol>Autoscan</uicontrol>.</note>
+    </conbody>
+</concept>

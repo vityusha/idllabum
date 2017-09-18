@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="student_class" xml:lang="en-US">
+    <title>Работа с классом</title>
+    <conbody>  
+		<p>Чтобы начать работу основного модуля программы, нужно открыть сохраненный ранее класс или создать новый.</p>
+		<p>При выборе пункта меню <menucascade><uicontrol>Class</uicontrol><uicontrol>New</uicontrol></menucascade> на экране появится окно параметров нового класса (<xref keyref="student_class/new_class_png" type="fig"/>&#160;), в котором нужно ввести общее число учащихся и количество рядов.</p>
+		<fig id="new_class_png">
+            <title>Окно <wintitle>Новый класс</wintitle></title>
+            <image href="img/new_class.png" placement="break">
+                <alt>Окно <wintitle>Новый класс</wintitle></alt>
+            </image>
+        </fig>
+        <note type="important">Максимальное количество мест учащихся равно 60.</note>
+		<p>Программа автоматически разместит в рабочем окне изображения всех учащихся в соответствии с установленными параметрами класса.</p>
+        <fig id="main_noconnect_png">
+            <title>Окно программы при отключенном оборудовании</title>
+            <image href="img/main_noconnect.png" placement="break">
+                <alt>Окно программы при отключенном оборудовании</alt>
+            </image>
+        </fig>
+        <p>Отображение мест учащихся в рабочем окне класса определяется параметрами класса и не зависит от фактического подключения блоков учащихся к блоку коммутации. Места учащихся отображаются при помощи специальных картинок.</p>
+        <p>Для того, чтобы задать имя учащегося, необходимо нажать правой клавишей мышки на нем и выбрать в появившемся меню пункт <uicontrol>Change name</uicontrol>.</p>
+        <p>На экране монитора появится окно (<xref keyref="student_class/enter_name_png" type="fig"/>&#160;), в котором можно ввести нужный текст.</p>
+        <fig id="enter_name_png">
+            <title>Окно ввода имени учащегося</title>
+            <image href="img/enter_name.png" placement="break">
+                <alt>Окно ввода имени учащегося</alt>
+            </image>
+        </fig>        
+		<p>Если есть необходимость вручную переместить изображения учащихся, нужно выбрать закладку меню <uicontrol>Edit</uicontrol>, затем в появившемся меню активировать пункт <uicontrol>Edit layout</uicontrol>, после чего при помощи мышки перетащить изображения в требуемое место.</p>
+		<p>В режиме редактирования также становятся доступны пункты меню <uicontrol>Add</uicontrol> и <uicontrol>Delete</uicontrol>, при помощи которых можно добавить одного учащегося или удалить выделенных учащихся.</p>
+        <p>При выборе пункта меню <uicontrol>Organize</uicontrol> программа автоматически разместит изображения учащихся в соответствии с размерами рабочего окна и параметрами класса.</p>
+		<p>Для отключения возможностей редактирования нужно выбрать пункт меню <uicontrol>Edit layout</uicontrol>.</p>		
+		<p>Для того, чтобы сохранить текущий класс для дальнейшего использования, нужно выбрать пункт меню <menucascade><uicontrol>Class</uicontrol><uicontrol>Save</uicontrol></menucascade> (<xref keyref="student_class/save_class_png" type="fig"/>&#160;)</p>
+		<fig id="save_class_png">
+            <title>Окно сохранения класса</title>
+            <image href="img/save_class.png" placement="break">
+                <alt>Окно сохранения класса</alt>
+            </image>
+        </fig>
+		<p>Для того, чтобы открыть класс, сохраненный ранее, нужно выбрать пункт меню <menucascade><uicontrol>Class</uicontrol><uicontrol>Open</uicontrol></menucascade> (<xref keyref="student_class/open_class_png" type="fig"/>&#160;).</p>
+		<fig id="open_class_png">
+            <title>Окно открытия класса</title>
+            <image href="img/open_class.png" placement="break">
+                <alt>Окно открытия класса</alt>
+            </image>
+        </fig>
+	</conbody>
+</concept>

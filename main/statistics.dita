@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="statistics" xml:lang="en-US">
+    <title>Статистика успеваемости и посещаемости</title>
+    <conbody>
+        <p>Для того, чтобы посмотреть статистику успеваемости и посещаемости, преподаватель должен выбрать закладку <uicontrol>Account</uicontrol> и нажать на кнопку <uicontrol>Statistics</uicontrol>.</p>
+        <p>На экране монитора преподавателя появится окно (<xref keyref="statistics/stat_att_simple_png" type="fig"/>&#160;), в котором он должен выбрать класс, предмет и установить временные интервалы. Преподаватель в поле <uicontrol>Statistics type</uicontrol> может выбрать вывод сводной или полной статистики. Переключая закладки <uicontrol>Attendance</uicontrol>, <uicontrol>Performance</uicontrol> или <uicontrol>Classes</uicontrol>, он может просматривать различную статистику.</p>
+        <fig id="stat_att_simple_png">
+            <title>Сводная статистика посещаемости</title>
+            <image href="img/stat_att_simple.png" placement="break">
+                <alt>Сводная статистика посещаемости</alt>
+            </image>
+        </fig>
+         <p>В сводной статистике посещаемости приводится список учащихся выбранного класса, общее количество уроков для класса, количество пропущенных уроков и процент посещаемости для каждого учащегося.</p>        
+        <fig id="stat_att_full_png">
+            <title>Полная статистика посещаемости</title>
+            <image href="img/stat_att_full.png" placement="break">
+                <alt>Полная статистика посещаемости</alt>
+            </image>
+        </fig>
+        <p>В полной статистике посещаемости (<xref keyref="statistics/stat_att_full_png" type="fig"/>&#160;) приводится список учащихся и посещаемость уроков за выбранный интервал времени по всем урокам.</p>
+        <fig id="stat_grade_simple_png">
+            <title>Сводная статистика успеваемости</title>
+            <image href="img/stat_grade_simple.png" placement="break">
+                <alt>Сводная статистика успеваемости</alt>
+            </image>
+        </fig>
+        <p>В сводной статистике успеваемости (<xref keyref="statistics/stat_grade_simple_png" type="fig"/>&#160;) приводится список учащихся выбранного класса, сумма баллов за уроки, количество оценок и средний балл.</p>        
+        <fig id="stat_grade_full_png">
+            <title>Полная статистика успеваемости</title>
+            <image href="img/stat_grade_full.png" placement="break">
+                <alt>Полная статистика успеваемости</alt>
+            </image>
+        </fig>
+        <p>В полной статистике успеваемости (<xref keyref="statistics/stat_grade_full_png" type="fig"/>&#160;) приводится список учащихся и оценки за определенный интервал времени по всем урокам.</p>
+        <fig id="stat_classes_png">
+            <title>Статистика по классам</title>
+            <image href="img/stat_classes.png" placement="break">
+                <alt>Статистика по классам</alt>
+            </image>
+        </fig>
+        <p>В статистике по классам (<xref keyref="statistics/stat_classes_png" type="fig"/>&#160;) приводится список классов, количество уроков, посещаемость и средний балл.</p>
+        <p>Преподаватель может напечатать или сохранить данные статистики в файл формата PDF. Для этого нужно нажать на кнопку <uicontrol>Печать</uicontrol>. На экране монитора откроется окно предварительного просмотра отчета (<xref keyref="statistics/stat_print_png" type="fig"/>&#160;), в котором можно послать отчет на принтер или сохранить его в файле формата PDF.</p>
+        <fig id="stat_print_png">
+            <title>Отчет о статистике по классам</title>
+            <image href="img/stat_print.png" placement="break">
+                <alt>Отчет о статистике по классам</alt>
+            </image>
+        </fig>
+	</conbody>
+</concept>

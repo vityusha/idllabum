@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="registration" xml:lang="en-US">
+    <title><keyword>Регистрация учащихся</keyword></title>
+    <conbody>  
+		<p><indexterm>регистрация учащихся</indexterm>До начала работы преподаватель может произвести регистрацию (перекличку) присутствующих в классе учащихся. Для этого он должен выбрать пункт <menucascade><uicontrol>Class</uicontrol><uicontrol>Roll call</uicontrol></menucascade> основного меню.</p>
+        <note type="tip">В этом случае снимается подключение учащихся к группам.</note>
+        <p>Для регистрации учащийся должен на своем блоке нажать на кнопку <uicontrol>Вызов</uicontrol>.</p>
+        <note type="tip">Зарегистрированный учащийся включаются в группу А (<xref keyref="registration/registration_png" type="fig"/>&#160;).</note>
+        <fig id="registration_png">
+            <title>Окно программы при регистрации учащихся</title>
+            <image href="img/main_registration_arrow.png" placement="break">
+                <alt>Окно программы при регистрации учащихся</alt>
+            </image>
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Иконка зарегистрированного учащегося</entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>Иконка незарегистрированного учащегося</entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+		<p>Для завершения регистрации необходимо повторно выбрать пункт <menucascade><uicontrol>Class</uicontrol><uicontrol>Roll call</uicontrol></menucascade> основного меню.</p>
+        <p>Используя меню одного учащегося (п. <xref keyref="menu_single"/>&#160;), можно снять или установить регистрацию отдельного учащегося.</p>
+	</conbody>
+</concept>

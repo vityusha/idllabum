@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="menu_audio" xml:lang="en-US">
+    <title><wintitle>Audio</wintitle> menu</title>
+    <conbody>  
+        <p>Данное меню позволяет воспроизвести аудио файлы различных форматов с компьютера преподавателя, а также записать в файл аудио источник, подключенный к линейному входу звуковой карты.</p>
+        <fig id="menu_audio_png">
+            <title>Меню <wintitle>Аудио</wintitle></title>
+            <image href="img/menu_audio_arrow.png" placement="break">
+                <alt>Меню <wintitle>Аудио</wintitle></alt>
+            </image>
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Имя воспроизводимого аудиофайла</entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>Регулятор текущего положения в аудиофайле</entry>
+                    </row>
+					<row>
+                        <entry>3</entry>
+                        <entry>Счетчик времени воспроизведения</entry>
+                    </row>
+					<row>
+                        <entry>4</entry>
+                        <entry>Кнопка <uicontrol>Открыть аудиофайл</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>5</entry>
+                        <entry>Кнопка <uicontrol>Начать воспроизведение</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>6</entry>
+                        <entry>Кнопка <uicontrol>Приостановить воспроизведение</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>7</entry>
+                        <entry>Кнопка <uicontrol>Остановить воспроизведение</uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>8</entry>
+                        <entry>Кнопка <uicontrol>Включения/отключения звука</uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>9</entry>
+                        <entry>Регулятор уровня громкости</entry>
+                    </row>
+                    <row>
+                        <entry>10</entry>
+                        <entry>Список устройств записи</entry>
+                    </row>
+					<row>
+                        <entry>11</entry>
+                        <entry>Кнопка обновления списка устройств записи</entry>
+                    </row>
+                    <row>
+                        <entry>12</entry>
+                        <entry>Кнопка <uicontrol>Начать/остановить запись</uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>13</entry>
+                        <entry>Индикатор уровня входного сигнала</entry>
+                    </row>
+                    <row>
+                        <entry>14</entry>
+                        <entry>Список внешних аудио источников</entry>
+                    </row>
+                    <row>
+                        <entry>15</entry>
+                        <entry>Кнопка прослушивания внешнего аудио источника</entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+        <note type="tip">Аудиофайл может быть сохранен в формате <b>WAV</b>, <b>OGG</b> и <b>FLAC</b>.</note>
+    </conbody>
+</concept>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="no_self" xml:lang="en-US">
+    <title>Отключение самопрослушки у учащегося</title>
+    <conbody>
+        <p>Для отключения самопрослушки у  учащегося используется кнопка <uicontrol>Self listening OFF</uicontrol>:
+            <ul>
+                <li>в <xref keyref="menu_single">меню учащегося</xref>;</li>
+                <li>в <xref keyref="menu_group">закладке группы</xref>;</li>
+                <li>в <xref keyref="menu_class">закладке всего класса</xref>.</li>
+            </ul>
+        </p>
+        <p>На изображении учащихся появится соответствующий значок (<xref keyref="no_self/icon_no_self_png" type="fig"/>&#160;).</p>    <fig id="icon_no_self_png">
+            <title>Изображение учащегося с отключенным микрофоном</title>
+            <image href="img/icon_no_self.png" placement="break">
+                <alt>Изображение учащегося с отключенным микрофоном</alt>
+            </image>
+        </fig>
+    </conbody>
+</concept>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="system_requirements" xml:lang="en-US">
+    <title>Системные требования для ПО <wintitle>IdlLAB</wintitle></title>
+
+    <conbody>    
+        <p>Операционная система:
+            <ul>
+                <li>Windows XP и выше;</li>
+                <li>Linux (версия ядра - 2.6.31 и выше);</li>
+                <li>MacOS X (версия 10.5 и выше);</li>
+            </ul>
+		</p>
+    </conbody>
+</concept>

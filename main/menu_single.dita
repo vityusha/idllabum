@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="menu_single" xml:lang="en-US">
+    <title>Меню одного учащегося</title>
+    <conbody>  
+		<p>Чтобы открыть меню, позволяющее работать с одним учащимся, преподаватель должен щелкнуть правой кнопкой мышки на нем.</p>
+		<table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="120*"/>
+                <colspec colname="COLSPEC1" colwidth="20*"/>
+                <thead>
+                    <row>
+                        <entry colname="COLSPEC0" align="center" valign="top">Item</entry>
+                        <entry colname="COLSPEC1" align="center" valign="top">Icon</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><b>Clear call</b></entry>
+                        <entry><image href="img/menu/question.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry><b>Self listening OFF</b></entry>
+                        <entry><image href="img/menu/self-listen-round.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry><b>Listen</b></entry>
+                        <entry><image href="img/menu/ear-round.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry><b>Conversation</b></entry>
+                        <entry><image href="img/menu/user-2.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry><b>Audio source for...</b></entry>
+                        <entry><image href="img/menu/groups.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry>None</entry>
+                        <entry></entry>
+                    </row>
+                    <row>
+                        <entry>Group A</entry>
+                        <entry><image href="img/menu/a.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry>Group B</entry>
+                        <entry><image href="img/menu/b.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry>Group C</entry>
+                        <entry><image href="img/menu/c.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry>Group D</entry>
+                        <entry><image href="img/menu/d.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry><b>Change name</b></entry>
+                        <entry></entry>
+                    </row>
+                    <row>
+                        <entry><b>Registration</b></entry>
+                        <entry><image href="img/menu/registration.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry><b>Group</b></entry>
+                        <entry><image href="img/menu/none.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry>None</entry>
+                        <entry></entry>
+                    </row>
+                    <row>
+                        <entry>Group A</entry>
+                        <entry><image href="img/menu/a.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry>Group B</entry>
+                        <entry><image href="img/menu/b.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry>Group C</entry>
+                        <entry><image href="img/menu/c.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry>Group D</entry>
+                        <entry><image href="img/menu/d.png" placement="break" width="16" align="center"/></entry>
+                    </row>	
+                    <row>
+                        <entry><b>Grade</b></entry>
+                        <entry></entry>
+                    </row>
+                    <row>
+                        <entry>None</entry>
+                        <entry></entry>
+                    </row>
+                    <row>
+                        <entry>1</entry>
+                        <entry><image href="img/menu/grade1.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry>2</entry>
+                        <entry><image href="img/menu/grade2.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry>3</entry>
+                        <entry><image href="img/menu/grade3.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry>4</entry>
+                        <entry><image href="img/menu/grade4.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                    <row>
+                        <entry>5</entry>
+                        <entry><image href="img/menu/grade5.png" placement="break" width="16" align="center"/></entry>
+                    </row>	                    
+                </tbody> 
+            </tgroup>
+        </table>
+    <note type="attention">Меню <menucascade><uicontrol>Grade</uicontrol></menucascade> для учащегося доступно только в расширенном режиме.</note>   
+    </conbody>
+</concept>
