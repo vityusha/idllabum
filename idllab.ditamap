@@ -2,10 +2,10 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
 "map.dtd">
 
-<map id="idllab" xml:lang="ru-ru">
+<map id="idllab" xml:lang="en-us">
 	<topicmeta>
-		<shortdesc>В данном документе представлено описание лингафонного кабинета IDL и ПО IdlLAB.</shortdesc>
-		<author type="creator">Титов С., Винокуров В.</author>
+		<shortdesc>This document contains user manual for the IDL language lab and IdlLAB software.</shortdesc>
+		<author type="creator">S. Titov, V. Vinokurov, N. Soveiko</author>
 		<source/>
 		<publisher>Lain Ltd</publisher>
 		<copyright>
@@ -21,12 +21,12 @@
 				<vrm version="1.0"/>
 			</vrmlist>
 		</prodinfo>
-		<othermeta content="Руководство пользователя" name="doctype"/>
+		<othermeta content="User manual" name="doctype"/>
 		<othermeta content="1.0" name="docedition"/>
 	</topicmeta>
     
     <topicref href="concepts/introduction.dita" />    
-    <topichead navtitle="Описание лингафонного кабинета IDL">
+    <topichead navtitle="The IDL language lab">
         <topicref href="concepts/specifications.dita" />
         <topicref href="concepts/composition.dita" />
         <topicref href="installation/hardware_requirements.dita" />
@@ -35,11 +35,11 @@
         <topicref keys="learner" href="concepts/learner.dita" />              
     </topichead>
     <topicref keys="install_equipment" href="concepts/install_equipment.dita" /> 
-    <topichead navtitle="Установка ПО IdlLAB">
+    <topichead navtitle="Installation of the IdlLAB software">
         <topicref keys="installation_windows" href="installation/installation_windows.dita" />    
         <topicref keys="installation_linux" href="installation/installation_linux.dita" />   
     </topichead>
-    <topichead navtitle="Описание ПО IdlLAB (упрощенный режим)">    
+    <topichead navtitle="Working with IdlLAB (beginner mode)">    
         <topicref keys="description" href="main/description.dita" />
         <topicref keys="student_class" href="main/student_class.dita" />
         <topicref keys="menu_class" href="main/menu_class.dita" />
@@ -52,7 +52,7 @@
         <topicref keys="no_self" href="main/no_self.dita" />        
         <topicref keys="message" href="main/message.dita" />
 		<topicref keys="vote" href="main/vote.dita" />
-        <topichead navtitle="Режимы работы учащихся">
+        <topichead navtitle="Student activities">
             <topicref keys="discussion" href="main/discussion.dita" />            
             <topicref keys="pair" href="main/pair.dita" />
             <topicref keys="sources" href="main/sources.dita" />
@@ -62,7 +62,7 @@
         <topicref keys="record" href="main/record.dita"/>
         <topicref keys="options" href="main/options.dita" />
     </topichead>
-    <topichead navtitle="Описание ПО IdlLAB (расширенный режим)"> 
+    <topichead navtitle="Working with IdlLAB (advanced mode)"> 
         <topicref keys="different" href="main/different.dita" />
         <topicref keys="choice_tutor" href="main/choice_tutor.dita" />
         <topicref keys="current_lesson" href="main/current_lesson.dita" />    
