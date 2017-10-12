@@ -3,65 +3,62 @@
 "concept.dtd">
 
 <concept id="introduction" xml:lang="en-US">
-  <title>Введение</title>
+  <title>Introduction</title>
 
   <conbody>
-    <p>Лингафонные кабинеты <wintitle>IDL</wintitle> предназначены для повышения разговорного уровня лиц, изучающих  иностранный язык.</p>
-    <p>Лингафонный кабинет включает в себя:
+    <p>The <wintitle>IDL</wintitle> language lab can be used in enhancing conversational skills of language learning students.</p>
+    <p>The language lab consists of:
         <ul>
-            <li>блок коммутации;</li>
-            <li>блоки учащихся;</li>
-            <li>программное обеспечение (ПО) <wintitle>IdlLAB</wintitle>, устанавливаемое на компьютер преподавателя.</li>
+            <li>the audio hub;</li>
+            <li>several student modules;</li>
+            <li>the <wintitle>IdlLAB</wintitle> software running on teacher's computer.</li>
         </ul>
     </p>
-    <p>Интуитивно понятный пользовательский интерфейс ПО помогает преподавателю
-    легко освоить данный лингафонный кабинет и эффективно использовать его при
-    обучении иностранным языкам.</p>
+    <p>An intuitive user interface helps the teachers to quickly familiarize themselves with the language lab and start using it effectively in the class.</p>
 
-    <p>Основные возможности лингафонного кабинета:</p>
+    <p>The <wintitle>IDL</wintitle> language lab features:</p>
     <ul>
-        <li>максимальное количество мест учащихся - 60;</li>
+        <li>support for up to 60 students in the class;</li>
 
-        <li>организация рабочих мест учащихся в группы (до четырех групп
-        одновременно) и пары (внутри группы);</li>
+        <li>grouping the students in up to 4 teams and further assigning them in pairs inside the group;</li>
         
-        <li>возможность произвольного формирования пар (внутри группы);</li>
+        <li>manual and automatic pair assignment;</li>
         
-        <li>наличие режимов дискуссии (внутри группы);</li>
+        <li>group discussion modes;</li>
 
-        <li>прослушивание или диалог с выбранным учащимся, парой или группой;</li>
+        <li>monitor or engage in a conversation with a group, pair, or particular student;</li>
 
-		<li>общий вызов для всех учащихся;</li>
+		<li>class announcements;</li>
         
-        <li>вызов преподавателя учащимся;</li>
+        <li>students calling the teacher for help;</li>
         
-        <li>возможность работы до 4 независимых аудио источников одновременно (по количеству групп);</li>
+        <li>up to 4 concurrent audio sources (one for each group);</li>
         
-        <li>аудио источниками могут быть:
+        <li>audio sources can be:
             <ul>
-                <li>устройства, подключенные к 4 внешним входам блока коммутации;</li>
-                <li>голос преподавателя;</li>
-                <li>голос преподавателя совместно с аудио сигналом с внешнего входа;</li>
-                <li>голос любого учащегося, пары или группы учащихся.</li>
+                <li>external, connected to the 4 auxiliary inputs of the audio hub;</li>
+                <li>teacher's voice;</li>
+                <li>a mix of teacher voice and external source;</li>
+                <li>voice of any student, pair or group of students.</li>
             </ul>
         </li>
         
-        <li>возможность регулировки громкости внешних источников;</li>
+        <li>audio level controls for external sources;</li>
         
-        <li>возможность подключения любого учащегося, пары, группы, а также преподавателя или внешнего источника на внешние выходы блока коммутации, на которые могут быть подключены устройства записи, усилительные либо другие устройства;</li>
+        <li>any audio source (student, pair, group, teacher, or external) can be fed to the audio hub outputs for recording, further amplification, or any other purpose;</li>
 
-        <li>управление блоком коммутации осуществляется при помощи интерфейса RS232 от компьютера преподавателя;</li>
+        <li>audio hub is controlled from the teacher's computer via RS-232 interface;</li>
 
-        <li>возможность воспроизведения и записи аудио информации на компьютере преподавателя при подключении входов звуковой карты к соответствующим разъемам блока коммутации;</li>
+        <li>teacher's computer audio interface can be connected to the audio hub for recording and playback;</li>
 		
-		<li>возможность подключения звуковой карты компьютера учащегося к соответствующим разъемам блока учащегося;</li>
+		<li>likewise, student computer audio interfaces can be connected to the student modules;</li>
 
-        <li>возможность редактирования графического представления класса;</li>
+        <li>visual editing of the class layout;</li>
 		
-		<li>ввод и изменение фамилий учащихся с возможностью сохранения визуального представления класса и фамилий в отдельном файле;</li>
+		<li>maintaining the class list and class layout in a separate file;</li>
         
-        <li>возможность работы программы в упрощенном и расширенном режимах.</li>        
+        <li>beginner and advanced modes for the software.</li>        
     </ul>
-    <note type="important">В расширенном режиме программа позволяет регистрировать преподавателей, организовывать работу в группах на основе заданий, вести учет посещаемости и успеваемости в классах для каждого преподавателя в отдельности.</note>
+    <note type="important">The software has two modes: beginner and advanced. Advanced mode allows managing teacher accounts, assigning activities to groups, and keeping class records for attendance and student scores for each teacher separately.</note>
   </conbody>
 </concept>
