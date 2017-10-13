@@ -3,21 +3,21 @@
 "concept.dtd">
 
 <concept id="composition" xml:lang="en-US">
-  <title>Состав изделия и комплектация</title>
+  <title>Shipment manifest</title>
 
   <conbody>
-    <p>При поставке лингафонный кабинет <wintitle>IDL</wintitle> включает в себя:
+    <p>each shipment of the <wintitle>IDL</wintitle> language lab includes:
         <ul>
-            <li>блок коммутации;</li>
-            <li>блоки учащихся (до 60);</li>
-            <li>соединительные кабели;</li>
+            <li>audio hub;</li>
+            <li>up to 60 student modules;</li>
+            <li>connector cables;</li>
 			<li>USB-to-Serial adapter;</li>
-			<li>кабель RS232;</li>
-			<li>аудио кабель jack 3,5 mm-jack 3,5 mm;</li>
-			<li>аудио кабель RSA-RSA;</li>
-            <li>гарнитуру преподавателя;</li>
-            <li>гарнитуры учащихся (до 60);</li>            
-            <li>диск с программным обеспечением (ПО).</li>
+			<li>RS-232 serial cable;</li>
+			<li>3.5 mm male to 3.5 mm male audio cable;</li>
+			<li>RCA to RCA audio cable;</li>
+            <li>teacher headset;</li>
+            <li>up to 60 student headsets;</li>            
+            <li><wintitle>IdlLAB</wintitle> software.</li>
         </ul>    
     </p>
   </conbody>
