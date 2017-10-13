@@ -2,17 +2,17 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="hardware_requirements" xml:lang="en-US">
-    <title>Аппаратные требования для компьютера преподавателя</title>
+    <title>Hardware requirements</title>
 
     <conbody>    
-        <p>Минимальные требования к персональному компьютеру преподавателя:
+        <p>Teacher's PC must meet the following minimum hardware requirements:
             <ul>
-                <li>частота процессора 1ГГц;</li>
-                <li>оперативная память 512 МБ (рекомендуется 1 ГБ);</li>
-                <li>30 МБ свободного пространства на жестком диске для инсталляции программы;</li>
-                <li>разрешение экрана не ниже 1280х800 и качество цветопередачи не менее 16 бит;</li>
-                <li>звуковая карта;</li>
-                <li>сетевая карта.</li>
+                <li>CPU clock frequency >1GHz;</li>
+                <li>RAM: 512 MB (1GB recommended);</li>
+                <li>at least 30 MB hard drive space for <wintitle>IdlLAB</wintitle> software;</li>
+                <li>graphics display with at least 1280х800 resolution and 16 bit color;</li>
+                <li>audio interface;</li>
+                <li>network interface.</li>
             </ul>
         </p>
     </conbody>
