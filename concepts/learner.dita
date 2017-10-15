@@ -2,17 +2,17 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="learner" xml:lang="en-US">
-    <title>Описание блока учащегося</title>
+    <title>Student module</title>
     <conbody>  
-        <p><indexterm>блок учащегося</indexterm>Блок учащегося служит для подключения гарнитуры учащегося к коммутатору.</p>
-		<p>На верхней панели блока учащегося (<xref keyref="learner/learnertop_png" type="fig"/>&#160;) расположены кнопка вызова и индикатор питания.</p>
+        <p><indexterm>student module</indexterm>The student module is used to interconnect the student headset with the audio hub.</p>
+		<p>Call button and power indicator light are located on the top panel of the module (<xref keyref="learner/learnertop_png" type="fig"/>&#160;).</p>
 		<fig id="learnertop_png">
-            <title>Блок учащегося. Вид сверху</title>
+            <title>Student module, top view</title>
             <image href="img/student_arr.png" placement="break">
-                <alt>Блок учащегося. Вид сверху</alt>
+                <alt>Student module, top view</alt>
             </image> 
         </fig>
-		<p>На этом рисунке цифрами обозначены:</p>
+		<p>Elements on the top panel:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -20,24 +20,23 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Индикатор питания</entry>
+                        <entry>Power indicator light</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Кнопка <wintitle>Call</wintitle></entry>
+                        <entry><wintitle>Call</wintitle> button</entry>
                     </row>
                 </tbody> 
             </tgroup>
         </table>
-        <p>Внутри блока учащегося (<xref keyref="learner/learner_png" type="fig"/>&#160;) расположены разъемы для
-        подключения гарнитуры учащегося и внешнего источника.</p>
+        <p>The headset and external audio sources connectors are located inside the student module (<xref keyref="learner/learner_png" type="fig"/>&#160;).</p>
 		<fig id="learner_png">
-            <title>Плата учащегося</title>
+            <title>Inside the student module</title>
             <image href="img/student_connect_arr.png" placement="break">
-                <alt>Плата учащегося</alt>
+                <alt>Inside the student module</alt>
             </image> 
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+        <p>Connectors inside the student modules:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -45,28 +44,28 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Разъем внешнего входа (jack 3,5 mm)</entry>
+                        <entry>Line in (3.5 mm)</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Разъем внешнего выхода (jack 3,5 mm)</entry>
+                        <entry>Line out (3.5 mm)</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Разъем подключения гарнитуры №1</entry>
+                        <entry>Headset 1</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Разъем подключения гарнитуры №2</entry>
+                        <entry>Headset 2</entry>
                     </row>
 					<row>
                         <entry>5</entry>
-                        <entry>Разъем подключения к блоку коммутации (RJ-45)</entry>
+                        <entry>Audio hub (RJ-45)</entry>
                     </row>
                 </tbody> 
             </tgroup>
         </table>
         
-        <note type="tip">Кабель подключения к коммутатору и провод гарнитуры заводятся сзади блока и подключаются к плате при монтаже блока.</note>        
+        <note type="tip">The audio hub connector and headset connectors are only accessible with the module cover removed as they only need to be connected during equipment installation.</note>
     </conbody>
 </concept>
