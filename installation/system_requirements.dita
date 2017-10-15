@@ -2,9 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="system_requirements" xml:lang="en-US">
-    <title>Software requirements for <wintitle>IdlLAB</wintitle></title>
+    <title>Software requirements</title>
 
-    <conbody>    
+    <conbody>
         <p>Operating system:
             <ul>
                 <li>Windows XP or better;</li>
