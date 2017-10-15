@@ -3,17 +3,17 @@
 "concept.dtd">
 
 <concept id="install_equipment" xml:lang="en-US">
-  <title>Монтаж лингафонного кабинета IDL</title>
+  <title>Equipment installation</title>
 
   <conbody>
     
     <fig id="install_hw_png">
-        <title>Схема подключения</title>
+        <title>Connections diagram</title>
         <image href="img/install_hw.png" placement="break">
-            <alt>Схема подключения</alt>
+            <alt>Connections diagram</alt>
         </image>
     </fig>
-    <p>На этом рисунке цифрами обозначены:</p>
+    <p>On this diagram:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -21,56 +21,56 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Блок коммутации</entry>
+                        <entry>Audio hub</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>ПК преподавателя</entry>
+                        <entry>Teacher PC</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Блок учащегося</entry>
+                        <entry>Student module</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Гарнитура преподавателя</entry>
+                        <entry>Teacher headset</entry>
                     </row>
 					<row>
                         <entry>5</entry>
-                        <entry>Гарнитура учащегося</entry>
+                        <entry>Student headset</entry>
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>Кабель соединения блока коммутации с блоком учащегося</entry>
+                        <entry>Audio hub to student module connector cable</entry>
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>Кабель <wintitle>RS232</wintitle> для подключения ПК преподавателя к блоку коммутации</entry>
+                        <entry><wintitle>RS-232</wintitle> cable</entry>
                     </row>
 					<row>
                         <entry>8</entry>
-                        <entry>Аудиокабели для подключения звуковой карты ПК преподавателя к блоку коммутации</entry>
+                        <entry>Audio cables</entry>
                     </row>
 					<row>
                         <entry>9</entry>
-                        <entry>ПК учащегося (опционально)</entry>
+                        <entry>Student PC (optional)</entry>
                     </row>
 					<row>
                         <entry>10</entry>
-                        <entry>Аудиокабели для подключения звуковой карты ПК учащегося к блоку учащегося (опционально)</entry>
+                        <entry>Audio cables</entry>
                     </row>
                 </tbody> 
             </tgroup>
         </table>
-    <p>Блоки учащихся подключаются к блоку коммутации 8-ми жильным плоским кабелем (6) (<xref keyref="install_equipment/cabels_png" type="fig"/>&#160;).</p>
-    <p>Соединительный 8-ми жильный плоский кабель прокладывается от блока коммутации до каждого блока учащегося. На концы соединительных кабелей устанавливаются разъемы, при помощи специального обжимного инструмента.</p>
-    <note type="important">На обоих концах кабеля (у блока коммутации и блока учащегося) разъемы устанавливаются ОДИНАКОВЫМ ОБРАЗОМ! (Порядок следования цветных жил в обоих разъемах должен совпадать).</note>
+    <p>Student modules are connected to the audio hub via an 8-wire flat cable (6) with RJ45 (a.k.a. 8P8C) connectors on both ends (<xref keyref="install_equipment/cabels_png" type="fig"/>&#160;).</p>
+    <p>The 8-wire flat cable is installed between the audio hub and each of the student modules. The cable is terminated by 8P8C connectors that are crimped on by a special crimping tool.</p>
+    <note type="important">The connector cable is wired in "straight through" mode (a.k.a. T568), i.e. pins 1 through 8 on one end are connected to pins 1 through 8 on the other end.</note>
     <fig id="cabels_png">
-        <title>Соединительный кабель</title>
+        <title>Connector cable</title>
         <image href="img/cabels.png" placement="break">
-            <alt>Соединительный кабель</alt>
+            <alt>Connector cable</alt>
         </image>
     </fig>
-    <p>После подключения кабеля к блоку учащегося блок можно зафиксировать на столе, используя саморезы.</p>
+    <p>After connecting the cables and replacing the student module cover, the module can be permanently mounted on a student desk.</p>
   </conbody>
 </concept>
