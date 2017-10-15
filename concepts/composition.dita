@@ -6,19 +6,19 @@
   <title>Shipment manifest</title>
 
   <conbody>
-    <p>each shipment of the <wintitle>IDL</wintitle> language lab includes:
+    <p>Each shipment of the <wintitle>IDL</wintitle> language lab includes:
         <ul>
             <li>audio hub;</li>
             <li>up to 60 student modules;</li>
-            <li>connector cables;</li>
+            <li>cables for connecting the student modules to the audio hub;</li>
 			<li>USB-to-Serial adapter;</li>
 			<li>RS-232 serial cable;</li>
 			<li>3.5 mm male to 3.5 mm male audio cable;</li>
 			<li>RCA to RCA audio cable;</li>
             <li>teacher headset;</li>
-            <li>up to 60 student headsets;</li>            
+            <li>up to 60 student headsets;</li>
             <li><wintitle>IdlLAB</wintitle> software.</li>
-        </ul>    
+        </ul>
     </p>
   </conbody>
 </concept>
