@@ -5,14 +5,14 @@
     <title>Hardware requirements</title>
 
     <conbody>    
-        <p>Teacher's PC must meet the following minimum hardware requirements:
+        <p>Teacher's PC running the <wintitle>IdlLAB</wintitle> software must meet the following minimum hardware requirements:
             <ul>
                 <li>CPU clock frequency >1GHz;</li>
                 <li>RAM: 512 MB (1GB recommended);</li>
-                <li>at least 30 MB hard drive space for <wintitle>IdlLAB</wintitle> software;</li>
-                <li>graphics display with at least 1280х800 resolution and 16 bit color;</li>
-                <li>audio interface;</li>
-                <li>network interface.</li>
+                <li>at least 30 MB hard drive space for software installation;</li>
+                <li>graphics display with 1280х800 resolution and 16 bit color;</li>
+                <li>an audio interface;</li>
+                <li>a network interface.</li>
             </ul>
         </p>
     </conbody>
