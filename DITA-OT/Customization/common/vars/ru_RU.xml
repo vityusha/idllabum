@@ -14,13 +14,13 @@
     -->
 
     <!-- Product name to be placed inside headers etc. (isn't used in Bercut temlates)-->
-    <variable id="Product Name">IDL «IdlLAB»</variable>
+    <variable id="Product Name">Диалог «Nibelung»</variable>
     
     <!-- Default copyrholder name to be placed inside headers etc. if don't present copyrholder element -->
     <variable id="Default Copyrholder">ООО "ЛАЙН"</variable>
     
     <!-- Default year to be placed inside headers etc. if don't present copyryear element -->
-    <variable id="Default Year">2017</variable>
+    <variable id="Default Year">2012</variable>
     
     <!--Text to use for subsystem version label (intended for cover). -->
     <variable id="SubSystemVersion">Версия </variable>
@@ -29,19 +29,19 @@
     <variable id="DocEdition">Версия документа: </variable>
     
     <!-- The copyright infomation that appears in annotation. -->
-     <variable id="CopyrightInfo">Copyright © 2017 — <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> Все права защищены.</variable>
+     <variable id="CopyrightInfo">Copyright © 2008 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> Все права защищены.</variable>
     
     <!-- The document infomation that appears in Reader's Comment Form. -->
     <variable id="DocInfo"><param ref-name="system"/>.&#xA0;<param ref-name="subsystem"/>.&#xA0;<param ref-name="subsystem_version"/>.&#xA0;<param ref-name="doctype"/>.&#xA0;<param ref-name="doc_edition"/>.</variable>
 
     <!-- The footer that appears on odd-numbered pages. -->
-    <variable id="Body odd footer">Copyright © 2017 — <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> Все права защищены</variable>
+    <variable id="Body odd footer">Copyright © 2008 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> Все права защищены</variable>
 
     <!-- The footer that appears on even-numbered pages. -->
     <variable id="Body even footer"/>
 
     <!-- The footer that appears on the first page of a chapter. -->
-     <variable id="Body first footer">Copyright © 2017 — <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> Все права защищены</variable>
+     <variable id="Body first footer">Copyright © 2008 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> Все права защищены</variable>
 
     <!-- The header that appears on the first page of a chapter. -->
     <variable id="Body first header"/>
@@ -72,7 +72,7 @@
 
     <!-- The footer that appears on the odd-numbered table of contents
          pages. --> 
-    <variable id="Toc odd footer">Copyright © 2017 – <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> Все права защищены</variable>
+    <variable id="Toc odd footer">Copyright © 2008 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> Все права защищены</variable>
 
     <!-- The footer that appears on the even-numbered table of contents
          pages. --> 
@@ -87,7 +87,7 @@
     <variable id="Toc even header"><param ref-name="pagenum"/>&#xA0;|&#xA0;<param ref-name="prodname"/>&#xA0;|&#xA0;Оглавление</variable>
 
     <!-- The footer that appears on the odd-numbered index pages. -->
-    <variable id="Index odd footer">Copyright © 2017 – <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> Все права защищены</variable>
+    <variable id="Index odd footer">Copyright © 2008 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> Все права защищены</variable>
 
     <!-- The footer that appears on the even-numbered index pages. -->
     <variable id="Index even footer"/>
@@ -149,7 +149,7 @@
 
     <!-- Text to use for 'Note' label generated from <note> element 
          with 'type' attribute set to 'tip'. -->
-    <variable id="Tip">Совет</variable>
+    <variable id="Tip">Информация</variable>
 
     <!-- Text to use for 'Note' label generated from <note> element
          with 'type' attribute set to 'tip'. -->
@@ -247,28 +247,28 @@
     <variable id="This link">это ссылка</variable>
     
     <!-- Image path to use for a note of "note" type. -->
-    <variable id="note Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+    <variable id="note Note Image Path">Customization/OpenTopic/common/artwork/note.png</variable>
 
     <!-- Image path to use for a note of "attention" type. -->
     <variable id="attention Note Image Path">Customization/OpenTopic/common/artwork/attention.png</variable>
 
     <!-- Image path to use for a note of "caution" type. -->
-    <variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/warning.gif</variable>
+    <variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/warning.png</variable>
 
     <!-- Image path to use for a note of "danger" type. -->
-    <variable id="danger Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+    <variable id="danger Note Image Path">Customization/OpenTopic/common/artwork/danger.png</variable>
   
     <!-- Image path to use for a note of "fastpath" type. -->
-    <variable id="fastpath Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+    <variable id="fastpath Note Image Path">Customization/OpenTopic/common/artwork/tip.png</variable>
   
     <!-- Image path to use for a note of "important" type. -->
     <variable id="important Note Image Path">Customization/OpenTopic/common/artwork/important.png</variable>
  
     <!-- Image path to use for a note of "remember" type. -->
-    <variable id="remember Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+    <variable id="remember Note Image Path">Customization/OpenTopic/common/artwork/tip.png</variable>
  
     <!-- Image path to use for a note of "restriction" type. -->
-    <variable id="restriction Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+    <variable id="restriction Note Image Path">Customization/OpenTopic/common/artwork/restriction.png</variable>
 
     <!-- Image path to use for a note of "tip" type. -->
     <variable id="tip Note Image Path">Customization/OpenTopic/common/artwork/tip.png</variable>

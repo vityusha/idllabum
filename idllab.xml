@@ -30,7 +30,7 @@
 	<property name="args.draft" value="no" />
 
 	<!--Document locale.  Takes values "en_US", "ru_RU", etc.-->
-	<property name="document.locale" value="ru_RU" />
+	<property name="document.locale" value="en_US" />
 
 	<!-- if file is a relative file name, the file name will be resolved 
        relative to the importing file -->

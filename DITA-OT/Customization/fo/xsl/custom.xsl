@@ -229,7 +229,7 @@
 					</xsl:call-template>
 				</xsl:variable>
 				<!--fo:external-graphic src="url({concat($artworkPrefix, '/', $cover_footer_ImagePath)})"/-->
-				<fo:external-graphic src="url({$right_indent_ImagePath})"/>
+				<!--fo:external-graphic src="url({$right_indent_ImagePath})"/-->
 			</fo:block>   
 		</fo:static-content>
 	</xsl:template>
@@ -410,7 +410,7 @@
 					</xsl:call-template>
 				</xsl:variable>
 				<!--fo:external-graphic src="url({concat($artworkPrefix, '/', $cover_footer_ImagePath)})"/-->
-				<fo:external-graphic src="url({$right_indent_ImagePath})"/>
+				<!--fo:external-graphic src="url({$right_indent_ImagePath})"/-->
 			</fo:block>   
 		</fo:static-content>
 	</xsl:template>
@@ -657,7 +657,7 @@
 						<xsl:with-param name="theVariableID" select="'Right indent'"/>
 					</xsl:call-template>
 				</xsl:variable>
-				<fo:external-graphic src="url({$right_indent_ImagePath})"/>
+				<!--fo:external-graphic src="url({$right_indent_ImagePath})"/-->
 			</fo:block>   
 		</fo:static-content>
 	</xsl:template>
@@ -1039,7 +1039,7 @@
                     <fo:table-column xsl:use-attribute-sets="note__image__column"/>
                     <fo:table-column xsl:use-attribute-sets="note__text__column"/>
                     <fo:table-body>
-                        <fo:table-row keep-together="always">
+                        <fo:table-row>
                                 <fo:table-cell xsl:use-attribute-sets="note__image__entry">
                                     <fo:block>
                                         <fo:external-graphic src="url({concat($artworkPrefix, $noteImagePath)})" xsl:use-attribute-sets="image"/>
@@ -1058,5 +1058,39 @@
         </xsl:choose>
     </xsl:template>
 
-</xsl:stylesheet>
+    <xsl:variable name="topicTitle.numLevel">3</xsl:variable>
+    <xsl:template name="getTitle">
+      <xsl:variable name="titleNumber">
+         <xsl:if test="parent::*[contains(@class,'topic/topic')]">
+            <xsl:call-template name="getTitleNumber"/>
+         </xsl:if>
+      </xsl:variable>
+      <xsl:choose>
+         <xsl:when test="@spectitle">
+            <xsl:value-of select="@spectitle"/>
+         </xsl:when>
+         <xsl:otherwise>
+            <xsl:value-of select="$titleNumber"/>
+            <xsl:apply-templates/>
+         </xsl:otherwise>
+      </xsl:choose>
+   </xsl:template>
+   <xsl:template name="getTitleNumber">
+      <xsl:variable name="level" select="ancestor::*[contains(@class,' topic/topic ')]"/>
+      <xsl:choose>
+         <xsl:when test="count($level)=1">
+            <xsl:for-each select="$level">
+               <xsl:value-of select="count(preceding-sibling::*[contains(@class,' topic/topic ')])+ 1"/>
+<!--1111111111 -->      <xsl:text>.&#xA0;</xsl:text>   
+            </xsl:for-each>
+         </xsl:when>
+         <xsl:when test="not(count($level) > $topicTitle.numLevel)">
+            <xsl:number count="*[contains(@class,' topic/topic ')]" level="multiple" format="1.1"/>
+<!--  222222222 -->      <xsl:text>&#xA0;</xsl:text>
+         </xsl:when>
+         <xsl:otherwise/>
+      </xsl:choose>
+   </xsl:template>
+   
+ </xsl:stylesheet>
 

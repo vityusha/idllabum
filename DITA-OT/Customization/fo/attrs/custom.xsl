@@ -35,8 +35,11 @@ See the accompanying license.txt file for applicable licenses.
     xmlns:fo="http://www.w3.org/1999/XSL/Format"
     xmlns:rx="http://www.renderx.com/XSL/Extensions"
     version="1.1">
+    
+    <xsl:import href="basic-settings.xsl"/>
+    <xsl:import href="custom-attr.xsl"/>
 		
-		<!-- PAGE layout parameters -->
+    <!-- PAGE layout parameters -->
     <xsl:variable name="page-width">210mm</xsl:variable>
     <xsl:variable name="page-height">297mm</xsl:variable>     
     <xsl:variable name="image-max-width">150mm</xsl:variable>     
@@ -58,28 +61,12 @@ See the accompanying license.txt file for applicable licenses.
         <xsl:attribute name="hyphenate">false</xsl:attribute>
     </xsl:attribute-set>
     
-    <xsl:attribute-set name="topic.topic.title">
-        <xsl:attribute name="font-family">Sans</xsl:attribute>
-		<!--xsl:attribute name="border-bottom">1pt solid black</xsl:attribute-->
-        <!--xsl:attribute name="space-before.optimum">12pt</xsl:attribute-->
-        <xsl:attribute name="margin-top">1pc</xsl:attribute>
-        <xsl:attribute name="margin-bottom">5pt</xsl:attribute>
-        <!--xsl:attribute name="font-size">14pt</xsl:attribute-->
-        <xsl:attribute name="font-size">12pt</xsl:attribute>
-        <xsl:attribute name="font-weight">bold</xsl:attribute>
-        <xsl:attribute name="padding-top">1pc</xsl:attribute>
-        <!--xsl:attribute name="keep-with-next.within-column">always</xsl:attribute-->
-        <!--Тест на разрыв текста от заголовка 2-го уровня-->
-        <xsl:attribute name="keep-with-next.within-page">always</xsl:attribute>
-        <xsl:attribute name="hyphenate">false</xsl:attribute>
-    </xsl:attribute-set>
-    
     <!--Тест на разрыв текста от заголовка 3-го уровня-->
-    <xsl:attribute-set name="topic.topic.title__content">
+    <xsl:attribute-set name="topic.title__content">
         <xsl:attribute name="keep-with-next.within-page">always</xsl:attribute>
     </xsl:attribute-set>
 
-    <xsl:attribute-set name="topic.topic.topic.title">
+    <xsl:attribute-set name="topic.title">
         <xsl:attribute name="font-family">Sans</xsl:attribute>
         <xsl:attribute name="margin-top">1pc</xsl:attribute>
         <xsl:attribute name="margin-bottom">2pt</xsl:attribute>
@@ -90,54 +77,6 @@ See the accompanying license.txt file for applicable licenses.
         <xsl:attribute name="hyphenate">false</xsl:attribute>
     </xsl:attribute-set>
 
-    <xsl:attribute-set name="topic.topic.topic.topic.title">
-        <xsl:attribute name="font-family">Sans</xsl:attribute>
-        <xsl:attribute name="font-size">10pt</xsl:attribute>
-        <xsl:attribute name="margin-top">10pt</xsl:attribute>
-        <!--xsl:attribute name="margin-left">25pt</xsl:attribute-->
-        <xsl:attribute name="margin-left">0pt</xsl:attribute>
-        <xsl:attribute name="font-weight">bold</xsl:attribute>
-        <xsl:attribute name="keep-with-next.within-column">always</xsl:attribute>
-        <xsl:attribute name="hyphenate">false</xsl:attribute>
-    </xsl:attribute-set>
-
-    <xsl:attribute-set name="topic.topic.topic.topic.topic.title">
-        <xsl:attribute name="font-family">Sans</xsl:attribute>
-        <xsl:attribute name="font-size">10pt</xsl:attribute>
-        <xsl:attribute name="margin-top">10pt</xsl:attribute>
-        <!--xsl:attribute name="margin-left">25pt</xsl:attribute-->
-        <xsl:attribute name="margin-left">0pt</xsl:attribute>
-        <xsl:attribute name="font-weight">bold</xsl:attribute>
-        <xsl:attribute name="keep-with-next.within-column">always</xsl:attribute>
-        <xsl:attribute name="hyphenate">false</xsl:attribute>
-    </xsl:attribute-set>
-
-    <xsl:attribute-set name="topic.topic.topic.topic.topic.topic.title">
-        <xsl:attribute name="font-family">Sans</xsl:attribute>
-        <xsl:attribute name="font-size">10pt</xsl:attribute>
-        <!--xsl:attribute name="margin-left">25pt</xsl:attribute-->
-        <xsl:attribute name="margin-left">0pt</xsl:attribute>
-        <xsl:attribute name="margin-top">10pt</xsl:attribute>
-        <!--xsl:attribute name="font-weight">normal</xsl:attribute-->
-        <xsl:attribute name="font-weight">bold</xsl:attribute>
-        <xsl:attribute name="font-style">italic</xsl:attribute>
-        <xsl:attribute name="keep-with-next.within-column">always</xsl:attribute>
-        <xsl:attribute name="hyphenate">false</xsl:attribute>
-    </xsl:attribute-set>
-    
-    <xsl:attribute-set name="topic.topic.topic.topic.topic.topic.topic.title">
-        <xsl:attribute name="font-family">Sans</xsl:attribute>
-        <xsl:attribute name="font-size">10pt</xsl:attribute>
-        <!--xsl:attribute name="margin-left">25pt</xsl:attribute-->
-        <xsl:attribute name="margin-left">0pt</xsl:attribute>
-        <xsl:attribute name="margin-top">10pt</xsl:attribute>
-        <!--xsl:attribute name="font-weight">normal</xsl:attribute-->
-        <xsl:attribute name="font-weight">bold</xsl:attribute>
-        <xsl:attribute name="font-style">italic</xsl:attribute>
-        <xsl:attribute name="keep-with-next.within-column">always</xsl:attribute>
-        <xsl:attribute name="hyphenate">false</xsl:attribute>
-    </xsl:attribute-set>
-    
     <xsl:attribute-set name="section.title">
         <xsl:attribute name="font-family">Sans</xsl:attribute>
         <xsl:attribute name="font-weight">bold</xsl:attribute>
@@ -347,21 +286,24 @@ See the accompanying license.txt file for applicable licenses.
   		<xsl:attribute name="font-style">italic</xsl:attribute>
         <xsl:attribute name="space-before">0.6em</xsl:attribute>
         <xsl:attribute name="space-after">0.6em</xsl:attribute>
+        <xsl:attribute name="hyphenate">true</xsl:attribute>
     </xsl:attribute-set>
     
     <xsl:attribute-set name="note__image__column">
         <xsl:attribute name="column-number">1</xsl:attribute>
         <xsl:attribute name="column-width">40pt</xsl:attribute>
+        <xsl:attribute name="hyphenate">true</xsl:attribute>
     </xsl:attribute-set>    
     
     <xsl:attribute-set name="note__image__entry">
         <xsl:attribute name="padding-right">5pt</xsl:attribute>
         <xsl:attribute name="start-indent">0pt</xsl:attribute>
+        <xsl:attribute name="hyphenate">true</xsl:attribute>
     </xsl:attribute-set>
         
     <!--выравнивание картинок с кнопками в списке-->
     <xsl:attribute-set name="image">
-        <xsl:attribute name="vertical-align">bottom</xsl:attribute>
+        <!-- <xsl:attribute name="vertical-align">bottom</xsl:attribute> -->
 		<xsl:attribute name="content-width">scale-down-to-fit</xsl:attribute>
 		<xsl:attribute name="scaling">uniform</xsl:attribute>
 		<xsl:attribute name="width" select="$image-max-width"></xsl:attribute>
@@ -488,11 +430,11 @@ See the accompanying license.txt file for applicable licenses.
     <xsl:attribute-set name="__frontmatter__cover__image">
         <xsl:attribute name="margin">0mm</xsl:attribute>
         <xsl:attribute name="padding">0mm</xsl:attribute>
-        <xsl:attribute name="vertical-align">center</xsl:attribute>
-				<xsl:attribute name="content-width">scale-to-fit</xsl:attribute>
-				<!--<xsl:attribute name="scaling">uniform</xsl:attribute>-->
-				<xsl:attribute name="width" select="$page-width"></xsl:attribute>
-				<xsl:attribute name="height" select="$page-height"></xsl:attribute>
+        <!--<xsl:attribute name="vertical-align">center</xsl:attribute> -->
+		<xsl:attribute name="content-width">scale-to-fit</xsl:attribute>
+		<!--<xsl:attribute name="scaling">uniform</xsl:attribute>-->
+		<xsl:attribute name="width" select="$page-width"></xsl:attribute>
+		<xsl:attribute name="height" select="$page-height"></xsl:attribute>
     </xsl:attribute-set>
     
     <xsl:attribute-set name="__frontmatter__last__footer">
@@ -695,8 +637,10 @@ See the accompanying license.txt file for applicable licenses.
     <!--tables-attr.xsl-->
      <xsl:attribute-set name="table">
         <!--It is a table container -->
-        <xsl:attribute name="font-size">9pt</xsl:attribute>
+        <xsl:attribute name="font-size"><xsl:value-of select="$default-font-size"/></xsl:attribute>
         <xsl:attribute name="space-after.optimum">10pt</xsl:attribute>
+        <xsl:attribute name="pgwide">0</xsl:attribute>
+        <xsl:attribute name="keep-together.within-column">auto</xsl:attribute>
     </xsl:attribute-set>
     
     <xsl:attribute-set name="table.tgroup">
@@ -807,7 +751,7 @@ See the accompanying license.txt file for applicable licenses.
     
     <xsl:attribute-set name="__headline__cell">
         <xsl:attribute name="width">150mm</xsl:attribute>
-        <xsl:attribute name="valign">bottom</xsl:attribute>
+        <!--<xsl:attribute name="valign">bottom</xsl:attribute>-->
     </xsl:attribute-set>
 	
 </xsl:stylesheet>

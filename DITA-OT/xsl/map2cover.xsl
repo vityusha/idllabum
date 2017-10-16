@@ -41,31 +41,31 @@
 	</xsl:variable>
 	<xsl:variable name="VersionStr">
 		<xsl:choose>
-			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru-RU'">Версия </xsl:when>
+			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru-RU'">Version </xsl:when>
 			<!--На всякий случай проверяем неправильное задание атрибута xml:lang = 'ru_RU-->
-			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru-ru'">Версия </xsl:when>
-			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru_RU'">Версия </xsl:when>
-			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru_ru'">Версия </xsl:when>
+			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru-ru'">Version </xsl:when>
+			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru_RU'">Version </xsl:when>
+			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru_ru'">Version </xsl:when>
 			<xsl:otherwise>Version </xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
 	<xsl:variable name="DocVersionStr">
 		<xsl:choose>
-			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru-RU'">Версия документа </xsl:when>
+			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru-RU'">Document version </xsl:when>
 			<!--На всякий случай проверяем неправильное задание атрибута xml:lang = 'ru_RU-->
-			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru-ru'">Версия документа </xsl:when>
-			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru_RU'">Версия документа </xsl:when>
-			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru_ru'">Версия документа </xsl:when>
+			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru-ru'">Document version </xsl:when>
+			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru_RU'">Document version </xsl:when>
+			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru_ru'">Document version </xsl:when>
 			<xsl:otherwise>Document version </xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
 	<xsl:variable name="RightsStr">
 		<xsl:choose>
-			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru-RU'"> Все права защищены</xsl:when>
+			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru-RU'"> All rights reserved</xsl:when>
 			<!--На всякий случай проверяем неправильное задание атрибута xml:lang = 'ru_RU-->
-			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru-ru'"> Все права защищены</xsl:when>
-			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru_RU'"> Все права защищены</xsl:when>
-			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru_ru'"> Все права защищены</xsl:when>
+			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru-ru'"> All rights reserved</xsl:when>
+			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru_RU'"> All rights reserved</xsl:when>
+			<xsl:when test="//*[contains(@class, ' map/map ')]/@xml:lang = 'ru_ru'"> All rights reserved</xsl:when>
 			<xsl:otherwise> All rights reserved</xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
