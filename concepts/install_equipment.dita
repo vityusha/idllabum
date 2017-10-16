@@ -49,7 +49,7 @@
                     </row>
 					<row>
                         <entry>8</entry>
-                        <entry>Audio cables</entry>
+                        <entry>Audio cables to PC sound interface</entry>
                     </row>
 					<row>
                         <entry>9</entry>
@@ -57,20 +57,20 @@
                     </row>
 					<row>
                         <entry>10</entry>
-                        <entry>Audio cables</entry>
+                        <entry>Audio cables to PC sound interface (optional)</entry>
                     </row>
                 </tbody> 
             </tgroup>
         </table>
-    <p>Student modules are connected to the audio hub via an 8-wire flat cable (6) with RJ45 (a.k.a. 8P8C) connectors on both ends (<xref keyref="install_equipment/cabels_png" type="fig"/>&#160;).</p>
+    <p>Student modules are connected to the audio hub via an 8-wire flat cable (6) with 8P8C (a.k.a. RJ45) connectors on both ends (<xref keyref="install_equipment/cabels_png" type="fig"/>&#160;).</p>
     <p>The 8-wire flat cable is installed between the audio hub and each of the student modules. The cable is terminated by 8P8C connectors that are crimped on by a special crimping tool.</p>
-    <note type="important">The connector cable is wired in "straight through" mode (a.k.a. T568), i.e. pins 1 through 8 on one end are connected to pins 1 through 8 on the other end.</note>
+    <note type="important">The connector cable is wired in "straight through" mode (known as T568), i.e. pins 1 through 8 on one end are connected to pins 1 through 8 on the other end.</note>
     <fig id="cabels_png">
         <title>Connector cable</title>
         <image href="img/cabels.png" placement="break">
             <alt>Connector cable</alt>
         </image>
     </fig>
-    <p>After connecting the cables and replacing the student module cover, the module can be permanently mounted on a student desk.</p>
+    <p>After connecting the cables and replacing the student module cover, the module can be permanently mounted on the student desk.</p>
   </conbody>
 </concept>
