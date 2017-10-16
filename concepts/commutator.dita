@@ -4,8 +4,8 @@
 <concept id="commutator" xml:lang="en-US">
     <title>The audio hub</title>
     <conbody>  
-        <p><indexterm>audio hub</indexterm>The audio hub connects, switched, amplifies, and distributes different audio sources. The hub is controlled from a PC running the <wintitle>IdlLAB</wintitle> software, connected to the hub via a <uicontrol>RS-232</uicontrol> interface.</p>
-        <p>Connectors for the student modules and two <uicontrol>RS-232</uicontrol> connectors are located on the rear panel of the audio hub (<xref keyref="commutator/back_png" type="fig"/>&#160;).</p>
+        <p><indexterm>audio hub</indexterm>The audio hub connects, switched, amplifies, and distributes different audio sources. The hub is controlled from a PC running the <wintitle>IdlLAB</wintitle> software, connected to the hub via <uicontrol>RS-232</uicontrol> interface.</p>
+        <p>Connectors for the student modules and two <uicontrol>RS-232</uicontrol> interface connectors are located on the rear panel of the audio hub (<xref keyref="commutator/back_png" type="fig"/>&#160;).</p>
 		<fig id="back_png">
             <title>Audio hub, rear view.</title>
             <image href="img/hub_back_arr.png" placement="break">
@@ -45,7 +45,7 @@
                 </tbody> 
             </tgroup>
         </table>
-        <p>The left panel contains connectors for external audio sources and the teacher headset(s) (<xref keyref="commutator/left_png" type="fig"/>&#160;).</p>
+        <p>The left panel contains connectors for external audio sources and teacher headset(s) (<xref keyref="commutator/left_png" type="fig"/>&#160;).</p>
 		<fig id="left_png">
             <title>Audio hub, left panel view</title>
             <image href="img/hub_left_arr.png" placement="break">
@@ -64,15 +64,15 @@
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Stereo in, right channel (RCA)</entry>
+                        <entry>Hi-Fi in, right channel (RCA)</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Stereo in, left channel (RCA)</entry>
+                        <entry>Hi-Fi in, left channel (RCA)</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Line in (RCA)</entry>
+                        <entry>VCR in (RCA), for connecting a VCR or any other line level external audio source</entry>
                     </row>
                     <row>
                         <entry>5</entry>
@@ -80,11 +80,11 @@
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>Stereo out, left channel (RCA)</entry>
+                        <entry>Hi-Fi out, left channel (RCA)</entry>
                     </row>
                     <row>
                         <entry>7</entry>
-                        <entry>Stereo out, right channel (RCA)</entry>
+                        <entry>Hi-Fi out, right channel (RCA)</entry>
                     </row>
 					<row>
                         <entry>8</entry>
@@ -109,7 +109,7 @@
                 </tbody> 
             </tgroup>
         </table>
-		<p>The right panel contains the 220V AC power connector (IEC 60320 type C14/C15 coupler) and power on/off switch (<xref keyref="commutator/right_png" type="fig"/>&#160;).</p>
+		<p>The right panel contains the 220V AC power connector and power on/off switch (<xref keyref="commutator/right_png" type="fig"/>&#160;).</p>
 		<fig id="right_png">
             <title>Audio hub, right panel view</title>
             <image href="img/hub_right_arr.png" placement="break">
