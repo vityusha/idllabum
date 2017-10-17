@@ -35,7 +35,7 @@
         <topicref keys="learner" href="concepts/learner.dita" />              
     </topichead>
     <topicref keys="install_equipment" href="concepts/install_equipment.dita" /> 
-    <topichead navtitle="Installation of the IdlLAB software">
+    <topichead navtitle="Software installation">
         <topicref keys="installation_windows" href="installation/installation_windows.dita" />    
         <topicref keys="installation_linux" href="installation/installation_linux.dita" />   
     </topichead>
