@@ -8,12 +8,12 @@
         <note type="important"><wintitle>IdlLAB</wintitle> Linux binaries compiled for the i386 architecture can be found in the <filepath>Linux/</filepath> directory of the installation disc.</note>
 
         <p>For <wintitle>Linux</wintitle> distributions supporting <wintitle>DEB</wintitle> package format (Debian, Ubuntu, Linux Mint, Knoppix, etc.), open a terminal window and run from the command prompt:</p> 
-        <p><userinput>dpkg -i idllab-release_version.deb</userinput></p>        
-        <note type="tip">Complete list of distributions supporting the <wintitle>DEB</wintitle> package format can be found at <xref href="https://www.debian.org" scope="external">https://www.debian.org/</xref>.</note>
+        <p><userinput>dpkg -i idllab-release_version.deb</userinput></p>
 
         <p>For <wintitle>Linux</wintitle> distributions supporting <wintitle>RPM</wintitle> package format (Red Hat, Fedora, CentOS, OpenSUSE, etc.), open a terminal window and run from the command prompt:</p> 
         <p><userinput>rpm -i idllab-release_version.rpm</userinput></p>
-        <note type="tip">Complete list of distributions supporting the <wintitle>RPM</wintitle> package format can be found at <xref href="http://rpm.org" scope="external">http://rpm.org/</xref>.</note>
+
+        <note type="tip">A somewhat comprehensive list of distributions supporting both the <wintitle>DEB</wintitle> and <wintitle>RPM</wintitle> package formats can be found in Wikipedia: <xref href="https://en.wikipedia.org/wiki/List_of_Linux_distributions" scope="external">https://en.wikipedia.org/wiki/List_of_Linux_distributions</xref>.</note>
 
         <p>Please contact the manufacturer to obtain source code for <wintitle>IdlLAB</wintitle>: <xref href="mailto:support@lainlab.com" scope="external">support@lainlab.com</xref>.</p>
     </conbody>
