@@ -2,16 +2,19 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="installation_linux" xml:lang="en-US">
-    <title>Установка программы в ОС <wintitle>Linux</wintitle></title>
+    <title><wintitle>Linux</wintitle></title>
 
     <conbody>  
-        <note type="important">Бинарные пакеты ПО <wintitle>IdlLAB</wintitle> для ОС <wintitle>Linux</wintitle> скомпилированы для архитектуры i386 и находятся на установочном диске в каталоге <b>Linux</b>.</note>
-        <p>Для установки программы в <wintitle>Linux</wintitle> дистрибутивах, основанных на <wintitle>Debian</wintitle> (Debian, Ubuntu, Linux Mint, Knoppix), необходимо в окне терминала выполнить команду:</p> 
-        <p><userinput>dpkg -i idllab-версия_пакета.deb</userinput></p>        
-        <note type="tip">Полный список дистрибутивов, основанных на <wintitle>Debian</wintitle> можно посмотреть на сайте <xref href="http://www.debian.org" scope="external">http://www.debian.org/</xref>.</note>
-        <p>Для установки программы в <wintitle>Linux</wintitle> дистрибутивах, основанных на <wintitle>RPM</wintitle> (RedHat, ALTLinux, Fedora, CentOS, OpenSUSE), необходимо в окне терминала выполнить команду:</p> 
-        <p><userinput>rpm -i idllab-версия_пакета.rpm</userinput></p>        
-        <note type="tip">Полный список дистрибутивов, основанных на <wintitle>RPM</wintitle> можно посмотреть на сайте <xref href="http://www.rpm.org" scope="external">http://www.rpm.org/</xref>.</note>
-        <p>Для получения исходных текстов программы следует обратиться к разработчикам программного обеспечения <wintitle>IdlLAB</wintitle>: <xref href="mailto:support@lainlab.com" scope="external">support@lainlab.com</xref>.</p>
+        <note type="important"><wintitle>IdlLAB</wintitle> Linux binaries compiled for the i386 architecture can be found in the <filepath>Linux/</filepath> directory of the installation disc.</note>
+
+        <p>For <wintitle>Linux</wintitle> distributions supporting <wintitle>DEB</wintitle> package format (Debian, Ubuntu, Linux Mint, Knoppix, etc.), open a terminal window and run from the command prompt:</p> 
+        <p><userinput>dpkg -i idllab-release_version.deb</userinput></p>        
+        <note type="tip">Complete list of distributions supporting the <wintitle>DEB</wintitle> package format can be found at <xref href="https://www.debian.org" scope="external">https://www.debian.org/</xref>.</note>
+
+        <p>For <wintitle>Linux</wintitle> distributions supporting <wintitle>RPM</wintitle> package format (Red Hat, Fedora, CentOS, OpenSUSE, etc.), open a terminal window and run from the command prompt:</p> 
+        <p><userinput>rpm -i idllab-release_version.rpm</userinput></p>
+        <note type="tip">Complete list of distributions supporting the <wintitle>RPM</wintitle> package format can be found at <xref href="http://rpm.org" scope="external">http://rpm.org/</xref>.</note>
+
+        <p>Please contact the manufacturer to obtain source code for <wintitle>IdlLAB</wintitle>: <xref href="mailto:support@lainlab.com" scope="external">support@lainlab.com</xref>.</p>
     </conbody>
 </concept>
