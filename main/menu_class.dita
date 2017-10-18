@@ -4,26 +4,22 @@
 <concept id="menu_class" xml:lang="en-US">
     <title>Whole class menu</title>
     <conbody>  
-        <p>Меню всего класса позволяет работать со всеми подключенными учащимися одновременно, независимо от того в какую группу входят подключенные учащиеся.</p>
-		<p>Чтобы открыть это меню, преподаватель должен выбрать закладку <wintitle>Whole class</wintitle>, раскрыв тем самым меню класса (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;).</p>
-		<p>Меню класса содержит кнопки:
+        <p>This menu allows you to perform actions to all students in the class, irrespective to a group they belong to.</p>
+		<p>Select the <wintitle>Whole class</wintitle> tab to open the class menu (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;).</p>
+		<p>Class menu includes following items:
 			<ul>
-				<li><uicontrol>Group</uicontrol> (п. <xref keyref="union_in_group"/>&#160;)</li>
-				<li><uicontrol>Clear all calls</uicontrol> (п. <xref keyref="call"/>&#160;)</li>
+				<li><uicontrol>Group</uicontrol> (see <xref keyref="union_in_group"/>&#160;)</li>
+				<li><uicontrol>Clear all calls</uicontrol> (see <xref keyref="call"/>&#160;)</li>
 				<li><uicontrol>Self listening OFF</uicontrol></li>
                 <li><uicontrol>Message to all</uicontrol></li>
 				<li><uicontrol>Voting</uicontrol></li>
                 <li><uicontrol>Autoscan</uicontrol></li>
 			</ul>
 		</p>
-		<p>При нажатии на кнопку <uicontrol>Self listening OFF</uicontrol> у всех учащихся будет отключена самопрослушка (п. <xref keyref="no_self"/>&#160;).</p>        
-        <p>Чтобы включить самопрослушку, нужно повторно нажать на кнопку <uicontrol>Self listening OFF</uicontrol>.</p>
-        <p>При нажатии на кнопку <uicontrol>Message to all</uicontrol> все учащиеся войдут в режим прослушивания сообщения от преподавателя (п. <xref keyref="message"/>&#160;).</p>         
-        <p>Чтобы выйти из этого режима, нужно повторно нажать на кнопку <uicontrol>Message to all</uicontrol>.</p>
-		<p>При нажатии на кнопку <uicontrol>Voting</uicontrol> все учащиеся войдут в режим голосования (п. <xref keyref="vote"/>&#160;).</p>         
-        <p>Чтобы выйти из этого режима, нужно повторно нажать на кнопку <uicontrol>Voting</uicontrol>.</p>
-        <p>При нажатии на кнопку <uicontrol>Autoscan</uicontrol> преподаватель будет по очереди скрытно прослушивать всех учащихся в классе. Время скрытного прослушивания одного учащегося задается в настройках программы (п. <xref keyref="options"/>&#160;).</p>         
-        <p>Чтобы выйти из этого режима, нужно повторно нажать на кнопку <uicontrol>Autoscan</uicontrol>.</p>
+		<p>Press <uicontrol>Self listening OFF</uicontrol> button to turn off self listening mode (see <xref keyref="no_self"/>&#160;) for all students. Press this button again to turn self listening back on.</p>
+        <p>Press <uicontrol>Message to all</uicontrol> button to deliver a spoken message to the students (see <xref keyref="message"/>&#160;). Press this button again to exit the message to all mode.</p>
+		<p>Press the <uicontrol>Poll _fixme_ [ui]</uicontrol> button to start polling the students (see <xref keyref="vote"/>&#160;). Press this button again to finish the poll.</p>
+        <p>Press <uicontrol>Autoscan</uicontrol> button to start covertly listening to students in the class one by one. Interval for autoscan listening can be specified in the settings menu (see <xref keyref="options"/>&#160;). Press this button again to exit the autoscan mode.</p>
 		<fig id="menu_class_png">
             <title><wintitle>Whole class</wintitle> menu</title>
             <image href="img/menu_class.png" placement="break">
