@@ -2,9 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="menu_single" xml:lang="en-US">
-    <title>Меню одного учащегося</title>
+    <title>Student menu</title>
     <conbody>  
-		<p>Чтобы открыть меню, позволяющее работать с одним учащимся, преподаватель должен щелкнуть правой кнопкой мышки на нем.</p>
+		<p>Right click on a student icon to open the drop down student menu.</p>
 		<table frame="all" rowsep="1" colsep="1">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="120*"/>
@@ -119,6 +119,6 @@
                 </tbody> 
             </tgroup>
         </table>
-    <note type="attention">Меню <menucascade><uicontrol>Grade</uicontrol></menucascade> для учащегося доступно только в расширенном режиме.</note>   
+    <note type="attention">The <menucascade><uicontrol>Grade</uicontrol></menucascade> submenu is only available in advanced mode (_fixme_ [xref]).</note>   
     </conbody>
 </concept>
