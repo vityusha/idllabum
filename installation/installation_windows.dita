@@ -94,7 +94,7 @@
                             <alt>Installation complete window</alt>
                         </image>
                     </fig>            
-                    <p>An <uicontrol>IdlLAB</uicontrol> entry will appear in the <menucascade><uicontrol>Start</uicontrol><uicontrol>Все программы _fixme_</uicontrol></menucascade> menu after successful completion of the installation. This entry contains icons to start <uicontrol>IdlLAB</uicontrol>, remove it from the computer, and open the help file.</p>
+                    <p>An <uicontrol>IdlLAB</uicontrol> entry will appear in the <menucascade><uicontrol>Start</uicontrol><uicontrol>All Programs</uicontrol></menucascade> menu after successful completion of the installation. This entry contains icons to start <uicontrol>IdlLAB</uicontrol>, remove it from the computer, and open the help file.</p>
                     <note type="tip">The help file is in <b>PDF</b> format, It can be opened using <wintitle>Adobe Acrobat Reader</wintitle>. Installation files for <wintitle>Adobe Acrobat Reader</wintitle> are included on <uicontrol>IdlLAB</uicontrol> disc for your convenience.</note>
                     <p>An <uicontrol>IdlLAB</uicontrol> start icon will also be placed on your desktop.</p>
                     <fig id="idllab_icon_png">

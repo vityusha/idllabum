@@ -30,8 +30,8 @@
         </fig>        
 		<p>You can manually edit class layout by selecting <uicontrol>Edit</uicontrol> menu tab, then <uicontrol>Edit layout</uicontrol> from the menu, and dragging and dropping student icons.</p>
 		<p>Whenever a class is in edit mode, <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> menu items become available, which allow you to add a student to the class and remove selected students.</p>
-        <p>Select <uicontrol>Rearrange _fixme_ [ui]</uicontrol> from the menu to automatically rearrange icons in the class layout.</p>
-		<p>Select <uicontrol>Edit layout</uicontrol> from the menu again to finish editing class layout and exit the edit mode.</p>		
+        <p>Select <uicontrol>Rearrange</uicontrol> from the menu to automatically rearrange icons in the class layout.</p>
+		<p>Select <uicontrol>Edit layout</uicontrol> from the menu again to finish editing class layout and exit the edit mode.</p>
 		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>Save</uicontrol></menucascade> from the menu to save class layout to a file for further reuse (<xref keyref="student_class/save_class_png" type="fig"/>&#160;)</p>
 		<fig id="save_class_png">
             <title>Save class layout window</title>
