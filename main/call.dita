@@ -2,24 +2,22 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="call" xml:lang="en-US">
-    <title>Вызов преподавателя учащимся</title>
+    <title>Students calling for help</title>
     <conbody>
-        <p>Для того, чтобы вызвать преподавателя, учащийся должен нажать на кнопку <uicontrol>Call</uicontrol> на своем блоке.</p>
-        <p>На изображении этого учащегося появится соответствующий значок (<xref keyref="call/icon_call_png" type="fig"/>&#160;) с указанием времени, прошедшего с момента вызова.</p>
+        <p>Students can call the teacher by pressing the <uicontrol>Call</uicontrol> button on their modules.</p>
+        <p>A bubble displaying time since last call will be superimposed on this student seat icon (<xref keyref="call/icon_call_png" type="fig"/>&#160;) indicating there is a call pending.</p>
         <fig id="icon_call_png">
-            <title>Изображение учащегося, вызвавшего преподавателя</title>
+            <title>Pending call</title>
             <image href="img/icon_call.png" placement="break">
-                <alt>Изображение учащегося с отключенным микрофоном</alt>
+                <alt>Pending call</alt>
             </image>
         </fig>
-        <p>Снять вызов можно следующими способами:
+        <p>You can take the call by opening a dialogue with the student (see <xref keyref="menu_single"/>&#160;), or reject the call and clear status by either of the following:
             <ul>
-                <li>используя пункт <uicontrol>Clear call</uicontrol> в <xref keyref="menu_single">меню учащегося</xref>;</li>
-                <li>войдя в диалог с этим учащимся (п. <xref keyref="menu_single"/>&#160;);</li>
-                <li>используя кнопку <uicontrol>Clear all calls</uicontrol> в <xref keyref="menu_group">закладке группы</xref>, если учащийся входит в данную группу;</li>
-                <li>используя кнопку <uicontrol>Clear all calls</uicontrol> в <xref keyref="menu_class">закладке всего класса</xref>.</li>
+                <li>selecting <uicontrol>Clear call</uicontrol> item from the <xref keyref="menu_single">student menu</xref>;</li>
+                <li>pressing the <uicontrol>Clear all calls</uicontrol> button in the <xref keyref="menu_group">group tab</xref> clears all calls from students in this group;</li>
+                <li>pressing the <uicontrol>Clear all calls</uicontrol> button in the <xref keyref="menu_class">class tab</xref> clears all calls from all students.</li>
             </ul>
         </p>
-        
     </conbody>
 </concept>
