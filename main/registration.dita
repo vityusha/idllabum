@@ -2,19 +2,18 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="registration" xml:lang="en-US">
-    <title><keyword>Регистрация учащихся</keyword></title>
+    <title><keyword>Head count registration</keyword></title>
     <conbody>  
-		<p><indexterm>регистрация учащихся</indexterm>До начала работы преподаватель может произвести регистрацию (перекличку) присутствующих в классе учащихся. Для этого он должен выбрать пункт <menucascade><uicontrol>Class</uicontrol><uicontrol>Roll call</uicontrol></menucascade> основного меню.</p>
-        <note type="tip">В этом случае снимается подключение учащихся к группам.</note>
-        <p>Для регистрации учащийся должен на своем блоке нажать на кнопку <uicontrol>Вызов</uicontrol>.</p>
-        <note type="tip">Зарегистрированный учащийся включаются в группу А (<xref keyref="registration/registration_png" type="fig"/>&#160;).</note>
+		<p><indexterm>head count</indexterm>The teacher may want to perform student head count before the class has started. Select <menucascade><uicontrol>Class</uicontrol><uicontrol>Head count _fixme_ [ui]</uicontrol></menucascade> from the main menu to initiate student registration.</p>
+        <note type="tip">Performing the head count registration resets assignment of students to groups as all registered students are automatically assigned to group A. It is therefore advantageous to perform a head count at the beginning of the class.</note>
+        <p>Students must press <uicontrol>Call</uicontrol> button on their modules to perform the registration.</p>
         <fig id="registration_png">
-            <title>Окно программы при регистрации учащихся</title>
+            <title>Student panel during registration</title>
             <image href="img/main_registration_arrow.png" placement="break">
-                <alt>Окно программы при регистрации учащихся</alt>
+                <alt>Student panel during registration</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+        <p>In this picture:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -22,16 +21,16 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Иконка зарегистрированного учащегося</entry>
+                        <entry>Registered student icon</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Иконка незарегистрированного учащегося</entry>
+                        <entry>Unregistered student icon</entry>
                     </row>
                 </tbody> 
             </tgroup>
         </table>
-		<p>Для завершения регистрации необходимо повторно выбрать пункт <menucascade><uicontrol>Class</uicontrol><uicontrol>Roll call</uicontrol></menucascade> основного меню.</p>
-        <p>Используя меню одного учащегося (п. <xref keyref="menu_single"/>&#160;), можно снять или установить регистрацию отдельного учащегося.</p>
+		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>Head count</uicontrol></menucascade> again to finish the head count registration.</p>
+        <note type="tip">Use the student menu (see <xref keyref="menu_single"/>&#160;) to manually change registration status of individual students.</note>
 	</conbody>
 </concept>
