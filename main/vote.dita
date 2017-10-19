@@ -2,19 +2,18 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="vote" xml:lang="en-US">
-    <title>Voting</title>
+    <title>Polling</title>
     <conbody>
-		<p>В данном режиме преподаватель может провести процедуру голосования в всем классе или группе.</p>
-		<p>Для того, чтобы включить весь класс в режим голосования, нужно в закладке класса (п. <xref keyref="menu_class"/>&#160;) нажать на кнопку <uicontrol>Voting</uicontrol>. Для отключения этого режима нужно повторно нажать на кнопку <uicontrol>Voting</uicontrol>.</p>
-		<p>Для того, чтобы включить группу в режим голосования, нужно в закладке требуемой группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Voting</uicontrol>. Для отключения этого режима нужно повторно нажать на кнопку <uicontrol>Voting</uicontrol>.</p>
-        <p>В данном режиме у учащихся отключена самопрослушка и они слышат голос преподавателя в своих наушниках.</p>
-        <p>Учащийся, желающий проголосовать <b>ЗА</b>, должен нажать на кнопку <uicontrol>Call</uicontrol> на своем блоке.</p>
-		<p>Учащийся, голосующий <b>ПРОТИВ</b>, не должен нажимать на кнопку <uicontrol>Call</uicontrol> на своем блоке.</p> 
-        <p>На изображении учащегося, проголосовавшего <b>ЗА</b>, появится соответствующий значок (<xref keyref="vote/icon_vote_png" type="fig"/>&#160;).</p>
+		<p>Teacher can poll the students either in the class or per group using the polling function.</p>
+		<p>Press the <uicontrol>Poll</uicontrol> button in the class tab (see <xref keyref="menu_class"/>&#160;) to initiate polling of all students in the class. Press <uicontrol>Poll</uicontrol> button again to finish the poll.</p>
+		<p>Press the <uicontrol>Poll</uicontrol> button in the class tab (see <xref keyref="menu_group"/>&#160;) to initiate polling of students in this particular group. Press <uicontrol>Poll</uicontrol> button again to finish the poll.</p>
+        <p>Students' self listening is turned off and they can hear teacher's voice in their headsets when a poll is active.</p>
+        <p>Students must press the <uicontrol>Call</uicontrol> button on their modules to answer <b>yes</b>. If the <uicontrol>Call</uicontrol> has not been pressed when the poll was active, these students are assumed to have answered <b>no</b>.</p>
+        <p>Students who answered <b>yes</b> will have their icon indicate so (<xref keyref="vote/icon_vote_png" type="fig"/>&#160;).</p>
         <fig id="icon_vote_png">
-            <title>Изображение учащегося, проголосовавшего <b>ЗА</b></title>
+            <title>Student who answered <b>yes</b></title>
             <image href="img/icon_vote.png" placement="break">
-                <alt>Изображение учащегося, проголосовавшего <b>ЗА</b></alt>
+                <alt>Student who answered <b>yes</b></alt>
             </image>
         </fig>
 		      
