@@ -2,19 +2,19 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="no_self" xml:lang="en-US">
-    <title>Отключение самопрослушки у учащегося</title>
+    <title>Turning self listening off</title>
     <conbody>
-        <p>Для отключения самопрослушки у  учащегося используется кнопка <uicontrol>Self listening OFF</uicontrol>:
+        <p>Press the <uicontrol>Self listening OFF</uicontrol> button to turn self listening off. This button can be found in:
             <ul>
-                <li>в <xref keyref="menu_single">меню учащегося</xref>;</li>
-                <li>в <xref keyref="menu_group">закладке группы</xref>;</li>
-                <li>в <xref keyref="menu_class">закладке всего класса</xref>.</li>
+                <li>the <xref keyref="menu_single">student menu</xref>;</li>
+                <li>the <xref keyref="menu_group">group tab</xref>;</li>
+                <li>the <xref keyref="menu_class">class tab</xref>.</li>
             </ul>
         </p>
-        <p>На изображении учащихся появится соответствующий значок (<xref keyref="no_self/icon_no_self_png" type="fig"/>&#160;).</p>    <fig id="icon_no_self_png">
-            <title>Изображение учащегося с отключенным микрофоном</title>
+        <p>The student icon will indicate that self listening for this student is turned off (<xref keyref="no_self/icon_no_self_png" type="fig"/>&#160;).</p>    <fig id="icon_no_self_png">
+            <title>Student icon with self listening turned off</title>
             <image href="img/icon_no_self.png" placement="break">
-                <alt>Изображение учащегося с отключенным микрофоном</alt>
+                <alt>Student icon with self listening turned off</alt>
             </image>
         </fig>
     </conbody>
