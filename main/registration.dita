@@ -2,10 +2,11 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="registration" xml:lang="en-US">
-    <title><keyword>Head count registration</keyword></title>
+    <title><keyword>Roll call registration</keyword></title>
     <conbody>  
-		<p><indexterm>head count</indexterm>The teacher may want to perform student head count before the class has started. Select <menucascade><uicontrol>Class</uicontrol><uicontrol>Head count _fixme_ [ui]</uicontrol></menucascade> from the main menu to initiate student registration.</p>
-        <note type="tip">Performing the head count registration resets assignment of students to groups as all registered students are automatically assigned to group A. It is therefore advantageous to perform a head count at the beginning of the class.</note>
+		<p><indexterm>roll call</indexterm>The teacher may want to student attendance call at the beginning of a class. Select <menucascade><uicontrol>Class</uicontrol><uicontrol>Roll call</uicontrol></menucascade> from the main menu to initiate student roll call registration.</p>
+        <note type="tip">Performing the roll call registration resets assignment of students to groups as all registered students are automatically assigned to group A. It is therefore advantageous to perform registration at the beginning of the class.</note>
+        <note type="tip">Student attendance is recorded in the class logbook which is accessible in <wintitile>IdlLAB</wintitile> advanced mode (see _fixme_ [xref]).</note>
         <p>Students must press <uicontrol>Call</uicontrol> button on their modules to perform the registration.</p>
         <fig id="registration_png">
             <title>Student panel during registration</title>
@@ -30,7 +31,7 @@
                 </tbody> 
             </tgroup>
         </table>
-		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>Head count</uicontrol></menucascade> again to finish the head count registration.</p>
+		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>Roll call</uicontrol></menucascade> again to finish the roll call registration.</p>
         <note type="tip">Use the student menu (see <xref keyref="menu_single"/>&#160;) to manually change registration status of individual students.</note>
 	</conbody>
 </concept>
