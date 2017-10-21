@@ -4,7 +4,7 @@
 <concept id="discussion" xml:lang="en-US">
     <title><wintitle>Discussion</wintitle></title>
     <conbody>
-        <p>Discussion activity can used to engage students to in a conversation among members of a group. An active discussion activity is indicated on the icons of participating students (<xref keyref="discussion/icon_discussion_png" type="fig"/>&#160;).</p>
+        <p>Discussion activity can used to engage students in a conversation among members of a group. An active discussion activity is indicated on the icons of participating students (<xref keyref="discussion/icon_discussion_png" type="fig"/>&#160;).</p>
         <fig id="icon_discussion_png">
             <title>Student icon during <wintitle>Discussion</wintitle> activity</title>
             <image href="img/icon_discussion.png" placement="break">
