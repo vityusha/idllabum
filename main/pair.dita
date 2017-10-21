@@ -4,25 +4,25 @@
 <concept id="pair" xml:lang="en-US">
     <title><wintitle>Pairs</wintitle></title>
     <conbody>
-        <p>В данном режиме учащиеся, входящие в одну группу, могут общаться между собой в режиме пары. На изображениях учащихся, работающих в режиме пары, будет отображаться соответствующая иконка (<xref keyref="pair/icon_pair_png" type="fig"/>&#160;).</p>
+        <p>Pair activity is used to engage pairs of students in a dialogue. Students working in pairs will be indicated in the class panel (<xref keyref="pair/icon_pair_png" type="fig"/>&#160;).</p>
         <fig id="icon_pair_png">
-            <title>Изображение учащихся в режиме <wintitle>Pairs</wintitle></title>
+            <title>Paired students</title>
             <image href="img/icon_pair.png" placement="break">
-                <alt>Изображение учащихся в режиме <wintitle>Pairs</wintitle></alt>
+                <alt>Paired students</alt>
             </image>
         </fig>
-        <p>Для включения режима работы в парах нужно в закладке требуемой группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Pairs</uicontrol>. В этом случае на экране монитора преподавателя появятся дополнительные кнопки формирования пар (<xref keyref="pair/menu_pair_png" type="fig"/>&#160;):
+        <p>Select a group tab (see <xref keyref="menu_group"/>&#160;) and press <uicontrol>Pairs</uicontrol> button to initiate this activity. Additional pair assignment buttons will appear in the tab (<xref keyref="pair/menu_pair_png" type="fig"/>&#160;):
             <ul> 
-                <li><uicontrol>Order</uicontrol> - пары формируются из соседних учащихся.</li>
-                <li><uicontrol>Random</uicontrol> - пары формируются случайным образом.</li> 
-                <li><uicontrol>Manual</uicontrol> - пары формируются при помощи мышки.</li>
-                <li><uicontrol>Break pairs</uicontrol> - отмена формирования пар.</li>
+                <li><uicontrol>Order</uicontrol> - pairs are assigned between neighbors.</li>
+                <li><uicontrol>Random</uicontrol> - pairs are assigned randomly.</li> 
+                <li><uicontrol>Manual</uicontrol> - pairs are assigned manually.</li>
+                <li><uicontrol>Reset _fixme_ [ui]</uicontrol> - dissociate all assigned pairs in the group.</li>
             </ul>
         </p>
         <fig id="menu_pair_png">
-            <title>Кнопки формирования пар</title>
+            <title>Pair assignment buttons</title>
             <image href="img/menu_pair.png" placement="break">
-                <alt>Кнопки формирования пар</alt>
+                <alt>Pair assignment buttons</alt>
             </image>
         </fig>
     </conbody>
