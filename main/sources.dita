@@ -2,51 +2,51 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="sources" xml:lang="en-US">
-    <title><wintitle>Прослушивание источника</wintitle></title>
+    <title><wintitle>Listening</wintitle></title>
     <conbody>
-        <p>В данном режиме учащиеся, входящие в группу, могут прослушивать различные источники аудио сигналов: внешние источники, преподавателя, другого учащегося.</p>
-        <p>Для того, чтобы выбрать источник аудио сигнала, нужно в закладке требуемой группы (п. <xref keyref="menu_group"/>&#160;) использовать соответствующие органы управления (<xref keyref="sources/menu_source_png" type="fig"/>&#160;).</p>       
+        <p>This activity allows groups of students to listen to a variety of audio sources, including external ones, teacher, or other student.</p>
+        <p>Select a group tab (see <xref keyref="menu_group"/>&#160;) and then select the audio source (<xref keyref="sources/menu_source_png" type="fig"/>&#160;) to use for the listening activity.</p>
         <fig id="menu_source_png">
-            <title>Меню выбора источника аудио сигнала для группы</title>
+            <title>Audio source selection panel</title>
             <image href="img/menu_source.png" placement="break">
-                <alt>Меню выбора источника аудио сигнала для группы</alt>
+                <alt>Audio source selection panel</alt>
             </image>
         </fig>
-        <p>Для того, чтобы подключить внешний источник аудио сигнала нужно включить опцию <uicontrol>External</uicontrol> и выбрать из списка один из 4 источников, подключенных к соответствующим разъемам блока коммутации. Снизу списка расположен регулятор громкости соответствующего внешнего источника.</p>
-        <p>На изображениях учащихся, прослушивающих внешний источник, будет отображаться иконка, соответствующая источнику сигнала (<xref keyref="sources/icon_source_ext_png" type="fig"/>&#160;).</p>
+        <p>Select <uicontrol>External</uicontrol> then select the corresponding audio hub input from the drop down list. Volume control slider for the selected external source is located immediately below the drop down list.</p>
+        <p>External sources will be indicated on the icons of students listening to this source (<xref keyref="sources/icon_source_ext_png" type="fig"/>&#160;).</p>
         <fig id="icon_source_ext_png">
-            <title>Изображение учащихся, прослушивающих внешний источник</title>
+            <title>Student icons: listening to an external source</title>
             <image href="img/icon_source_ext.png" placement="break">
-                <alt>Изображение учащихся, прослушивающих внешний источник</alt>
+                <alt>Student icons: listening to an external source</alt>
             </image>
         </fig>
-        <p>Преподаватель может выбрать себя в качестве источника для требуемой группы. Для этого он должен выбрать опцию <uicontrol>Teacher</uicontrol>.</p>
-        <p>На изображениях учащихся, прослушивающих преподавателя, будет отображаться соответствующая иконка (<xref keyref="sources/icon_source_teacher_png" type="fig"/>&#160;).</p>
+        <p>Select <uicontrol>Teacher</uicontrol> radio button to use teacher headset as the source for listening.</p>
+        <p>Teacher headset source will be indicated on the icons of the students listening to it (<xref keyref="sources/icon_source_teacher_png" type="fig"/>&#160;).</p>
         <fig id="icon_source_teacher_png">
-            <title>Изображение учащихся, прослушивающих преподавателя</title>
+            <title>Student icon: listening to the teacher</title>
             <image href="img/icon_source_teacher.png" placement="break">
-                <alt>Изображение учащихся, прослушивающих преподавателя</alt>
+                <alt>Student icon: listening to the teacher</alt>
             </image>
         </fig>
-        <p>Кроме того преподаватель может одновременно со своим голосом подключить внешний источник, например, чтобы комментировать аудио сигнал с внешнего источника. Для этого преподаватель должен выбрать опцию <uicontrol>Combined</uicontrol> и выбрать из списка один из 4-х источников, подключенных к соответствующим разъемам блока коммутации. Снизу списка расположен регулятор громкости соответствующего внешнего источника.</p>
-        <p>На изображениях учащихся, прослушивающих внешний источник совместно с преподавателем, будет отображаться соответствующая иконка (<xref keyref="sources/icon_source_ext_teacher_png" type="fig"/>&#160;).</p>
+        <p>Teacher headset microphone can also be combined with an external source, e.g. to provide a commentary. Select <uicontrol>Combined _fixme_ [screenshot]</uicontrol> radio button and select an external source to be combined with teacher headset. Volume control slider for the selected external source is located immediately below the drop down list..</p>
+        <p>Combination of an external source with teacher will be indicated on the icons of students who have this as a listening source (<xref keyref="sources/icon_source_ext_teacher_png" type="fig"/>&#160;).</p>
         <fig id="icon_source_ext_teacher_png">
-            <title>Изображение учащихся, прослушивающих внешний источник совместно с преподавателем</title>
+            <title>Student icon: listening to an external source combined with teacher</title>
             <image href="img/icon_source_ext_teacher.png" placement="break">
-                <alt>Изображение учащихся, прослушивающих внешний источник совместно с преподавателем</alt>
+                <alt>Student icon: listening to an external source combined with teacher</alt>
             </image>
         </fig>
-        <p>Преподаватель может в качестве источника аудио сигнала для группы выбрать любого учащегося, даже не входящего в данную группу. Для этого преподаватель должен включить опцию <uicontrol>Student</uicontrol> и выбрать из списка нужного учащегося.</p>
-        <note type="tip">Если данный учащийся работает в режимах <uicontrol>Pairs</uicontrol> или  <uicontrol>Discussion</uicontrol>, то все остальные учащиеся, входящие в эту пару или группу, становятся источниками сигнала.</note>
-        <p>На изображениях учащихся, прослушивающих другого учащегося, будет отображаться соответствующая иконка (<xref keyref="sources/icon_source_png" type="fig"/>&#160;). У учащегося, который является источником сигнала для группы, на изображении появится значок, окрашенный в цвет группы, для которой он является источником сигнала.</p>
+        <p>Any student, even those who are not members of the group, can be selected as a source for listening. Select <uicontrol>Student</uicontrol> radio box and the select a student from drop down list to assign this student a a source for listening.</p>
+        <note type="tip">If this student is engaged in <uicontrol>Pairs</uicontrol> or <uicontrol>Discussion</uicontrol>, then all other students from the participating pair or group also become the source for listening.</note>
+        <p>Student source will be indicated on the icons of student listening to it (<xref keyref="sources/icon_source_png" type="fig"/>&#160;). Icon of a student who is the source will be marked with a sign matching color to the group which is listening to her or him.</p>
         <fig id="icon_source_png">
-            <title>Изображение учащегося, прослушивающего другого учащегося, и изображение учащегося, являющегося источником сигнала для группы</title>
+            <title>Student icon: listening to another student (left), student is a source for another group (right)</title>
             <image href="img/icon_source.png" placement="break">
-                <alt>Изображение учащегося, прослушивающего другого учащегося, и изображение учащегося, являющегося источником сигнала для группы</alt>
+                <alt>Student icon: listening to another student (left), student is a source for another group (right)</alt>
             </image>
         </fig>
-        <p>Учащегося в качестве источника аудио сигнала для группы можно подключить, используя соответствующий пункт <uicontrol>Audio source for...</uicontrol> меню одного учащегося (п. <xref keyref="menu_single"/>&#160;).</p>              
-        <p>Преподаватель может прослушать выбранный источник для группы, нажав на кнопку <uicontrol>Listen</uicontrol> в меню источника аудио сигнала для группы.</p>   
-        <p>Для того, чтобы отключить установленный источник аудио сигнала для группы нужно выбрать опцию <uicontrol>None</uicontrol>.</p>  
+        <note type="tip">A student can also be assigned as a source for listening by selecting <uicontrol>Audio source for...</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;).</note>
+        <p>A teacher can monitor the source for listening by selecting <uicontrol>Monitor _fixme_ [ui] [screenshot]</uicontrol> check box in the <uicontrol>Audio source</uicontrol> selection panel (_fixme_ [xref]).</p>
+        <p>Select <uicontrol>None</uicontrol> radio button to turn the source off and finish the listening activity.</p>
     </conbody>
 </concept>
