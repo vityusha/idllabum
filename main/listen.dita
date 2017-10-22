@@ -2,19 +2,19 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="listen" xml:lang="en-US">
-    <title><wintitle>Прослушивание учащихся</wintitle></title>
+    <title><wintitle>Monitoring students</wintitle></title>
     <conbody>
-        <p>Преподаватель может скрытно прослушать выбранного учащегося, пару или группу в режиме дискуссии. Для этого он должен в меню требуемого учащегося (п. <xref keyref="menu_single"/>&#160;) выбрать пункт <uicontrol>Listen</uicontrol>.</p>       
-        <p>На изображениях учащихся, прослушиваемых преподавателем, будет отображаться специальная иконка (<xref keyref="listen/icon_listen_png" type="fig"/>&#160;).</p>
+        <p>A teacher can monitor any student, pair, or discussion group without necessarily alerting them to the fact. Right click on a student icon and select <uicontrol>Monitor _fixme_ [ui]</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;) to monitor a student. If the student is engaged in <uicontrol>Pairs</uicontrol> or <uicontrol>Discussion</uicontrol> activities, then other participants in the conversation will be monitored as well.</p>
+        <p>Student icons in the class panel will indicate monitoring (<xref keyref="listen/icon_listen_png" type="fig"/>&#160;).</p>
         <fig id="icon_listen_png">
-            <title>Изображение учащегося, прослушиваемого преподавателем</title>
+            <title>Student icon: being monitored</title>
             <image href="img/icon_listen.png" placement="break">
-                <alt>Изображение учащегося, прослушиваемого преподавателем</alt>
+                <alt>Student icon: being monitored</alt>
             </image>
         </fig>
-        <p>Для отключения скрытного прослушивания преподаватель должен повторно выбрать пункт <uicontrol>Listen</uicontrol>  у контролируемого учащегося.</p>
-		<note type="tip">Если данный учащийся работает в режимах <uicontrol>Pairs</uicontrol> или  <uicontrol>Discussion</uicontrol>, то преподаватель прослушивает также всех остальных учащихся, входящих в эту пару или группу.</note>
-        <note type="tip">Скрытное прослушивание у контролируемого учащегося также будет отключено при включении режима <uicontrol>Listen</uicontrol> или <uicontrol>Conversation</uicontrol> с другим учащимся.</note>
-        <note type="tip">Возможно организовать скрытное прослушивание всех учащихся группы или класса при помощи кнопки <uicontrol>Autoscan</uicontrol>.</note>
+        <p>Select <uicontrol>Monitor</uicontrol> again from the monitored student menu to cancel the monitoring.</p>
+        <note type="tip">Monitoring will also be automatically canceled whenever monitored student is assigned <uicontrol>Listen</uicontrol> or <uicontrol>Conversation _fixme_ [???]</uicontrol> activities.</note>
+
+        <note type="tip">The <uicontrol>Autoscan</uicontrol> button (_fixme_ [xref]) can be used to to monitor all the students in a group or class.</note>
     </conbody>
 </concept>
