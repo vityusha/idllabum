@@ -2,18 +2,16 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="record" xml:lang="en-US">
-    <title><wintitle>Режим записи</wintitle></title>
+    <title><wintitle>Recording</wintitle></title>
     <conbody>
-        <p>Блок коммутации имеет 4 внешних выхода, к которым можно подключить различные записывающие устройства, в том числе и линейный вход звуковой карты персонального компьютера преподавателя.</p>
-        <note type="tip">К внешнему выходу можно также подключить линейный вход усилителя для озвучки класса.</note>
-        <note type="important">На все внешние выходу блока коммутации подается сигнал аудио источника (учащиеся, внешние источники), который прослушивает преподаватель, а так же сигнал с микрофона гарнитуры преподавателя. Для того, чтобы иметь возможность записи источника на персональный компьютер преподавателя, любой из четырех выходов должен быть заранее подключен к линейному входу звуковой карты. Включение записи в файл на компьютере преподавателя осуществляется в закладке <wintitle>Audio</wintitle> (п. <xref keyref="menu_audio"/>&#160;) при помощи кнопки <uicontrol>Record</uicontrol>.</note>
-        <p>При включении записи в меню  <uicontrol>Audio</uicontrol> начинает мигать индикатор записи (<xref keyref="record/recordon_png" type="fig"/>&#160;), находящийся в меню <uicontrol>Audio</uicontrol>.        
+        <p>The audio hub is equipped with 4 outputs that can be connected to various recording devices, including line input of a computer sound interface.</p>
+        <note type="tip">A public address system can also be connected to one of the audio hub outputs.</note>
+        <p>All hub outputs receive a combination of the audio source signal the teacher is listening to and signal from the teacher headset microphone. Any one of the outputs can be connected to the line in of the teacher PC for recording. Press <uicontrol>Record</uicontrol> button in the <wintitle>Audio</wintitle> tab (see <xref keyref="menu_audio"/>&#160;) to start recording. Recording indicator in the <uicontrol>Audio</uicontrol> tab (<xref keyref="record/recordon_png" type="fig"/>&#160;) will start blinking when recording is on. Press the <uicontrol>Stop record</uicontrol> button to finish the recording.</p>
         <fig id="recordon_png">
-            <title>Индикатор записи</title>
+            <title>Recording indicator</title>
             <image href="img/menu/recordon.png" placement="inline">
-                <alt>Индикатор записи</alt>
+                <alt>Recording indicator</alt>
             </image>
-        </fig></p>
-        <note type="important">Остановить запись в файл преподаватель может при помощи кнопки <uicontrol>Stop record</uicontrol>.</note>
+        </fig>
     </conbody>
 </concept>
