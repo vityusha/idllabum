@@ -2,15 +2,15 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="different" xml:lang="en-US">
-    <title>Advanced mode</title>
+    <title>Additional features</title>
     <conbody>  
-        <p>Отличия интерфейса программы при работе в расширенном режиме:</p>
+        <p><wintitle>IdlLAB</wintitle> in advanced mode presents you with additional features that are not available in beginner mode:</p>
             <ul>
-                <li>работа с учетными записями преподавателей (п. <xref keyref="choice_tutor"/>&#160;);</li>
-                <li>ведение журнала посещения и успеваемости (п. <xref keyref="current_lesson"/>&#160;);</li>
-                <li>просмотр статистики уроков (п. <xref keyref="statistics"/>&#160;);</li>
-                <li>использование заданий во время урока (п. <xref keyref="tasks"/>&#160;).</li>
+                <li>individual teacher accounts (see <xref keyref="choice_tutor"/>&#160;);</li>
+                <li>class log book (see <xref keyref="current_lesson"/>&#160;);</li>
+                <li>lesson statistics (see <xref keyref="statistics"/>&#160;);</li>
+                <li>more student activities (see <xref keyref="tasks"/>&#160;).</li>
             </ul>
-        <p>Для включения расширенного режима необходимо выбрать соответствующий пункт в окне настроек программы (п. <xref keyref="options"/>&#160;).</p>            
+        <p>Select <uicontrol>Advanced mode</uicontrol> checkbox and press <uicontrol>OK</uicontrol> button in the <wintitle>Settings</wintitle> window (see <xref keyref="options"/>&#160;) to enable advanced mode.</p>
     </conbody>
 </concept>
