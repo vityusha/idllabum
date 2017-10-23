@@ -2,16 +2,16 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="options" xml:lang="en-US">
-    <title>Program options</title>
+    <title>Settings and customization</title>
     <conbody>
-        <p>Пользователь имеет возможность установить язык интерфейса программы, изменить названия и соответствующие иконки внешних входов и выходов блока коммутации. Для этого он должен выбрать пункт <menucascade><uicontrol>Edit</uicontrol><uicontrol>Options</uicontrol></menucascade> основного меню. На экране монитора появится окно (<xref keyref="options/options_png" type="fig"/>&#160;), в котором  можно внести соответствующие изменения.</p>
-        <p>Также в этом окне можно установить время прослушивания одного учащегося в режиме <uicontrol>Autoscan</uicontrol> и выбрать упрощенный или расширенный режим работы программы.</p><note type="tip">Все настройки программы хранятся в XML файле: <filepath>%APPDATA%\LAIN\idllab\settings.xml</filepath>. Данный файл может быть отредактирован вручную в любом текстовом редакторе, поддерживающим Unicode (например, Notepad++). Однако, следует иметь ввиду, что данная процедура должна выполняться только опытными пользователями.</note>        
+        <p>You can change user interface language and customize names and icons for the external inputs and outputs of the audio hub.</p>
+        <p>Select <menucascade><uicontrol>Edit</uicontrol><uicontrol>Settings _fixme_ [ui]</uicontrol></menucascade> from the main menu. A <wintitle>Settings</wintitle> window will appear on your screen (<xref keyref="options/options_png" type="fig"/>&#160;), where you can change user interface language, customize audio hub connections, set time out interval for autoscan and enable/disable the advanced mode.</p>
+        <note type="tip">The settings are stored in a plain text XML file located in <filepath>%APPDATA%\LAIN\idllab\settings.xml</filepath>. The file can be opened and edited in any text editor supporting Unicode (for example, Notepad++). We strongly advise this to be performed only by very experienced users familiar with the XML syntax.</note>
         <fig id="options_png">
-            <title>Окно настройки программы</title>
+            <title><wintitle>Settings _fixme_ [ui]</wintitle> window</title>
             <image href="img/options.png" placement="break">
-                <alt>Окно настройки программы</alt>
+                <alt><wintitle>Settings</wintitle> window</alt>
             </image>
         </fig>
-        
     </conbody>
 </concept>
