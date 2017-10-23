@@ -2,41 +2,42 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="choice_tutor" xml:lang="en-US">
-    <title>Работа с учетными записями преподавателей</title>
+    <title>Teacher accounts</title>
     <conbody>  
-        <p>При запуске программы в расширенном режиме на экран монитора выводится окно (<xref keyref="choice_tutor/enter_tutor_png" type="fig"/>&#160;), в котором необходимо ввести имя преподавателя и пароль. При неправильном вводе имени или пароля вход в систему невозможен.</p>
+        <p>The user us presented with a login window (<xref keyref="choice_tutor/enter_tutor_png" type="fig"/>&#160;) every time <wintitle>IdlLAB</wintitle> is run in advanced mode. Access to the system is only possible upon entering valid credentials - name and password.</p>
 		<fig id="enter_tutor_png">
-            <title>Окно <wintitle>Login</wintitle></title>
+            <title><wintitle>Login</wintitle> window</title>
             <image href="img/login.png" placement="break">
-                <alt>Окно <wintitle>Login</wintitle></alt>
+                <alt><wintitle>Login</wintitle> window</alt>
             </image>
         </fig>
-		<p>Для каждого вновь введенного преподавателя создается своя папка, где будет храниться различная информация: файлы классов, записи учащихся, журнал и др. Имя папки совпадает с именем преподавателя. Эта информация будет индивидуальна для каждого преподавателя.</p>
-		<note type="tip">При установке системы по умолчанию существует имя преподавателя <userinput>Admin</userinput> с паролем <userinput>Admin</userinput> (регистр букв имеет значение).</note>
-		<p>Во время работы программы можно сменить преподавателя. Для этого нужно выбрать закладку <uicontrol>Account</uicontrol> и нажать на кнопку <uicontrol>Change</uicontrol>. На экране монитора появится окно входа в систему (<xref keyref="choice_tutor/enter_tutor_png" type="fig"/>&#160;).</p>		
-        <p>Для того, чтобы добавить преподавателя нужно выбрать закладку <uicontrol>Account</uicontrol> и нажать на кнопку <uicontrol>Add</uicontrol>. На экране появится окно <wintitle>Добавление преподавателя</wintitle> (<xref keyref="choice_tutor/add_tutor_png" type="fig"/>&#160;), в котором нужно будет ввести новое имя, новый пароль и подтверждение нового пароля.</p>
+		<p>Each teacher has their own personal folder that stores all the files pertaining to this account: class files, recordings, log books, etc. The name of this folder is the same as the teacher's login name.</p>
+		<note type="tip">A default <userinput>Admin</userinput> account with <userinput>Admin</userinput> password (case sensitive) is created during <wintitle>IdlLAB</wintitle> installation.</note>
+		<note type="attention">It is imperative to change the default <userinput>Admin</userinput> password on your first login into the system. Failure to do so will put your classroom into an extremely vulnerable position for computer intrusion.</note>
+
+		<p>Teacher accounts can be switched during an active session. Select <uicontrol>Account</uicontrol> tab and press <uicontrol>Change</uicontrol> button to switch the accounts. A login window will appear on your screen (<xref keyref="choice_tutor/enter_tutor_png" type="fig"/>&#160;).</p>
+        <p>Select <uicontrol>Account</uicontrol> tab and press <uicontrol>Add</uicontrol> button to add a new teacher account. An <wintitle>Add teacher account</wintitle> window will appear on your screen (<xref keyref="choice_tutor/add_tutor_png" type="fig"/>&#160;), where you can specify name and password for the new account.</p>
 		<fig id="add_tutor_png">
-            <title>Окно <wintitle>Добавление преподавателя</wintitle></title>
+            <title><wintitle>Add teacher account</wintitle> window</title>
             <image href="img/tutor_add.png" placement="break">
-                <alt>Окно <wintitle>Добавление преподавателя</wintitle></alt>
+                <alt><wintitle>Add teacher account</wintitle> window</alt>
             </image>
         </fig>
-        <p>Для того, чтобы удалить преподавателя нужно выбрать закладку <uicontrol>Account</uicontrol> и нажать на кнопку <uicontrol>Delete</uicontrol>. На экране появится окно <wintitle>Удаление преподавателя</wintitle> (<xref keyref="choice_tutor/delete_tutor_png" type="fig"/>&#160;). Для удаления преподавателя нужно сначала выбрать имя преподавателя из списка, а затем нажать на кнопку <uicontrol>Ok</uicontrol>.</p>		
+        <p>Select <uicontrol>Account</uicontrol> tab and press <uicontrol>Delete</uicontrol> button to remove a teacher account. A <wintitle>Delete teacher account</wintitle> window will appear on your screen (<xref keyref="choice_tutor/delete_tutor_png" type="fig"/>&#160;) where you can choose the account to be removed from the system.</p>		
 		<fig id="delete_tutor_png">
-            <title>Окно <wintitle>Удаление преподавателя</wintitle></title>
+            <title><wintitle>Delete teacher account</wintitle> window</title>
             <image href="img/tutor_del.png" placement="break">
-                <alt>Окно <wintitle>Удаление преподавателя</wintitle></alt>
+                <alt><wintitle>Delete teacher account</wintitle> window</alt>
             </image>
         </fig>
-        <note type="attention">Добавление и удаление учетных записей преподавателей возможно только при работе под учетной записью <wintitle>Admin</wintitle>.</note>
-		<p>Преподаватель имеет возможность поменять свой пароль. Для этого нужно выбрать закладку <uicontrol>Account</uicontrol> и нажать на кнопку <uicontrol>Edit</uicontrol>. На экране монитора появится соответствующее окно (<xref keyref="choice_tutor/users_change_png" type="fig"/>&#160;), в котором нужно в верхнем поле правильно ввести старый пароль, а затем в двух других полях ввести новый пароль и его подтверждение, а затем нажать на кнопку <uicontrol>Ok</uicontrol>.</p>
+        <note type="attention">Adding and removing teacher accounts is only possible when logged in with <wintitle>Admin</wintitle> credentials.</note>
+		<p>The teachers are able to change their own passwords. Select <uicontrol>Account</uicontrol> and press <uicontrol>Edit</uicontrol> button. <wintitle>Change password</wintitle> window will appear on your screen (<xref keyref="choice_tutor/users_change_png" type="fig"/>&#160;) where you can specify a new password after confirming the old one. Press <uicontrol>OK</uicontrol> to save changes.</p>
 		<fig id="users_change_png">
-            <title>Окно <wintitle>Смена пароля</wintitle></title>
+            <title><wintitle>Change password</wintitle> window</title>
             <image href="img/tutor_change.png" placement="break">
-                <alt>Окно <wintitle>Смена пароля</wintitle></alt>
+                <alt><wintitle>Change password</wintitle> window</alt>
             </image>
         </fig>
-		<p>Если выбрать закладку <uicontrol>Account</uicontrol> и нажать на кнопку <uicontrol>Open folder</uicontrol> на экране появится окно, показывающее содержимое папки преподавателя.</p>
-		<note type="attention">Настоятельно рекомендуется при первом запуске программы в расширенном режиме изменить пароль администратора.</note>
+		<note type="tip">Select <uicontrol>Account</uicontrol> tab and press <uicontrol>Open folder</uicontrol> button to display contents of the teacher folder.</note>
 	    </conbody>
 </concept>
