@@ -4,7 +4,7 @@
 <concept id="listen" xml:lang="en-US">
     <title><wintitle>Monitoring students</wintitle></title>
     <conbody>
-        <p>A teacher can monitor any student, pair, or discussion group without necessarily alerting them to the fact. Right click on a student icon and select <uicontrol>Monitor _fixme_ [ui]</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;) to monitor a student. If the student is engaged in <uicontrol>Pairs</uicontrol> or <uicontrol>Discussion</uicontrol> activities, then other participants in the conversation will be monitored as well.</p>
+        <p>A teacher can monitor any student, pair, or discussion group without necessarily alerting them to the fact. Right click on a student icon and select <uicontrol>Monitor</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;) to monitor a student. If the student is engaged in <uicontrol>Pairs</uicontrol> or <uicontrol>Discussion</uicontrol> activities, then other participants in the conversation will be monitored as well.</p>
         <p>Student icons in the class panel will indicate monitoring (<xref keyref="listen/icon_listen_png" type="fig"/>&#160;).</p>
         <fig id="icon_listen_png">
             <title>Student icon: being monitored</title>
@@ -13,7 +13,7 @@
             </image>
         </fig>
         <p>Select <uicontrol>Monitor</uicontrol> again from the monitored student menu to cancel the monitoring.</p>
-        <note type="tip">Monitoring will also be automatically canceled whenever monitored student/pair/group is assigned <uicontrol>Listen</uicontrol> activity or a <uicontrol>Conversation</uicontrol> is started with the student/pair/group.</note>
+        <note type="tip">Monitoring will also be automatically canceled whenever monitored student/pair/group is assigned <uicontrol>Monitor</uicontrol> activity or a <uicontrol>Conversation</uicontrol> is started with the student/pair/group.</note>
 
         <note type="tip">The <uicontrol>Autoscan</uicontrol> button (_fixme_ [xref]) can be used to to monitor all the students in a group or class.</note>
     </conbody>

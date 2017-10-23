@@ -16,7 +16,7 @@
                 <li><uicontrol>Order</uicontrol> - pairs are assigned between neighbors.</li>
                 <li><uicontrol>Random</uicontrol> - pairs are assigned randomly.</li> 
                 <li><uicontrol>Manual</uicontrol> - pairs are assigned manually.</li>
-                <li><uicontrol>Reset _fixme_ [ui]</uicontrol> - dissociate all assigned pairs in the group.</li>
+                <li><uicontrol>Reset</uicontrol> - dissociate all assigned pairs in the group.</li>
             </ul>
         </p>
         <fig id="menu_pair_png">

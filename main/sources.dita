@@ -28,7 +28,7 @@
                 <alt>Student icon: listening to the teacher</alt>
             </image>
         </fig>
-        <p>Teacher headset microphone can also be combined with an external source, e.g. to provide a commentary. Select <uicontrol>Combined _fixme_ [screenshot]</uicontrol> radio button and select an external source to be combined with teacher headset. Volume control slider for the selected external source is located immediately below the drop down list..</p>
+        <p>Teacher headset microphone can also be combined with an external source, e.g. to provide a commentary. Select <uicontrol>Combined</uicontrol> radio button and select an external source to be combined with teacher headset. Volume control slider for the selected external source is located immediately below the drop down list..</p>
         <p>Combination of an external source with teacher will be indicated on the icons of students who have this as a listening source (<xref keyref="sources/icon_source_ext_teacher_png" type="fig"/>&#160;).</p>
         <fig id="icon_source_ext_teacher_png">
             <title>Student icon: listening to an external source combined with teacher</title>
@@ -46,7 +46,7 @@
             </image>
         </fig>
         <note type="tip">A student can also be assigned as a source for listening by selecting <uicontrol>Audio source for...</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;).</note>
-        <p>A teacher can monitor the source for listening by selecting <uicontrol>Monitor _fixme_ [ui] [screenshot]</uicontrol> check box in the <uicontrol>Audio source</uicontrol> selection panel (_fixme_ [xref]).</p>
+        <p>A teacher can monitor the source for listening by pressing <uicontrol>Monitor</uicontrol> button in the <uicontrol>Audio source</uicontrol> selection panel.</p>
         <p>Select <uicontrol>None</uicontrol> radio button to turn the source off and finish the listening activity.</p>
     </conbody>
 </concept>

@@ -13,6 +13,6 @@
             </image>
         </fig>
         <p>Select <uicontrol>Conversation</uicontrol> from the student menu again to close the conversation.</p>
-        <note type="important">Conversation with a student/pair/group will also be closed whenever the student/pair/group is assigned the  <uicontrol>Listen</uicontrol> activity or another <uicontrol>Conversation</uicontrol> is opened with a different student/pair/group.</note>
+        <note type="important">Conversation with a student/pair/group will also be closed whenever the student/pair/group is assigned the  <uicontrol>Monitor</uicontrol> activity or another <uicontrol>Conversation</uicontrol> is opened with a different student/pair/group.</note>
     </conbody>
 </concept>

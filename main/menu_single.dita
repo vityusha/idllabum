@@ -25,7 +25,7 @@
                         <entry><image href="img/menu/self-listen-round.png" placement="break" width="16" align="center"/></entry>
                     </row>
 					<row>
-                        <entry><b>Listen</b></entry>
+                        <entry><b>Monitor</b></entry>
                         <entry><image href="img/menu/ear-round.png" placement="break" width="16" align="center"/></entry>
                     </row>
 					<row>
@@ -119,6 +119,6 @@
                 </tbody> 
             </tgroup>
         </table>
-    <note type="attention">The <menucascade><uicontrol>Grade</uicontrol></menucascade> submenu is only available in advanced mode (_fixme_ [xref]).</note>   
+    <note type="attention">The <menucascade><uicontrol>Grade</uicontrol></menucascade> submenu is only available in advanced mode (see <xref keyref="menu_single"/>&#160;).</note>   
     </conbody>
 </concept>
