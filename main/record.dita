@@ -13,7 +13,7 @@
                 <alt>Recording indicator</alt>
             </image>
         </fig>
-        <p>Recording are saved as <filepath>%APPDATA%\LAIN\idllab\<varname>Teacher</varname>\records\YYYY-MM-DDTHH-mm-ss.{wav|ogg|flac}</filepath> files, where
+        <p>Recording are saved as <filepath>idllab\<varname>Teacher</varname>\recordings\YYYY-MM-DDTHH-mm-ss.{wav|ogg|flac}</filepath> files, where
         <ul>
 			<li><varname>Teacher</varname> is teacher name in advanced mode (see _fixme_ [xref]) and is omitted in beginner mode;</li>
 			<li>YYYY, MM, DD are year, month, and date of the recording;</li>
