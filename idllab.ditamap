@@ -65,8 +65,8 @@
     <topichead navtitle="Advanced mode"> 
         <topicref keys="different" href="main/different.dita" />
         <topicref keys="choice_tutor" href="main/choice_tutor.dita" />
+	<topicref keys="tasks" href="main/tasks.dita" />
         <topicref keys="current_lesson" href="main/current_lesson.dita" />    
         <topicref keys="statistics" href="main/statistics.dita" />      
-        <topicref keys="tasks" href="main/tasks.dita" />     
     </topichead>
 </map>
