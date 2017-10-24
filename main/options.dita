@@ -5,10 +5,10 @@
     <title>Settings and customization</title>
     <conbody>
         <p>You can change user interface language and customize names and icons for the external inputs and outputs of the audio hub.</p>
-        <p>Select <menucascade><uicontrol>Edit</uicontrol><uicontrol>Settings _fixme_ [ui]</uicontrol></menucascade> from the main menu. A <wintitle>Settings</wintitle> window will appear on your screen (<xref keyref="options/options_png" type="fig"/>&#160;), where you can change user interface language, customize audio hub connections, set time out interval for autoscan and enable/disable the advanced mode.</p>
+        <p>Select <menucascade><uicontrol>Edit</uicontrol><uicontrol>Settings</uicontrol></menucascade> from the main menu. A <wintitle>Settings</wintitle> window will appear on your screen (<xref keyref="options/options_png" type="fig"/>&#160;), where you can change user interface language, customize audio hub connections, set time out interval for autoscan and enable/disable the advanced mode.</p>
         <note type="tip">The settings are stored in a plain text XML file located in <filepath>%APPDATA%\LAIN\idllab\settings.xml</filepath>. The file can be opened and edited in any text editor supporting Unicode (for example, Notepad++). We strongly advise this to be performed only by very experienced users familiar with the XML syntax.</note>
         <fig id="options_png">
-            <title><wintitle>Settings _fixme_ [ui]</wintitle> window</title>
+            <title><wintitle>Settings</wintitle> window</title>
             <image href="img/options.png" placement="break">
                 <alt><wintitle>Settings</wintitle> window</alt>
             </image>

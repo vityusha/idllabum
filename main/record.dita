@@ -15,7 +15,7 @@
         </fig>
         <p>Recording are saved as <filepath>idllab\<varname>Teacher</varname>\recordings\YYYY-MM-DDTHH-mm-ss.{wav|ogg|flac}</filepath> files, where
         <ul>
-			<li><varname>Teacher</varname> is teacher name in advanced mode (see _fixme_ [xref]) and is omitted in beginner mode;</li>
+			<li><varname>Teacher</varname> is teacher name in advanced mode (see <xref keyref="different"/>&#160;) and is omitted in beginner mode;</li>
 			<li>YYYY, MM, DD are year, month, and date of the recording;</li>
 			<li>HH, mm, and ss are hours, minutes and seconds of the start of the recording.</li>
 		</ul>

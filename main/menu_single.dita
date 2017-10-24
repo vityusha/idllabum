@@ -119,6 +119,6 @@
                 </tbody> 
             </tgroup>
         </table>
-    <note type="attention">The <menucascade><uicontrol>Grade</uicontrol></menucascade> submenu is only available in advanced mode (see <xref keyref="menu_single"/>&#160;).</note>   
+    <note type="attention">The <menucascade><uicontrol>Grade</uicontrol></menucascade> submenu is only available in advanced mode (see <xref keyref="different"/>&#160;).</note>   
     </conbody>
 </concept>
