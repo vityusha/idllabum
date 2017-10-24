@@ -2,9 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="tasks" xml:lang="en-US">
-    <title><wintitle>Activity</wintitle></title>
+    <title><wintitle>Activities</wintitle></title>
     <conbody>
-        <p>Программа в расширенном режиме позволяет формировать различные задания для учащихся.</p>
+        <p>Advanced mode offers you a significantly expanded list of student activities compared to the beginner mode.</p>
 		       
         <table frame="all" rowsep="1" colsep="1">
             <tgroup cols="2">
@@ -52,13 +52,11 @@
                 </tbody> 
             </tgroup>
         </table>
-        <note type="tip">Обратите внимание, что задания выдаются только для групп учащихся.</note>
-        <p>Задания <wintitle>Pairs</wintitle> и  <wintitle>Discussion</wintitle> дают возможность учащимся общаться между собой в парах или всей группой в режиме дискуссии и описаны ранее (п. <xref keyref="pair"/>&#160;) и (п. <xref keyref="discussion"/>&#160;).</p>
-		<p>Задания <wintitle>Listing</wintitle>, <wintitle>Model imitation</wintitle>, <wintitle>Simultaneous translation</wintitle>,  
-		и <wintitle>Consecutive translation</wintitle> аналогичны режиму <wintitle>Прослушивание источника</wintitle> в упрощенном режиме
-		(п. <xref keyref="sources"/>&#160;). Они отличаются содержимым используемых аудио данных.</p>
-		<p>Задания <wintitle>Самостоятельная работа</wintitle> и <wintitle>Чтение</wintitle> дают возможность учащимся работать индивидуально.</p>
-        <p>В задании <wintitle>Self access</wintitle> доступно меню <wintitle>Прослушивание источника</wintitle> аналогично упрощенному режиму (п. <xref keyref="sources"/>&#160;).</p>
-        <p>Задание <wintitle>Reading</wintitle> предполагает отсутствие любых источников источников звука, поступающих от коммутатора, при этом существует возможность записать голос учащегося (п. <xref keyref="record"/>&#160;).</p>
+        <note type="tip">Please note that these activities can only be assigned to student groups.</note>
+        <p><wintitle>Pairs</wintitle> and <wintitle>Discussion</wintitle> allows students to practice conversations either in pairs (see <xref keyref="pair"/>&#160;) or groups (see <xref keyref="discussion"/>&#160;), and are described elsewhere in this manual.</p>
+		<p><wintitle>Listing</wintitle>, <wintitle>Model imitation</wintitle>, <wintitle>Simultaneous translation</wintitle>,  
+		and <wintitle>Consecutive translation</wintitle> activities are very similar to the <wintitle>Listening</wintitle> activity in beginner mode (see <xref keyref="sources"/>&#160;) and differ only in the contents of the audio signal.</p>
+		<p><wintitle>Self access</wintitle> and <wintitle>Reading</wintitle> allows students to study on their own. <wintitle>Self access</wintitle> activity allows you to use the <wintitle>Audio source</wintitle> selection panel described in section <xref keyref="sources"/>&#160;.</p>
+        <p><wintitle>Reading</wintitle> activity assumes no audio is fed to the student headsets and is used to record student voices reading study material (see <xref keyref="record"/>&#160;).</p>
     </conbody>
 </concept>
