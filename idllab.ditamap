@@ -39,7 +39,7 @@
         <topicref keys="installation_windows" href="installation/installation_windows.dita" />    
         <topicref keys="installation_linux" href="installation/installation_linux.dita" />   
     </topichead>
-    <topichead navtitle="Working with IdlLAB (beginner mode)">    
+    <topichead navtitle="Beginner mode">    
         <topicref keys="description" href="main/description.dita" />
         <topicref keys="student_class" href="main/student_class.dita" />
         <topicref keys="menu_class" href="main/menu_class.dita" />
@@ -62,7 +62,7 @@
         <topicref keys="record" href="main/record.dita"/>
         <topicref keys="options" href="main/options.dita" />
     </topichead>
-    <topichead navtitle="Working with IdlLAB (advanced mode)"> 
+    <topichead navtitle="Advanced mode"> 
         <topicref keys="different" href="main/different.dita" />
         <topicref keys="choice_tutor" href="main/choice_tutor.dita" />
         <topicref keys="current_lesson" href="main/current_lesson.dita" />    

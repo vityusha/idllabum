@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="student_class" xml:lang="en-US">
-    <title>Working with a class</title>
+    <title>Class files and class layout</title>
     <conbody>  
 		<p>Each <wintitle>IdlLAB</wintitle> session starts with either opening an existing class file or creating a new one..</p>
 		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>New</uicontrol></menucascade> from the menu to create a new class. A <wintitle>New class</wintitle> window will appear on your screen (<xref keyref="student_class/new_class_png" type="fig"/>&#160;), where you can specify total number of students in the class and number of rows in the onscreen class layout.</p>
