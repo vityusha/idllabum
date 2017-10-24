@@ -2,50 +2,51 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="statistics" xml:lang="en-US">
-    <title>Статистика успеваемости и посещаемости</title>
+    <title>Statistics</title>
     <conbody>
-        <p>Для того, чтобы посмотреть статистику успеваемости и посещаемости, преподаватель должен выбрать закладку <uicontrol>Account</uicontrol> и нажать на кнопку <uicontrol>Statistics</uicontrol>.</p>
-        <p>На экране монитора преподавателя появится окно (<xref keyref="statistics/stat_att_simple_png" type="fig"/>&#160;), в котором он должен выбрать класс, предмет и установить временные интервалы. Преподаватель в поле <uicontrol>Statistics type</uicontrol> может выбрать вывод сводной или полной статистики. Переключая закладки <uicontrol>Attendance</uicontrol>, <uicontrol>Performance</uicontrol> или <uicontrol>Classes</uicontrol>, он может просматривать различную статистику.</p>
+		<p>IdlLAB in advanced mode allows you to view and print performance and attendance statistics reports.</p>
+        <p>Select <uicontrol>Account</uicontrol> tab and press <uicontrol>Statistics</uicontrol> button to view the reports.</p>
+        <p><wintitle>Statistics</wintitle> window will appear on your screen (<xref keyref="statistics/stat_att_simple_png" type="fig"/>&#160;). Select course, class, and time interval for the report. Select type of the report -- summary or detailed -- in the <uicontrol>Statistics type</uicontrol> panel (see examples below on the contents of each type). <uicontrol>Attendance</uicontrol>, <uicontrol>Performance</uicontrol> and <uicontrol>Classes</uicontrol> will contain reports for attendance and performance of individual students and statistical overview for whole classes, respectively.</p>
         <fig id="stat_att_simple_png">
-            <title>Сводная статистика посещаемости</title>
+            <title><wintitle>Statistics</wintitle> window: attendance summary report</title>
             <image href="img/stat_att_simple.png" placement="break">
-                <alt>Сводная статистика посещаемости</alt>
+                <alt><wintitle>Statistics</wintitle> window: attendance summary report</alt>
             </image>
         </fig>
-         <p>В сводной статистике посещаемости приводится список учащихся выбранного класса, общее количество уроков для класса, количество пропущенных уроков и процент посещаемости для каждого учащегося.</p>        
+         <p>Summary attendance report presents total number of lessons, number of missed lessons, and attendance percentage per student.</p>
         <fig id="stat_att_full_png">
-            <title>Полная статистика посещаемости</title>
+            <title><wintitle>Statistics</wintitle> window: detailed attendance report</title>
             <image href="img/stat_att_full.png" placement="break">
-                <alt>Полная статистика посещаемости</alt>
+                <alt><wintitle>Statistics</wintitle> window: detailed attendance report</alt>
             </image>
         </fig>
-        <p>В полной статистике посещаемости (<xref keyref="statistics/stat_att_full_png" type="fig"/>&#160;) приводится список учащихся и посещаемость уроков за выбранный интервал времени по всем урокам.</p>
+        <p>Detailed attendance report (<xref keyref="statistics/stat_att_full_png" type="fig"/>&#160;) present attendance for each lesson and student in table form.</p>
         <fig id="stat_grade_simple_png">
-            <title>Сводная статистика успеваемости</title>
+            <title><wintitle>Statistics</wintitle> window: performance summary report</title>
             <image href="img/stat_grade_simple.png" placement="break">
-                <alt>Сводная статистика успеваемости</alt>
+                <alt><wintitle>Statistics</wintitle> window: performance summary report</alt>
             </image>
         </fig>
-        <p>В сводной статистике успеваемости (<xref keyref="statistics/stat_grade_simple_png" type="fig"/>&#160;) приводится список учащихся выбранного класса, сумма баллов за уроки, количество оценок и средний балл.</p>        
+        <p>Performance summary report (<xref keyref="statistics/stat_grade_simple_png" type="fig"/>&#160;) presents cumulative score, number of grades recorded, and average grade for each student.</p>        
         <fig id="stat_grade_full_png">
-            <title>Полная статистика успеваемости</title>
+            <title><wintitle>Statistics</wintitle> window: detailed performance report</title>
             <image href="img/stat_grade_full.png" placement="break">
-                <alt>Полная статистика успеваемости</alt>
+                <alt><wintitle>Statistics</wintitle> window: detailed performance report</alt>
             </image>
         </fig>
-        <p>В полной статистике успеваемости (<xref keyref="statistics/stat_grade_full_png" type="fig"/>&#160;) приводится список учащихся и оценки за определенный интервал времени по всем урокам.</p>
+        <p>Detailed performance report (<xref keyref="statistics/stat_grade_full_png" type="fig"/>&#160;) presents all recorded grades for each student in table form.</p>
         <fig id="stat_classes_png">
-            <title>Статистика по классам</title>
+            <title><wintitle>Statistics</wintitle> window: class statistics report</title>
             <image href="img/stat_classes.png" placement="break">
-                <alt>Статистика по классам</alt>
+                <alt><wintitle>Statistics</wintitle> window: class statistics report</alt>
             </image>
         </fig>
-        <p>В статистике по классам (<xref keyref="statistics/stat_classes_png" type="fig"/>&#160;) приводится список классов, количество уроков, посещаемость и средний балл.</p>
-        <p>Преподаватель может напечатать или сохранить данные статистики в файл формата PDF. Для этого нужно нажать на кнопку <uicontrol>Печать</uicontrol>. На экране монитора откроется окно предварительного просмотра отчета (<xref keyref="statistics/stat_print_png" type="fig"/>&#160;), в котором можно послать отчет на принтер или сохранить его в файле формата PDF.</p>
+        <p>Class statistics report (<xref keyref="statistics/stat_classes_png" type="fig"/>&#160;) presents total number of lessons, attendance percentage, and average grade per class.</p>
+        <p>You can print any report or save it as a PDF file by pressing <uicontrol>Print</uicontrol> button at the bottom of the window. A print preview window will appear on your screen (<xref keyref="statistics/stat_print_png" type="fig"/>&#160;) from where you can send it to printer or save as a PDF file.</p>
         <fig id="stat_print_png">
-            <title>Отчет о статистике по классам</title>
+            <title><wintitle>Print report</wintitle> window</title>
             <image href="img/stat_print.png" placement="break">
-                <alt>Отчет о статистике по классам</alt>
+                <alt><wintitle>Print report</wintitle> window</alt>
             </image>
         </fig>
 	</conbody>
