@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="menu_class" xml:lang="en-US">
-    <title>Whole class menu</title>
+    <title>Class menu</title>
     <conbody>  
         <p>This menu allows you to perform actions to all students in the class, irrespective to a group they belong to.</p>
 		<p>Select the <wintitle>Whole class</wintitle> tab to open the class menu (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;).</p>
