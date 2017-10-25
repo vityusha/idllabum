@@ -4,8 +4,8 @@
 <concept id="student_class" xml:lang="en-US">
     <title>Class files and class layout</title>
     <conbody>  
-		<p>Each <wintitle>IdlLAB</wintitle> session starts with either opening an existing class file or creating a new one..</p>
-		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>New</uicontrol></menucascade> from the menu to create a new class. A <wintitle>New class</wintitle> window will appear on your screen (<xref keyref="student_class/new_class_png" type="fig"/>&#160;), where you can specify total number of students in the class and number of rows in the onscreen class layout.</p>
+		<p>Each <wintitle>IdlLAB</wintitle> session starts with either opening an existing class file or creating a new one.</p>
+		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>New</uicontrol></menucascade> from the menu to create a new class. A <wintitle>New class</wintitle> window will appear on your screen (<xref keyref="student_class/new_class_png" type="fig"/>&#160;) where you can specify total number of students in the class and number of rows in the onscreen class layout.</p>
 		<fig id="new_class_png">
             <title><wintitle>New class</wintitle> window</title>
             <image href="img/new_class.png" placement="break">
@@ -13,7 +13,7 @@
             </image>
         </fig>
         <note type="important">Maximum number of students in a class is 60.</note>
-		<p>The software will populate the student panel with student seat icons according to the numbers specified in the <wintitle>New class</wintitle> window.</p>
+		<p>The software will populate the student panel with student icons according to the numbers specified in the <wintitle>New class</wintitle> window.</p>
         <fig id="main_noconnect_png">
             <title>Main wind before connection to the audio hub</title>
             <image href="img/main_noconnect.png" placement="break">
@@ -21,18 +21,19 @@
             </image>
         </fig>
         <p>Student seats in the panel are represented by icons (<xref keyref="student_class/main_noconnect_png" type="fig"/>&#160;). The onscreen class layout is determined solely by the class parameters and generally has no relation to the physical layout of student modules in the classroom.</p>
-        <p>Right click on a student icon and select <uicontrol>Change name</uicontrol> from the drop down menu to set the name of a student in the window that appears (<xref keyref="student_class/enter_name_png" type="fig"/>&#160;).</p>
+		<note type="tip">Numbering of the student icons corresponds to the numbering of the audio hub ports connected to the respective student seats.</note>
+        <p>Right click on a student icon and select <uicontrol>Change name</uicontrol> from the drop down menu to set the name of a student (<xref keyref="student_class/enter_name_png" type="fig"/>&#160;).</p>
         <fig id="enter_name_png">
             <title>Student name window</title>
             <image href="img/enter_name.png" placement="break">
                 <alt>Student name window</alt>
             </image>
         </fig>        
-		<p>You can manually edit class layout by selecting <uicontrol>Edit</uicontrol> menu tab, then <uicontrol>Edit layout</uicontrol> from the menu, and dragging and dropping student icons.</p>
-		<p>Whenever a class is in edit mode, <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> menu items become available, which allow you to add a student to the class and remove selected students.</p>
+		<p>You can manually edit class layout by selecting the <uicontrol>Edit</uicontrol> menu tab, then <uicontrol>Edit layout</uicontrol> from the menu, and dragging and dropping student icons.</p>
+		<p>Whenever a class is in edit mode, <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> menu items become available, which allow you to add students to the class and remove selected students.</p>
         <p>Select <uicontrol>Rearrange</uicontrol> from the menu to automatically rearrange icons in the class layout.</p>
 		<p>Select <uicontrol>Edit layout</uicontrol> from the menu again to finish editing class layout and exit the edit mode.</p>
-		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>Save</uicontrol></menucascade> from the menu to save class layout to a file for further reuse (<xref keyref="student_class/save_class_png" type="fig"/>&#160;)</p>
+		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>Save</uicontrol></menucascade> from the menu to save class layout to a file for further reuse (<xref keyref="student_class/save_class_png" type="fig"/>&#160;).</p>
 		<fig id="save_class_png">
             <title>Save class layout window</title>
             <image href="img/save_class.png" placement="break">
@@ -41,9 +42,9 @@
         </fig>
 		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>Open</uicontrol></menucascade> from the menu to open a previously saved class layout file (<xref keyref="student_class/open_class_png" type="fig"/>&#160;).</p>
 		<fig id="open_class_png">
-            <title>Open class layout window</title>
+            <title><wintitle>Open class layout</wintitle> window</title>
             <image href="img/open_class.png" placement="break">
-                <alt>Open class layout window</alt>
+                <alt><wintitle>Open class layout</wintitle> window</alt>
             </image>
         </fig>
 	</conbody>
