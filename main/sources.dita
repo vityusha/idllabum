@@ -4,7 +4,7 @@
 <concept id="sources" xml:lang="en-US">
     <title><wintitle>Listening</wintitle></title>
     <conbody>
-        <p>This activity allows groups of students to listen to a variety of audio sources, including external ones, teacher, or other student.</p>
+        <p>This activity allows groups of students to listen to a variety of audio sources, including external ones, teacher, or other students.</p>
         <p>Select a group tab (see <xref keyref="menu_group"/>&#160;) and then select the audio source (<xref keyref="sources/menu_source_png" type="fig"/>&#160;) to use for the listening activity.</p>
         <fig id="menu_source_png">
             <title>Audio source selection panel</title>
@@ -12,7 +12,7 @@
                 <alt>Audio source selection panel</alt>
             </image>
         </fig>
-        <p>Select <uicontrol>External</uicontrol> then select the corresponding audio hub input from the drop down list. Volume control slider for the selected external source is located immediately below the drop down list.</p>
+        <p>Select <uicontrol>External</uicontrol> then select the corresponding audio hub input from the drop down list. Use the volume control slider located immediately below the drop down list to adjust volume for this source.</p>
         <p>External sources will be indicated on the icons of students listening to this source (<xref keyref="sources/icon_source_ext_png" type="fig"/>&#160;).</p>
         <fig id="icon_source_ext_png">
             <title>Student icons: listening to an external source</title>
@@ -28,15 +28,15 @@
                 <alt>Student icon: listening to the teacher</alt>
             </image>
         </fig>
-        <p>Teacher headset microphone can also be combined with an external source, e.g. to provide a commentary. Select <uicontrol>Combined</uicontrol> radio button and select an external source to be combined with teacher headset. Volume control slider for the selected external source is located immediately below the drop down list..</p>
-        <p>Combination of an external source with teacher will be indicated on the icons of students who have this as a listening source (<xref keyref="sources/icon_source_ext_teacher_png" type="fig"/>&#160;).</p>
+        <p>Teacher headset microphone can also be combined with an external source, e.g. to provide a commentary. Select <uicontrol>Combined</uicontrol> radio button and select an external source to be combined with teacher headset. Use the volume control slider located immediately below the drop down list to adjust volume of the external source.</p>
+        <p>Combination of external source with teacher will be indicated on the icons of students who have this as a listening source (<xref keyref="sources/icon_source_ext_teacher_png" type="fig"/>&#160;).</p>
         <fig id="icon_source_ext_teacher_png">
             <title>Student icon: listening to an external source combined with teacher</title>
             <image href="img/icon_source_ext_teacher.png" placement="break">
                 <alt>Student icon: listening to an external source combined with teacher</alt>
             </image>
         </fig>
-        <p>Any student, even those who are not members of the group, can be selected as a source for listening. Select <uicontrol>Student</uicontrol> radio box and the select a student from drop down list to assign this student a a source for listening.</p>
+        <p>Any student, even those who are not members of the group, can be selected as a source for listening. Select <uicontrol>Student</uicontrol> radio box and the select a student from drop down list to assign this student as a source for the group.</p>
         <note type="tip">If this student is engaged in <uicontrol>Pairs</uicontrol> or <uicontrol>Discussion</uicontrol>, then all other students from the participating pair or group also become the source for listening.</note>
         <p>Student source will be indicated on the icons of student listening to it (<xref keyref="sources/icon_source_png" type="fig"/>&#160;). Icon of a student who is the source will be marked with a sign matching color to the group which is listening to her or him.</p>
         <fig id="icon_source_png">
@@ -46,7 +46,7 @@
             </image>
         </fig>
         <note type="tip">A student can also be assigned as a source for listening by selecting <uicontrol>Audio source for...</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;).</note>
-        <p>A teacher can monitor the source for listening by pressing <uicontrol>Monitor</uicontrol> button in the <uicontrol>Audio source</uicontrol> selection panel.</p>
+        <p>The teacher can monitor listening source by pressing <uicontrol>Monitor</uicontrol> button in the <uicontrol>Audio source</uicontrol> selection panel.</p>
         <p>Select <uicontrol>None</uicontrol> radio button to turn the source off and finish the listening activity.</p>
     </conbody>
 </concept>
