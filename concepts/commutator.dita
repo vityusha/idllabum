@@ -4,7 +4,7 @@
 <concept id="commutator" xml:lang="en-US">
     <title>The audio hub</title>
     <conbody>  
-        <p><indexterm>audio hub</indexterm>The audio hub connects, switched, amplifies, and distributes different audio sources. The hub is controlled from a PC running the <wintitle>IdlLAB</wintitle> software, connected to the hub via <uicontrol>RS-232</uicontrol> interface.</p>
+        <p><indexterm>audio hub</indexterm>The audio hub routes, mixes, amplifies, and distributes different audio sources. The hub is controlled from a PC running the <wintitle>IdlLAB</wintitle> software, connected to the hub via a <uicontrol>RS-232</uicontrol> interface.</p>
         <p>Connectors for the student modules and two <uicontrol>RS-232</uicontrol> interface connectors are located on the rear panel of the audio hub (<xref keyref="commutator/back_png" type="fig"/>&#160;).</p>
 		<fig id="back_png">
             <title>Audio hub, rear view.</title>
@@ -12,7 +12,7 @@
                 <alt>Audio hub, rear view.</alt>
             </image> 
         </fig>
-        <p>Elements on the rear panel:</p>
+        <p>Connectors on the rear panel:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -45,7 +45,7 @@
                 </tbody> 
             </tgroup>
         </table>
-        <p>The left panel contains connectors for external audio sources and teacher headset(s) (<xref keyref="commutator/left_png" type="fig"/>&#160;).</p>
+        <p>The left panel contains connectors for external audio sources and teacher headsets (<xref keyref="commutator/left_png" type="fig"/>&#160;).</p>
 		<fig id="left_png">
             <title>Audio hub, left panel view</title>
             <image href="img/hub_left_arr.png" placement="break">
