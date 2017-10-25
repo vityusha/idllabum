@@ -4,9 +4,9 @@
 <concept id="menu_class" xml:lang="en-US">
     <title>Class menu</title>
     <conbody>  
-        <p>This menu allows you to perform actions to all students in the class, irrespective to a group they belong to.</p>
+        <p>This menu allows you to perform actions on all students in the class, irrespective to a group they belong to.</p>
 		<p>Select the <wintitle>Whole class</wintitle> tab to open the class menu (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;).</p>
-		<p>Class menu includes following items:
+		<p>Class menu includes the following items:
 			<ul>
 				<li><uicontrol>Group</uicontrol> (see <xref keyref="union_in_group"/>&#160;)</li>
 				<li><uicontrol>Clear all calls</uicontrol> (see <xref keyref="call"/>&#160;)</li>
@@ -17,9 +17,9 @@
 			</ul>
 		</p>
 		<p>Press <uicontrol>Self listening OFF</uicontrol> button to turn off self listening mode (see <xref keyref="no_self"/>&#160;) for all students. Press this button again to turn self listening back on.</p>
-        <p>Press <uicontrol>Message to all</uicontrol> button to deliver a spoken message to the students (see <xref keyref="message"/>&#160;). Press this button again to exit the message to all mode.</p>
-		<p>Press the <uicontrol>Poll</uicontrol> button to start polling the students (see <xref keyref="vote"/>&#160;). Press this button again to finish the poll.</p>
-        <p>Press <uicontrol>Autoscan</uicontrol> button to start covertly listening to students in the class one by one. Interval for autoscan listening can be specified in the settings menu (see <xref keyref="options"/>&#160;). Press this button again to exit the autoscan mode.</p>
+        <p>Press <uicontrol>Message to all</uicontrol> button to deliver a spoken message to the students (see <xref keyref="message"/>&#160;). Press this button again to exit the <uicontrol>message to all</uicontrol> mode.</p>
+		<p>Press <uicontrol>Poll</uicontrol> button to start a simple yes/no student poll (see <xref keyref="vote"/>&#160;). Press this button again to finish the poll.</p>
+        <p>Press <uicontrol>Autoscan</uicontrol> button to start monitoring students in the class one by one without necessarily alerting them. Interval for autoscan can be specified in the settings menu (see <xref keyref="options"/>&#160;). Press this button again to exit the autoscan mode.</p>
 		<fig id="menu_class_png">
             <title><wintitle>Whole class</wintitle> menu</title>
             <image href="img/menu_class.png" placement="break">
