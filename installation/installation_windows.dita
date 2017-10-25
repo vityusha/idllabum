@@ -6,17 +6,17 @@
     <title>Microsoft <wintitle>Windows</wintitle></title>
     <taskbody>
 		<context>
-		<note type="tip">At any point in the installation process you can press the <uicontrol>Back</uicontrol> button if you need to return to the previous step. You can also press <uicontrol>Cancel</uicontrol> to terminate the installation.</note>
+		<note type="tip">At any point in the installation process you can press <uicontrol>Back</uicontrol> button if you need to return to the previous step. You can also press <uicontrol>Cancel</uicontrol> to terminate the installation.</note>
 		</context>
 		<steps>
             <step>
-                <cmd>Insert installation disc into CD-ROM or DVD-ROM of your computer.</cmd>
+                <cmd>Insert installation disc into the CD-ROM or DVD-ROM drive of your computer.</cmd>
             </step>
             <step>
-                <cmd>If the autostart splash window has not appeared on your screen after some time, you'll need to start <filepath>setup-idllab.exe</filepath> from the installation disc manually.</cmd>
+                <cmd>If the autostart splash window has not appeared on your screen after some time, run <filepath>setup-idllab.exe</filepath> from the installation disc manually.</cmd>
             </step>
             <step>
-                <cmd>Language selection window (<xref keyref="installation_windows/install_1_png" type="fig"/>&#160;) will appear on your screen. Select your language and press <uicontrol>OK</uicontrol>.</cmd>
+                <cmd>Language selection window (<xref keyref="installation_windows/install_1_png" type="fig"/>&#160;) will appear on your screen. Select desired language and press <uicontrol>OK</uicontrol>.</cmd>
                 <info>
                     <fig id="install_1_png">
                         <title>Installer language selection window</title>
@@ -27,7 +27,7 @@
                 </info>
             </step>
             <step>
-                <cmd>A welcome window will appear on your screen (<xref keyref="installation_windows/install_2_png" type="fig"/>&#160;), Press the <uicontrol>Next</uicontrol> button to proceed.</cmd>
+                <cmd>A welcome window will appear on your screen (<xref keyref="installation_windows/install_2_png" type="fig"/>&#160;), Press <uicontrol>Next</uicontrol> to proceed.</cmd>
                 <info>
                     <fig id="install_2_png">
                         <title>Installation welcome screen</title>
@@ -38,7 +38,7 @@
                 </info>
             </step>
             <step>
-                <cmd>Software license agreement window (<xref keyref="installation_windows/install_3_png" type="fig"/>&#160;) will appear next. You have to accept the license agreement by pressing <uicontrol>I Agree</uicontrol> to proceed any further.</cmd>
+                <cmd>Software license agreement window will appear on your screen (<xref keyref="installation_windows/install_3_png" type="fig"/>&#160;). You have to accept the license agreement by pressing <uicontrol>I Agree</uicontrol> to proceed any further.</cmd>
                 <info>
                     <fig id="install_3_png">
                         <title>License agreement window</title>
@@ -49,7 +49,7 @@
                 </info>
             </step>
             <step>
-                <cmd>Install location selector window will appear next (<xref keyref="installation_windows/install_4_png" type="fig"/>&#160;).  
+                <cmd>Install location selector window will appear on your screen (<xref keyref="installation_windows/install_4_png" type="fig"/>&#160;).  
                 </cmd>
                 <info>
                     <fig id="install_4_png">
@@ -63,7 +63,7 @@
                 </info>
             </step>
             <step>
-                <cmd>Next window (<xref keyref="installation_windows/install_5_png" type="fig"/>&#160;) allows you to choose a folder in the <wintitle>Start</wintitle> menu for <wintitle>IdlLAB</wintitle> entries.</cmd>
+                <cmd>Next window (<xref keyref="installation_windows/install_5_png" type="fig"/>&#160;) allows you to choose a <wintitle>Start</wintitle> menu folder for <wintitle>IdlLAB</wintitle> entries.</cmd>
                 <info>
                     <fig id="install_5_png">
                         <title><wintitle>Start</wintitle> menu folder selection window</title>
@@ -71,7 +71,7 @@
                             <alt><wintitle>Start</wintitle> menu folder selection window</alt>
                         </image>
                     </fig>
-                    <p>Press <uicontrol>Install</uicontrol> to start the installation.</p>
+                    <p>Make your selection and press <uicontrol>Install</uicontrol> to start the installation.</p>
                 </info>
             </step>
             <step>
@@ -95,7 +95,7 @@
                         </image>
                     </fig>            
                     <p>An <uicontrol>IdlLAB</uicontrol> entry will appear in the <menucascade><uicontrol>Start</uicontrol><uicontrol>All Programs</uicontrol></menucascade> menu after successful completion of the installation. This entry contains icons to start <uicontrol>IdlLAB</uicontrol>, remove it from the computer, and open the help file.</p>
-                    <note type="tip">The help file is in <b>PDF</b> format, It can be opened using <wintitle>Adobe Acrobat Reader</wintitle>. Installation files for <wintitle>Adobe Acrobat Reader</wintitle> are included on <uicontrol>IdlLAB</uicontrol> disc for your convenience.</note>
+                    <note type="tip">The help file is in <b>PDF</b> format. It can be opened using <wintitle>Adobe Acrobat Reader</wintitle>. Installation files for <wintitle>Adobe Acrobat Reader</wintitle> are included on <uicontrol>IdlLAB</uicontrol> disc for your convenience.</note>
                     <p>An <uicontrol>IdlLAB</uicontrol> start icon will also be placed on your desktop.</p>
                     <fig id="idllab_icon_png">
                         <title><uicontrol>IdlLAB</uicontrol> start icon</title>
