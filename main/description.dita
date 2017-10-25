@@ -4,7 +4,7 @@
 <concept id="description" xml:lang="en-US">
     <title>Overview</title>
     <conbody>  
-        <p><indexterm>IdlLAB</indexterm><wintitle>IdlLAB</wintitle> (<xref keyref="description/main_png" type="fig"/>&#160;) is the  software that controls the <wintitle>IDL</wintitle> language lab.</p>
+        <p><indexterm>IdlLAB</indexterm><wintitle>IdlLAB</wintitle> is the  software that controls the <wintitle>IDL</wintitle> language lab. Its main window can be seen in <xref keyref="description/main_png" type="fig"/>&#160;.</p>
 		<fig id="main_png">
             <title><wintitle>IdlLAB</wintitle> window after startup</title>
             <image href="img/main.png" placement="break">
@@ -31,7 +31,7 @@
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Audio menu</entry>
+                        <entry>Audio panel (minimized)</entry>
                     </row>
 					<row>
                         <entry>5</entry>
@@ -43,19 +43,19 @@
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>Audio hub connected indicator</entry>
+                        <entry>Audio hub connection indicator</entry>
                     </row>
                 </tbody> 
             </tgroup>
         </table>
-		<p>Upon startup <wintitle>IdlLAB</wintitle> starts looking for an audio hub connected to the computer. Indicator (7) will start blinking green once connection to the hub has been established, .
+		<p>Upon startup <wintitle>IdlLAB</wintitle> starts looking for an audio hub connected to the computer. Indicator (7) will start blinking green once connection to the hub has been successfully established.
         <fig id="lighton_png">
             <title>Connection indicator</title>
             <image href="img/menu/lighton.png" placement="inline">
                 <alt>Connection indicator</alt>
             </image>
         </fig></p>
-        <p>An error message will pop up on your screen (<xref keyref="description/error_png" type="fig"/>&#160;) if the software failed to contact an audio hub within reasonable time.</p>
+        <p>An error message will pop up on your screen (<xref keyref="description/error_png" type="fig"/>&#160;) if the software fails to contact an audio hub within reasonable time.</p>
         <fig id="error_png">
             <title>Audio hub connection error</title>
             <image href="img/error.png" placement="break">
@@ -64,10 +64,11 @@
         </fig>
 		<p>Open a previously existing class file or create a new class (see <xref keyref="student_class"/>&#160;) to start an <wintitle>IdlLAB</wintitle> session.</p>
         <p>The teacher can then proceed with a roll cal registration of the student to check their attendance (see <xref keyref="registration"/>&#160;).</p>
-        <p>Every student has to be a member of a group to take part in any activity in the class (see <xref keyref="union_in_group"/>&#160;). Right click on an icon of a student not belonging to any group and select a group from the drop down menu. You can also set student name from the same menu.</p>
+        <note type="important">As a rule, every student in the class has to be a member of a group (see <xref keyref="union_in_group"/>&#160;). Otherwise they will not be able to take part in any activity.</note>
+        <p>Right click on an icon of a student not belonging to any group and select a group from the drop down menu to assign the student to a group. You can also set student name from the same menu.</p>
         <p>Right click on an icon of a student who is a member of a group to display the student menu (see <xref keyref="menu_single"/>&#160;).</p>
         <p>Select <wintitle>Whole class</wintitle> tab (2) to perform actions to all the students in the class (see <xref keyref="menu_class"/>&#160;).</p>
         <p>Select a group (3) to perform actions upon specific group in the class (see <xref keyref="menu_group"/>&#160;).</p>
-        <p>Select the <wintitle>Audio</wintitle> tab to use teacher PC as a sound source or use it for recording (see <xref keyref="menu_audio"/>&#160;).</p>		
+        <p>Select the <wintitle>Audio</wintitle> tab to use teacher PC as a sound source or for recording (see <xref keyref="menu_audio"/>&#160;).</p>		
     </conbody>
 </concept>
