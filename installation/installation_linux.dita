@@ -13,7 +13,7 @@
         <p>For <wintitle>Linux</wintitle> distributions supporting <wintitle>RPM</wintitle> package format (Red Hat, Fedora, CentOS, OpenSUSE, etc.), open a terminal window and run from the command prompt:</p> 
         <p><userinput>rpm -i idllab-release_version.rpm</userinput></p>
 
-        <note type="tip">A somewhat comprehensive list of distributions supporting both the <wintitle>DEB</wintitle> and <wintitle>RPM</wintitle> package formats can be found in Wikipedia: <xref href="https://en.wikipedia.org/wiki/List_of_Linux_distributions" scope="external">https://en.wikipedia.org/wiki/List_of_Linux_distributions</xref>.</note>
+        <note type="tip">A somewhat comprehensive list of Linux distributions supporting <wintitle>DEB</wintitle> and <wintitle>RPM</wintitle> package formats can be found in Wikipedia: <xref href="https://en.wikipedia.org/wiki/List_of_Linux_distributions" scope="external">https://en.wikipedia.org/wiki/List_of_Linux_distributions</xref>.</note>
 
         <p>Please contact the manufacturer to obtain source code for <wintitle>IdlLAB</wintitle>: <xref href="mailto:support@lainlab.com" scope="external">support@lainlab.com</xref>.</p>
     </conbody>
