@@ -8,7 +8,7 @@
         <note type="tip">A class can have up to 4 groups.</note>
 		<p>Students can be assigned to groups in several ways:
 			<ul>
-				<li>by pressing the <uicontrol>Group</uicontrol> button in the <uicontrol>Whole group</uicontrol> tab (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;) you can quickly assign all the students in the class to one group;</li>
+				<li>by pressing the <uicontrol>Group</uicontrol> button in the <uicontrol>Whole class</uicontrol> tab (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;) you can quickly assign all students in the class to one group;</li>
                 <li>right click on a student icon and assign a group from the drop down menu;</li>
 				<li>select several students in the class, then right click, and assign selected students to a group from the drop down menu;</li>
 				<li>select one or more students, then select the <uicontrol>Group</uicontrol> tab and click on a group (see <xref keyref="menu_group/menu_group_png" type="fig"/>&#160;).
