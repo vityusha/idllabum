@@ -5,7 +5,7 @@
     <title><wintitle>Activities</wintitle></title>
     <conbody>
         <p>Advanced mode offers you a significantly expanded list of student activities compared to the beginner mode.</p>
-		       
+
         <table frame="all" rowsep="1" colsep="1">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="120*"/>
@@ -30,11 +30,11 @@
                         <entry><image href="img/menu/pairs.png" placement="break" width="16" align="center"/></entry>
                     </row>
 					<row>
-                        <entry><b>Listing</b></entry>
+                        <entry><b>Listing comprehension</b></entry>
                         <entry><image href="img/menu/listening.png" placement="break" width="16" align="center"/></entry>
                     </row>
                     <row>
-                        <entry><b>Reading</b></entry>
+                        <entry><b>Reading practice</b></entry>
                         <entry><image href="img/menu/reading.png" placement="break" width="16" align="center"/></entry>
                     </row>
                     <row>
@@ -48,15 +48,15 @@
                     <row>
                         <entry><b>Consecutive translation</b></entry>
                         <entry><image href="img/menu/translate.png" placement="break" width="16" align="center"/></entry>
-                    </row>	                    
+                    </row>
                 </tbody> 
             </tgroup>
         </table>
         <note type="tip">Please note that these activities can only be assigned to student groups.</note>
         <p><wintitle>Pairs</wintitle> and <wintitle>Discussion</wintitle> allows students to practice conversations either in pairs (see <xref keyref="pair"/>&#160;) or groups (see <xref keyref="discussion"/>&#160;), and are described elsewhere in this manual.</p>
-		<p><wintitle>Listing</wintitle>, <wintitle>Model imitation</wintitle>, <wintitle>Simultaneous translation</wintitle>,  
+		<p><wintitle>Listing comprehension</wintitle>, <wintitle>Model imitation</wintitle>, <wintitle>Simultaneous translation</wintitle>,  
 		and <wintitle>Consecutive translation</wintitle> activities are very similar to the <wintitle>Listening</wintitle> activity in beginner mode (see <xref keyref="sources"/>&#160;) and differ only in the contents of the audio signal.</p>
-		<p><wintitle>Self access</wintitle> and <wintitle>Reading</wintitle> allows students to study on their own. <wintitle>Self access</wintitle> activity allows you to use the <wintitle>Audio source</wintitle> selection panel described in section <xref keyref="sources"/>&#160;.</p>
-        <p><wintitle>Reading</wintitle> activity assumes no audio is fed to the student headsets and is used to record student voices reading study material (see <xref keyref="record"/>&#160;).</p>
+		<p><wintitle>Self access</wintitle> and <wintitle>Reading practice</wintitle> allows students to study on their own. <wintitle>Self access</wintitle> activity allows you to use the <wintitle>Audio source</wintitle> selection panel described in section <xref keyref="sources"/>&#160;.</p>
+        <p><wintitle>Reading practice</wintitle> activity assumes no audio is fed to the student headsets and is used to record student voices reading study material (see <xref keyref="record"/>&#160;).</p>
     </conbody>
 </concept>
