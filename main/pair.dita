@@ -4,7 +4,7 @@
 <concept id="pair" xml:lang="en-US">
     <title><wintitle>Pairs</wintitle></title>
     <conbody>
-        <p>Pair activity is used to engage pairs of students in a dialogue. Students working in pairs will be indicated in the class panel (<xref keyref="pair/icon_pair_png" type="fig"/>&#160;).</p>
+        <p>Pair activity is used to engage pairs of students in a conversation between themselves. Students working in pairs will be indicated in the class panel (<xref keyref="pair/icon_pair_png" type="fig"/>&#160;).</p>
         <fig id="icon_pair_png">
             <title>Paired students</title>
             <image href="img/icon_pair.png" placement="break">
@@ -16,7 +16,7 @@
                 <li><uicontrol>Neighbor</uicontrol> - pairs are assigned between neighboring student seats.</li>
                 <li><uicontrol>Random</uicontrol> - pairs are assigned randomly.</li> 
                 <li><uicontrol>Manual</uicontrol> - pairs are assigned manually.</li>
-                <li><uicontrol>Reset</uicontrol> - dissociate all assigned pairs in the group.</li>
+                <li><uicontrol>Reset</uicontrol> - dissociate all pairs in the group.</li>
             </ul>
         </p>
         <fig id="menu_pair_png">
@@ -25,6 +25,6 @@
                 <alt>Pair assignment buttons</alt>
             </image>
         </fig>
-        <note type="tip">Student seats are numbered sequentially in the order of hub ports they are connected to.</note>
+        <note type="tip"><uicontrol>Neighbor</uicontrol> pairing is based on the student seats, which are numbered sequentially in the order of hub ports they are connected to.</note>
     </conbody>
 </concept>
