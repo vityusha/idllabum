@@ -7,11 +7,11 @@
         <p>Press the <uicontrol>Self listening OFF</uicontrol> button to turn self listening off. This button can be found in:
             <ul>
                 <li>the <xref keyref="menu_single">student menu</xref>;</li>
-                <li>the <xref keyref="menu_group">group tab</xref>;</li>
-                <li>the <xref keyref="menu_class">class tab</xref>.</li>
+                <li>the <xref keyref="menu_group">group menu</xref>;</li>
+                <li>the <xref keyref="menu_class">class menu</xref>.</li>
             </ul>
         </p>
-        <p>The student icon will indicate that self listening for this student is turned off (<xref keyref="no_self/icon_no_self_png" type="fig"/>&#160;).</p>    <fig id="icon_no_self_png">
+        <p>Student icons will indicate when self listening for these students is turned off (<xref keyref="no_self/icon_no_self_png" type="fig"/>&#160;).</p>    <fig id="icon_no_self_png">
             <title>Student icon with self listening turned off</title>
             <image href="img/icon_no_self.png" placement="break">
                 <alt>Student icon with self listening turned off</alt>
