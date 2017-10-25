@@ -4,14 +4,14 @@
 <concept id="message" xml:lang="en-US">
     <title><wintitle>Message to all</wintitle></title>
     <conbody>
-        <p>This mode allows you to broadcast a voice message to all students in the class. Self listening for the students is turned off so they can listen to the teacher (<xref keyref="message/icon_message_png" type="fig"/>&#160;).</p>
+        <p>This mode allows you to broadcast a voice message to all students in the class. Self listening for the students is turned off so they can listen to the message (<xref keyref="message/icon_message_png" type="fig"/>&#160;).</p>
         <fig id="icon_message_png">
             <title>Student icon in <wintitle>Message to all</wintitle> mode</title>
             <image href="img/icon_message.png" placement="break">
                 <alt>Student icon in <wintitle>Message to all</wintitle> mode</alt>
             </image>
         </fig>
-        <p>In addition, when this mode is active a microphone icon appears in the upper right corner of the main window, indicating that teacher microphone is now broadcasting to the student headsets (<xref keyref="message/message_all_png" type="fig"/>&#160;).</p>
+        <p>In addition, when this mode is active a microphone icon appears in the upper right corner of the main window, indicating that signal from teacher microphone is now being broadcast to the student headsets (<xref keyref="message/message_all_png" type="fig"/>&#160;).</p>
         <fig id="message_all_png">
             <title><wintitle>Message to all</wintitle> icon</title>
             <image href="img/message_all.png" placement="break">
