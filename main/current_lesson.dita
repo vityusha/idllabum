@@ -18,14 +18,14 @@
         <p><uicontrol>Remark</uicontrol> field can be used to enter any additional comments about the lesson.</p>
         <p>Press <uicontrol>OK</uicontrol> to save the lesson</p>
         <p>Select the <uicontrol>Class</uicontrol> tab and press <uicontrol>Logbook</uicontrol> button to view the class log book.</p>
-        <p>Lesson selection window will appear on your screen (<xref keyref="current_lesson/lesson_list_png" type="fig"/>&#160;), where you can view the list of save lessons and filter them by course, class, and date. You can also edit <uicontrol>Topic</uicontrol> and <uicontrol>Remark</uicontrol> fields by clicking in correspondent cells.</p> 
+        <p>Lesson selection window will appear on your screen (<xref keyref="current_lesson/lesson_list_png" type="fig"/>&#160;), where you can view the list of saved lessons and filter them by course, class, and date. You can also edit <uicontrol>Topic</uicontrol> and <uicontrol>Remark</uicontrol> fields by clicking in correspondent fields.</p> 
         <fig id="lesson_list_png">
             <title><wintitle>Lesson list</wintitle> window</title>
             <image href="img/lesson_list.png" placement="break">
                 <alt><wintitle>Lesson list</wintitle> window</alt>
             </image>
         </fig>
-        <p>Select a lesson from the list to display lesson details in the lower panel. Here you can edit attendance, grades, and remarks by clicking on corresponding cells in the table .</p> 
-        <p>Use <uicontrol>Delete lesson</uicontrol> button to remove the lesson from class log book.</p>
+        <p>Select a lesson from the list to display lesson details in the lower panel. Here you can edit attendance, grades, and remarks by clicking on corresponding fields in the table .</p> 
+        <p>Use <uicontrol>Delete lesson</uicontrol> button to remove the lesson from log book.</p>
 	</conbody>
 </concept>
