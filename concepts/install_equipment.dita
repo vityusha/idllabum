@@ -41,7 +41,7 @@
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>Audio hub to student module connector cable</entry>
+                        <entry>Cable connecting student module to the audio hub</entry>
                     </row>
 					<row>
                         <entry>7</entry>
@@ -57,13 +57,13 @@
                     </row>
 					<row>
                         <entry>10</entry>
-                        <entry>Audio cables to PC sound interface (optional)</entry>
+                        <entry>Audio cables to student PC sound interface (optional)</entry>
                     </row>
                 </tbody> 
             </tgroup>
         </table>
     <p>Student modules are connected to the audio hub via an 8-wire flat cable (6) with 8P8C (a.k.a. RJ45) connectors on both ends (<xref keyref="install_equipment/cabels_png" type="fig"/>&#160;).</p>
-    <p>The 8-wire flat cable is installed between the audio hub and each of the student modules. The cable is terminated by 8P8C connectors that are crimped on by a special crimping tool.</p>
+    <p>The 8-wire flat cable is installed between the audio hub and each of the student modules. The cable is terminated by 8P8C connectors that are crimped on by a suitable crimping tool (not included).</p>
     <note type="important">The connector cable is wired in "straight through" mode (known as T568), i.e. pins 1 through 8 on one end are connected to pins 1 through 8 on the other end.</note>
     <fig id="cabels_png">
         <title>Connector cable</title>
@@ -71,6 +71,6 @@
             <alt>Connector cable</alt>
         </image>
     </fig>
-    <p>After connecting the cables and replacing the student module cover, the module can be permanently mounted on the student desk.</p>
+    <p>After connecting the cables and replacing the cover, the student module can be permanently mounted on the student desk.</p>
   </conbody>
 </concept>
