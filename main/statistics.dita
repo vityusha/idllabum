@@ -4,23 +4,23 @@
 <concept id="statistics" xml:lang="en-US">
     <title>Statistics</title>
     <conbody>
-		<p>IdlLAB in advanced mode allows you to view and print performance and attendance statistics reports.</p>
+		<p><wintitle>IdlLAB</wintitle> in advanced mode allows you to view and print performance and attendance statistics reports.</p>
         <p>Select <uicontrol>Account</uicontrol> tab and press <uicontrol>Statistics</uicontrol> button to view the reports.</p>
-        <p><wintitle>Statistics</wintitle> window will appear on your screen (<xref keyref="statistics/stat_att_simple_png" type="fig"/>&#160;). Select course, class, and time interval for the report. Select type of the report -- summary or detailed -- in the <uicontrol>Statistics type</uicontrol> panel (see examples below on the contents of each type). <uicontrol>Attendance</uicontrol>, <uicontrol>Performance</uicontrol> and <uicontrol>Classes</uicontrol> will contain reports for attendance and performance of individual students and statistical overview for whole classes, respectively.</p>
+        <p><wintitle>Statistics</wintitle> window will appear on your screen (<xref keyref="statistics/stat_att_simple_png" type="fig"/>&#160;). Select course, class, and time interval for the report. Select type of the report -- summary or detailed -- in the <uicontrol>Statistics type</uicontrol> panel (see examples below on the contents of each type). <uicontrol>Attendance</uicontrol>, <uicontrol>Performance</uicontrol> and <uicontrol>Classes</uicontrol> tabs will contain reports for attendance and performance down to individual students and statistical overview for whole classes, respectively.</p>
         <fig id="stat_att_simple_png">
             <title><wintitle>Statistics</wintitle> window: attendance summary report</title>
             <image href="img/stat_att_simple.png" placement="break">
                 <alt><wintitle>Statistics</wintitle> window: attendance summary report</alt>
             </image>
         </fig>
-         <p>Summary attendance report presents total number of lessons, number of missed lessons, and attendance percentage per student.</p>
+         <p>Summary attendance report presents total number of lessons, number of missed lessons, and attendance percentage for each student.</p>
         <fig id="stat_att_full_png">
             <title><wintitle>Statistics</wintitle> window: detailed attendance report</title>
             <image href="img/stat_att_full.png" placement="break">
                 <alt><wintitle>Statistics</wintitle> window: detailed attendance report</alt>
             </image>
         </fig>
-        <p>Detailed attendance report (<xref keyref="statistics/stat_att_full_png" type="fig"/>&#160;) present attendance for each lesson and student in table form.</p>
+        <p>Detailed attendance report (<xref keyref="statistics/stat_att_full_png" type="fig"/>&#160;) presents attendance records for each lesson and student in table form.</p>
         <fig id="stat_grade_simple_png">
             <title><wintitle>Statistics</wintitle> window: performance summary report</title>
             <image href="img/stat_grade_simple.png" placement="break">
