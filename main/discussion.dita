@@ -4,14 +4,14 @@
 <concept id="discussion" xml:lang="en-US">
     <title><wintitle>Discussion</wintitle></title>
     <conbody>
-        <p>Discussion activity can used to engage students in a conversation among members of a group. An active discussion activity is indicated on the icons of participating students (<xref keyref="discussion/icon_discussion_png" type="fig"/>&#160;).</p>
+        <p>Discussion activity can be used to engage students in a conversation among members of a group. An active discussion activity is indicated on the icons of participating students (<xref keyref="discussion/icon_discussion_png" type="fig"/>&#160;).</p>
         <fig id="icon_discussion_png">
             <title>Student icon during <wintitle>Discussion</wintitle> activity</title>
             <image href="img/icon_discussion.png" placement="break">
                 <alt>Student icon during <wintitle>Discussion</wintitle> activity</alt>
             </image>
         </fig>
-        <p>Select a group tab and press the <uicontrol>Discussion</uicontrol> button to initiate the activity in this group (see <xref keyref="menu_group"/>&#160;). Press <uicontrol>Discussion</uicontrol> button again to finish the discussion.</p> 
-        <note type="important">We recommend to start discussions in groups of 15 students or less in order to minimize noise and chances of feedback.</note>
+        <p>Select a group tab and press the <uicontrol>Discussion</uicontrol> button to initiate this activity in the group (see <xref keyref="menu_group"/>&#160;). Press <uicontrol>Discussion</uicontrol> button again to finish the discussion.</p> 
+        <note type="important">We recommend to start discussions in groups of no more than 15 students in order to minimize ambient noise and chances of feedback.</note>
     </conbody>
 </concept>
