@@ -4,11 +4,11 @@
 <concept id="vote" xml:lang="en-US">
     <title>Polling</title>
     <conbody>
-		<p>Teacher can poll the students either in the class or per group using the polling function.</p>
-		<p>Press the <uicontrol>Poll</uicontrol> button in the class tab (see <xref keyref="menu_class"/>&#160;) to initiate polling of all students in the class. Press <uicontrol>Poll</uicontrol> button again to finish the poll.</p>
-		<p>Press the <uicontrol>Poll</uicontrol> button in the class tab (see <xref keyref="menu_group"/>&#160;) to initiate polling of students in this particular group. Press <uicontrol>Poll</uicontrol> button again to finish the poll.</p>
-        <p>Students' self listening is turned off and they can hear teacher's voice in their headsets when a poll is active.</p>
-        <p>Students must press the <uicontrol>Call</uicontrol> button on their modules to answer <b>yes</b>. If the <uicontrol>Call</uicontrol> has not been pressed when the poll was active, these students are assumed to have answered <b>no</b>.</p>
+		<p>Teacher can poll the students for a yes/no answer either per class or per group using the polling function.</p>
+		<p>Press the <uicontrol>Poll</uicontrol> button in the class menu (see <xref keyref="menu_class"/>&#160;) to initiate polling of all students in the class. Press <uicontrol>Poll</uicontrol> button again to finish the poll.</p>
+		<p>Press the <uicontrol>Poll</uicontrol> button in the group menu (see <xref keyref="menu_group"/>&#160;) to initiate polling of students in this particular group. Press <uicontrol>Poll</uicontrol> button again to finish the poll.</p>
+        <p>Students' self listening is turned off and they can hear teacher voice in their headsets when a poll is active.</p>
+        <p>Students must press the <uicontrol>Call</uicontrol> button on their modules to answer <b>yes</b>. If the <uicontrol>Call</uicontrol> has not been pressed while the poll was active, these students are assumed to have answered <b>no</b>.</p>
         <p>Students who answered <b>yes</b> will have their icon indicate so (<xref keyref="vote/icon_vote_png" type="fig"/>&#160;).</p>
         <fig id="icon_vote_png">
             <title>Student who answered <b>yes</b></title>
