@@ -6,59 +6,43 @@
   <title>Introduction</title>
 
   <conbody>
-    <p>The <wintitle>IDL</wintitle> language lab can be used in enhancing conversational skills of language learning students.</p>
+    <p>The <wintitle>IDL</wintitle> language lab is a software and hardware combination product for enhancing conversational skills of language learning students.</p>
     <p>The language lab consists of:
         <ul>
-            <li>the audio hub;</li>
+            <li>an audio hub;</li>
             <li>several student modules;</li>
-            <li>the <wintitle>IdlLAB</wintitle> software running on teacher's computer.</li>
+            <li><wintitle>IdlLAB</wintitle> software running on teacher PC.</li>
         </ul>
     </p>
-    <p>An intuitive user interface helps the teachers to quickly familiarize themselves with the language lab and start using it effectively in the class.</p>
+    <p>An intuitive user interface helps the teachers to quickly familiarize themselves with the language lab and start using it in the class with maximum efficiency.</p>
 
     <p>The <wintitle>IDL</wintitle> language lab features:</p>
     <ul>
         <li>support for up to 60 students in the class;</li>
-
-        <li>grouping the students in up to 4 teams and further assigning them in pairs inside the group;</li>
-        
+        <li>grouping of students in up to 4 teams and further assigning them in pairs inside the group;</li>
         <li>manual and automatic pair assignment;</li>
-        
         <li>group discussion modes;</li>
-
-        <li>monitor or engage in a conversation with a group, pair, or particular student;</li>
-
+        <li>monitoring or engaging in a conversation with a group, pair, or particular student;</li>
 		<li>class announcements;</li>
-        
-        <li>students calling the teacher for help;</li>
-        
-        <li>up to 4 concurrent audio sources (one for each group);</li>
-        
+        <li>students can call teacher for help;</li>
+        <li>support for up to 4 concurrent audio sources (one for each group);</li>
         <li>audio sources can be:
             <ul>
                 <li>external, connected to the 4 auxiliary inputs of the audio hub;</li>
-                <li>teacher's voice;</li>
-                <li>a mix of teacher voice and external source;</li>
-                <li>voice of any student, pair or group of students.</li>
+                <li>teacher voice;</li>
+                <li>combination of teacher voice and external source;</li>
+                <li>voice of any student, pair, or group of students.</li>
             </ul>
         </li>
-        
         <li>audio level controls for external sources;</li>
-        
         <li>any audio source (student, pair, group, teacher, or external) can be fed to the audio hub outputs for recording, further amplification, or any other purpose;</li>
-
-        <li>audio hub is controlled from the teacher's computer via RS-232 interface;</li>
-
-        <li>teacher's computer audio interface can be connected to the audio hub for recording and playback;</li>
-		
-		<li>likewise, student computer audio interfaces can be connected to the student modules;</li>
-
+        <li>audio hub is controlled from the teacher computer via RS-232 interface;</li>
+        <li>teacher computer audio interface can be connected to the audio hub for recording and playback;</li>
+		<li>optional student computer audio interfaces can be connected to the student modules;</li>
         <li>visual editing of the class layout;</li>
-		
 		<li>maintaining the class list and class layout in a separate file;</li>
-        
-        <li>beginner and advanced modes for the software.</li>        
+        <li>beginner and advanced modes for the software.</li>
     </ul>
-    <note type="important">The software has two modes: beginner and advanced. Advanced mode allows managing teacher accounts, assigning activities to groups, and keeping class records for attendance and student scores for each teacher separately.</note>
+    <note type="important">The software has two modes: beginner and advanced. Advanced mode allows managing teacher accounts, assigning activities to groups, and keeping class attendance and performance records separately for each teacher.</note>
   </conbody>
 </concept>
