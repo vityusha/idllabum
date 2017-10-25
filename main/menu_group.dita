@@ -4,9 +4,9 @@
 <concept id="menu_group" xml:lang="en-US">
     <title>Group menu</title>
     <conbody>  
-        <p>The group menu allows you to perform certain actions to the students forming a group in the class.</p>
+        <p>This menu allows you to perform certain actions on the students forming a group in the class.</p>
 		<p>Select a group tab (<xref keyref="menu_group/menu_group_png" type="fig"/>&#160;) to open the group menu.</p>
-		<p>Group menu includes following items:
+		<p>Group menu includes the following items:
 			<ul>
 				<li><uicontrol>Clear all calls</uicontrol> (<xref keyref="call"/>&#160;)</li>
 				<li><uicontrol>Self listening OFF</uicontrol></li>
@@ -24,9 +24,9 @@
             </image>
         </fig>		
         <p>Press <uicontrol>Self listening OFF</uicontrol> button to turn off self listening mode (see <xref keyref="no_self"/>&#160;) for the students in this group. Press this button again to turn self listening back on.</p>
-        <p>Press <uicontrol>Message to all</uicontrol> button to deliver a spoken message to the students in this group (see <xref keyref="message"/>&#160;). Press this button again to exit the message to all mode.</p>
+        <p>Press <uicontrol>Message to all</uicontrol> button to deliver a spoken message to the students in this group (see <xref keyref="message"/>&#160;). Press this button again to exit the <uicontrol>message to all</uicontrol> mode.</p>
 		<p>Press the <uicontrol>Poll</uicontrol> button to start polling students in this group (see <xref keyref="vote"/>&#160;). Press this button again to finish the poll.</p>
-        <p>Press <uicontrol>Autoscan</uicontrol> button to start covertly listening to students in the group one by one. Interval for autoscan listening can be specified in the settings menu (see <xref keyref="options"/>&#160;). Press this button again to exit the autoscan mode.</p>
+        <p>Press <uicontrol>Autoscan</uicontrol> button to start monitoring students in the group one by one. Interval for autoscan listening can be specified in the settings menu (see <xref keyref="options"/>&#160;). Press this button again to exit the autoscan mode.</p>
         <p>Press the <uicontrol>Discussion</uicontrol> to initiate discussion mode between students of the group (see <xref keyref="discussion"/>&#160;). Press this button again to exit discussion mode.</p>
         <p>Press the <uicontrol>Pairs</uicontrol> to enter the pairing mode for the students of the group (see <xref keyref="pair"/>&#160;), at which point pairing buttons will appear in the menu. Press the <uicontrol>Pairs</uicontrol> button again to exit the pairing mode.</p>
     </conbody>
