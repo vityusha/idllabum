@@ -30,7 +30,7 @@
                         <entry><image href="img/menu/pairs.png" placement="break" width="16" align="center"/></entry>
                     </row>
 					<row>
-                        <entry><b>Listing comprehension</b></entry>
+                        <entry><b>Listening comprehension</b></entry>
                         <entry><image href="img/menu/listening.png" placement="break" width="16" align="center"/></entry>
                     </row>
                     <row>
@@ -53,10 +53,9 @@
             </tgroup>
         </table>
         <note type="tip">Please note that these activities can only be assigned to student groups.</note>
-        <p><wintitle>Pairs</wintitle> and <wintitle>Discussion</wintitle> allows students to practice conversations either in pairs (see <xref keyref="pair"/>&#160;) or groups (see <xref keyref="discussion"/>&#160;), and are described elsewhere in this manual.</p>
-		<p><wintitle>Listing comprehension</wintitle>, <wintitle>Model imitation</wintitle>, <wintitle>Simultaneous translation</wintitle>,  
-		and <wintitle>Consecutive translation</wintitle> activities are very similar to the <wintitle>Listening</wintitle> activity in beginner mode (see <xref keyref="sources"/>&#160;) and differ only in the contents of the audio signal.</p>
+        <p><wintitle>Pairs</wintitle> and <wintitle>Discussion</wintitle> allows students to practice conversations either in pairs (see <xref keyref="pair"/>&#160;) or groups (see <xref keyref="discussion"/>&#160;), as described elsewhere in this manual.</p>
+		<p><wintitle>Listening comprehension</wintitle>, <wintitle>Model imitation</wintitle>, <wintitle>Simultaneous translation</wintitle>, and <wintitle>Consecutive translation</wintitle> activities are very similar to the <wintitle>Listening</wintitle> activity in beginner mode (see <xref keyref="sources"/>&#160;) and differ only in the audio content.</p>
 		<p><wintitle>Self access</wintitle> and <wintitle>Reading practice</wintitle> allows students to study on their own. <wintitle>Self access</wintitle> activity allows you to use the <wintitle>Audio source</wintitle> selection panel described in section <xref keyref="sources"/>&#160;.</p>
-        <p><wintitle>Reading practice</wintitle> activity assumes no audio is fed to the student headsets and is used to record student voices reading study material (see <xref keyref="record"/>&#160;).</p>
+        <p><wintitle>Reading practice</wintitle> activity is used to record student voices reading study material without any audio fed to the student headsets (see <xref keyref="record"/>&#160;).</p>
     </conbody>
 </concept>
