@@ -4,7 +4,7 @@
 <concept id="call" xml:lang="en-US">
     <title>Students calling for help</title>
     <conbody>
-        <p>Students can call the teacher by pressing the <uicontrol>Call</uicontrol> button on their modules.</p>
+        <p>Students can request teacher's attention by pressing the <uicontrol>Call</uicontrol> button on their modules.</p>
         <p>A bubble displaying time since last call will be superimposed on this student seat icon (<xref keyref="call/icon_call_png" type="fig"/>&#160;) indicating there is a call pending.</p>
         <fig id="icon_call_png">
             <title>Pending call</title>
