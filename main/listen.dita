@@ -14,7 +14,6 @@
         </fig>
         <p>Select <uicontrol>Monitor</uicontrol> again from the student menu for any monitored student to cancel monitoring.</p>
         <note type="tip">Monitoring will also be automatically canceled whenever monitored student/pair/group is assigned <uicontrol>Listening</uicontrol> activity or a <uicontrol>Conversation</uicontrol> is started with the student/pair/group.</note>
-
-        <note type="tip">The <uicontrol>Autoscan</uicontrol> button (_fixme_ [xref]) can be used to to monitor all students in a group or class.</note>
+        <note type="tip">The <uicontrol>Autoscan</uicontrol> button can be used to to monitor all the students in a group or class.</note>
     </conbody>
 </concept>
