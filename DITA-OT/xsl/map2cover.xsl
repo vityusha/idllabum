@@ -116,7 +116,7 @@
 				<div style="text-align:left; color:#0053AC">
 					<table width="95%" border="0">
 						<tr>
-							<td align="right">&copyr; 2008-<xsl:value-of select="//*[contains(@class, ' topic/copyryear ')]/@year"/>&nbsp;<xsl:value-of select="//*[contains(@class, ' topic/copyrholder ')]/text()"/>
+							<td align="right">&copyr; <xsl:value-of select="//*[contains(@class, ' topic/copyryear ')]/@year"/>&nbsp;<xsl:value-of select="//*[contains(@class, ' topic/copyrholder ')]/text()"/>
 								<xsl:value-of select="$RightsStr"/>
 							</td>
 						</tr>

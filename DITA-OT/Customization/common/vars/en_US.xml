@@ -66,19 +66,19 @@ See the accompanying license.txt file for applicable licenses.
     <variable id="DocEdition">Document edition: </variable>
     
     <!-- The copyright infomation that appears in annotation. -->
-    <variable id="CopyrightInfo">Copyright © 2008 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> All rights reserved.</variable>
+    <variable id="CopyrightInfo">Copyright © <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> All rights reserved.</variable>
     
     <!-- The document infomation that appears in Reader's Comment Form. -->
     <variable id="DocInfo"><param ref-name="system"/>.&#xA0;<param ref-name="subsystem"/>.&#xA0;<param ref-name="subsystem_version"/>.&#xA0;<param ref-name="doctype"/>.&#xA0;<param ref-name="doc_edition"/>.</variable>
 
     <!-- The footer that appears on odd-numbered pages. -->
-    <variable id="Body odd footer">Copyright © 2008 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> All rights reserved</variable>
+    <variable id="Body odd footer">Copyright © <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> All rights reserved</variable>
 
     <!-- The footer that appears on even-numbered pages. -->
     <variable id="Body even footer"/>
 
     <!-- The footer that appears on the first page of a chapter. -->
-    <variable id="Body first footer">Copyright © 2008 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> All rights reserved</variable>
+    <variable id="Body first footer">Copyright © <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> All rights reserved</variable>
 
     <!-- The header that appears on the first page of a chapter. -->
     <variable id="Body first header"/>
@@ -109,7 +109,7 @@ See the accompanying license.txt file for applicable licenses.
 
     <!-- The footer that appears on the odd-numbered table of contents
          pages. --> 
-    <variable id="Toc odd footer">Copyright © 2008 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> All rights reserved</variable>
+    <variable id="Toc odd footer">Copyright © <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> All rights reserved</variable>
 
     <!-- The footer that appears on the even-numbered table of contents
          pages. --> 
@@ -124,7 +124,7 @@ See the accompanying license.txt file for applicable licenses.
     <variable id="Toc even header"><param ref-name="pagenum"/>&#xA0;|&#xA0;<param ref-name="prodname"/>&#xA0;|&#xA0;TOC</variable>
 
     <!-- The footer that appears on the odd-numbered index pages. -->
-    <variable id="Index odd footer">Copyright © 2008 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> All rights reserved</variable>
+    <variable id="Index odd footer">Copyright © <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> All rights reserved</variable>
 
     <!-- The footer that appears on the even-numbered index pages. -->
     <variable id="Index even footer"/>
